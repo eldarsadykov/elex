@@ -50,3 +50,7 @@ sup {
   font-size: small;
   line-height: normal;
 }
+
+.spaced {
+  letter-spacing: 1ch;
+}
