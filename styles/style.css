@@ -62,3 +62,7 @@ sup {
 .align-right {
   text-align: right;
 }
+
+.offset-right {
+  margin-right: 10ch;
+}
