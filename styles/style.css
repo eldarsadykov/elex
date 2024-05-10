@@ -39,7 +39,7 @@ h1 {
 
 a {
   text-decoration: none;
-  color: crimson;
+  color: rgb(0, 122, 255);
 }
 
 a:hover {
