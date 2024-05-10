@@ -45,3 +45,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+sup {
+  font-size: small;
+  line-height: normal;
+}
