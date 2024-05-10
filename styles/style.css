@@ -66,3 +66,8 @@ sup {
 .offset-right {
   margin-right: 10ch;
 }
+
+#welcome-link {
+  text-align: center;
+  font-size: 2em;
+}
