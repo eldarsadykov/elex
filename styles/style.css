@@ -54,3 +54,11 @@ sup {
 .spaced {
   letter-spacing: 1ch;
 }
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
