@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("path/to/AdobeGaramondPro-Regular.woff2") format("woff2"), /* Modern Browsers */ url("path/to/AdobeGaramondPro-Regular.woff") format("woff"); /* Older Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Adobe Garamond Pro", serif;
+  line-height: 1.5;
+  margin: 40px;
+  font-size: larger;
+  color: rgb(40, 40, 40);
+}
+
+.small-caps {
+  display: inline;
+  font-variant: small-caps;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 70ch;
+}
+
+.indent {
+  text-indent: 2ch;
+}
+
+h1 {
+  text-align: center;
+}
+
+.poetry {
+  max-width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+  color: crimson;
+}
+
+a:hover {
+  text-decoration: underline;
+}
