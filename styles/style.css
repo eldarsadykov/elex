@@ -87,15 +87,14 @@ ul {
   margin: 0 auto;
 }
 
-.bezirksgericht-justify {
+.bg-justify {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
 }
 
-.bezirksgericht-character {
+.bg-char {
   display: flex;
   justify-content: center;
   flex: 1;
-  min-width: none;
 }
