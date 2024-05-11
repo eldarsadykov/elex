@@ -76,3 +76,13 @@ sup {
 ul {
   padding-inline-start: 40px;
 }
+
+.barbara-rahmen {
+  padding: 12em 0px;
+  font-size: smaller;
+  text-align: center;
+  border-style: dotted;
+  min-width: fit-content;
+  max-width: 50%;
+  margin: 0 auto;
+}
