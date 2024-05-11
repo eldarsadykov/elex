@@ -25,7 +25,7 @@ main {
 }
 
 .indent {
-  text-indent: 2ch;
+  text-indent: 20px;
 }
 
 h1 {
@@ -40,11 +40,11 @@ h1 {
 
 a {
   text-decoration: none;
-  color: rgb(0, 122, 255);
+  color: rgb(0, 64, 221);
 }
 
 a:hover {
-  text-decoration: underline;
+  color: rgb(215, 0, 21);
 }
 
 sup {
@@ -71,4 +71,8 @@ sup {
 #welcome-link {
   text-align: center;
   font-size: 2em;
+}
+
+ul {
+  padding-inline-start: 40px;
 }
