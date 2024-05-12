@@ -26,6 +26,10 @@ main {
   text-indent: 20px;
 }
 
+ul {
+  padding-inline-start: 40px; /* Default value, just to remind myself what it is. */
+}
+
 h1 {
   text-align: center;
 }
@@ -62,17 +66,15 @@ sup {
   text-align: right;
 }
 
-#auen-19 .offset-right {
-  margin-right: 20%;
-}
+/* Page-specific styles. */
 
 #welcome-link {
   text-align: center;
   font-size: 2em;
 }
 
-ul {
-  padding-inline-start: 40px;
+#auen-19 .offset-right {
+  margin-right: 20%;
 }
 
 #barbara-4 .rahmen {
@@ -120,7 +122,7 @@ ul {
 
 #bezirksgericht-1 .eich {
   grid-column: 20 / 23;
-  grid-row: 10
+  grid-row: 10;
 }
 #bezirksgericht-1 .hoernchen {
   grid-column: 25 / 33;
