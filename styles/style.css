@@ -85,22 +85,31 @@ ul {
   margin: 0 auto;
 }
 
-.bezirksgericht-char {
+#bezirksgericht-1 .char {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.bezirksgericht-grid-container {
+#bezirksgericht-1 .grid-container {
   position: relative;
 }
 
-.bezirksgericht-grid {
+#bezirksgericht-1 .grid {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(45, 1fr);
   grid-template-rows: repeat(24, auto);
 }
 
-.absolute {
+#bezirksgericht-1 .underlay {
+  font-size: smaller;
   position: absolute;
+  height: 100%;
+}
+
+#bezirksgericht-1 .und-so-schoene {
+  height: 100%;
+  grid-row: 23;
+  grid-column: 4 / 20;
 }
