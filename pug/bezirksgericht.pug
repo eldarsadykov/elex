@@ -1,7 +1,7 @@
 extends ../templates/layout
 mixin letterGroup(letters)
 	each letter in letters
-		.bg-char= letter
+		.bezirksgericht-char= letter
 block main
 	h1 Bezirksgericht
 	#bezirksgericht-1
@@ -10,7 +10,7 @@ block main
 			b Bezirksgericht 1.
 			|  (Blick aus der Zelle eines konkreten Lyrikers):
 		br
-		.bg-grid
+		.bezirksgericht-grid
 			+letterGroup('jajajajajajajajajajajajajajajajajajajajajaja!')
 			+letterGroup('■          ■          ■          ■          ■')
 			+letterGroup('m          l          n          j          i')

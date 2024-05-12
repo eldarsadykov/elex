@@ -85,13 +85,13 @@ ul {
   margin: 0 auto;
 }
 
-.bg-char {
+.bezirksgericht-char {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.bg-grid {
+.bezirksgericht-grid {
   display: grid;
   grid-template-columns: repeat(45, 1fr);
   grid-template-rows: repeat(24, auto);
