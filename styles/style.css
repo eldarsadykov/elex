@@ -98,18 +98,44 @@ ul {
 #bezirksgericht-1 .grid {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(45, 1fr);
+  grid-template-columns: repeat(45, minmax(0px, 1fr));
   grid-template-rows: repeat(24, auto);
 }
 
 #bezirksgericht-1 .underlay {
-  font-size: smaller;
+  grid-template-rows: repeat(24, minmax(0px, 1fr));
+  font-size: small;
   position: absolute;
   height: 100%;
 }
 
 #bezirksgericht-1 .und-so-schoene {
-  height: 100%;
-  grid-row: 23;
-  grid-column: 4 / 20;
+  grid-row: 22;
+  grid-column: 4 / 11;
+}
+
+#bezirksgericht-1 .bunte {
+  grid-column: 14 / 22;
+  grid-row: 22;
+}
+
+#bezirksgericht-1 .eich {
+  grid-column: 20 / 23;
+  grid-row: 10
+}
+#bezirksgericht-1 .hoernchen {
+  grid-column: 25 / 33;
+  grid-row: 8;
+}
+#bezirksgericht-1 .rennen {
+  grid-column: 30 / 33;
+  grid-row: 16;
+}
+#bezirksgericht-1 .draussen {
+  grid-column: 36 / 44;
+  grid-row: 16;
+}
+#bezirksgericht-1 .vorbei {
+  grid-column: 41 / 44;
+  grid-row: 22;
 }
