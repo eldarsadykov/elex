@@ -3,6 +3,17 @@
   src: url("fonts/AGaramondPro-Regular.woff2") format("woff2"), /* Modern Browsers */ url("fonts/AGaramondPro-Regular.woff") format("woff"); /* Older Browsers */
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Adobe Garamond Pro", serif;
   line-height: 1.5;
@@ -31,10 +42,12 @@ ul {
 }
 
 h1 {
+  font-style: bold;
   text-align: center;
 }
 
 .poetry {
+  margin: 1em;
   max-width: fit-content;
   margin-right: auto;
   margin-left: auto;
@@ -74,17 +87,19 @@ sup {
 }
 
 #auen-19 .offset-right {
-  margin-right: 20%;
+  text-align: right;
+  margin: 1em 20% 1em auto;
+  line-height: 1em;
 }
 
 #barbara-4 .rahmen {
-  padding: 12em 0px;
+  padding: 12em 20px;
   font-size: smaller;
   text-align: center;
   border-style: dotted;
   min-width: fit-content;
   max-width: 50%;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 #bezirksgericht-1 .char {
