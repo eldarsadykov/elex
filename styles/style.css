@@ -85,14 +85,14 @@ ul {
   margin: 0 auto;
 }
 
-.bg-justify {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
 .bg-char {
   display: flex;
   justify-content: center;
-  flex: 1;
+  align-items: center;
+}
+
+.bg-grid {
+  display: grid;
+  grid-template-columns: repeat(45, 1fr);
+  grid-template-rows: repeat(24, auto);
 }
