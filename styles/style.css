@@ -1,6 +1,29 @@
 @font-face {
   font-family: "Adobe Garamond Pro";
-  src: url("fonts/AGaramondPro-Regular.woff2") format("woff2"), /* Modern Browsers */ url("fonts/AGaramondPro-Regular.woff") format("woff"); /* Older Browsers */
+  src: url("fonts/AGaramondPro-Regular.woff2") format("woff2"), url("fonts/AGaramondPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("fonts/AGaramondPro-Bold.woff2") format("woff2"), url("fonts/AGaramondPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("fonts/AGaramondPro-Italic.woff2") format("woff2"), url("fonts/AGaramondPro-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Adobe Garamond Pro";
+  src: url("fonts/AGaramondPro-BoldItalic.woff2") format("woff2"), url("fonts/AGaramondPro-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
 }
 
 *,
@@ -41,10 +64,23 @@ ul {
   padding-inline-start: 40px; /* Default value, just to remind myself what it is. */
 }
 
+hr {
+  margin: 20px;
+}
+
 h1 {
   margin: 20px;
-  font-style: bold;
+  font-weight: bold;
+  font-style: normal;
   text-align: center;
+  hyphens: none;
+}
+
+h2 {
+  margin: 20px;
+  font-weight: normal;
+  text-align: center;
+  hyphens: none;
 }
 
 .poetry {
@@ -84,7 +120,8 @@ sup {
 
 #welcome-link {
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
+  margin: 20px;
 }
 
 #auen-19 .offset-right {
