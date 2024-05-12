@@ -109,6 +109,8 @@ sup {
 
 #bezirksgericht-1 .grid-container {
   position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #bezirksgericht-1 .grid {
