@@ -247,7 +247,7 @@ sup {
 #bezirksgericht-2 .brace-left,
 .brace-right {
   width: 1em;
-  padding: 0 .33em;
+  padding: 0 0.35em;
   margin: 0 auto;
 }
 
@@ -318,7 +318,7 @@ sup {
 }
 
 #bezirksgericht-2 .number-cell-4 {
-  width: 100%;
+  width: fit-content;
   border-top: 1px solid;
   grid-area: 16 / 8 / span 6 / span 1;
 }
