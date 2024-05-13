@@ -198,6 +198,7 @@ sup {
   grid-template-rows: repeat(16, 1lh);
   margin-top: 1lh;
   margin-bottom: 1lh;
+  overflow-x: scroll;
 }
 
 /* row-start / column-start / row-end / column-end */
@@ -246,8 +247,8 @@ sup {
 
 #bezirksgericht-2 .brace-left,
 .brace-right {
-  width: 1em;
-  padding: 0 0.35em;
+  width: 2em;
+  padding: 0 0.85em;
   margin: 0 auto;
 }
 
@@ -307,6 +308,7 @@ sup {
 
 #bezirksgericht-2 .number-cell-1 {
   grid-area: 1 / 8 / span 4 / span 1;
+  margin: 1em;
 }
 
 #bezirksgericht-2 .number-cell-2 {
