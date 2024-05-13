@@ -2,6 +2,20 @@ extends ../templates/layout
 mixin letterGroup(letters)
 	each letter in letters
 		.char= letter
+
+mixin lineBreaks(items)
+	each item, index in items
+		| #{item}
+		if index !== items.length - 1
+			br
+
+mixin repeatWithBreaks(text, count)
+	- for (var i = 0; i < count; i++)
+		| #{text}
+		if i !== count - 1
+			br
+
+
 block main
 	h1 Bezirksgericht
 	#bezirksgericht-1
@@ -50,8 +64,45 @@ block main
 			|  Der eingegitterte Atomforscher, der hier sicherer aufbewahrt ist als in den Verliesen des zuständigen Geheimdienstes, da ihn hier unter Streunern und Ehestörern niemand vermutet, hat es längst aufgegeben, sich ins Birkenund Weidengrün und unter die → 
 			a(href="eichhoernchen.html") Eichhörnchen
 			|  hinauszusehnen. Heute macht er sich einen guten Tag durch die Errechnung der Häufigkeit von Datumstriaden mit gleichen Anfangsbuchstaben. Er kommt auf 23 unter 365 Tagen, und zwar:
-			br
-			br
+		.grid 
+			.text-cell-1
+				+lineBreaks(['Dienstag', 'Donnerstag'])
+			.text-cell-2 Freitag
+			.text-cell-3
+				+lineBreaks(['Samstag', 'Sonntag'])
+			.text-cell-4
+				+lineBreaks(['dritter', 'dreizehnter', 'dreiundzwanzigster', 'dreißigster'])
+			.text-cell-5
+				+lineBreaks(['fünfter', 'fünfzehnter', 'fünfundzwanzigster'])
+			.text-cell-6
+				+lineBreaks(['sechster', 'siebenter', 'sechzehnter', 'siebzehnter', 'sechsundzwanzigster', 'siebenundzwanzigster'])
+			.text-cell-7 Dezember 
+			.text-cell-8 Febraur 
+			.text-cell-9 September 
+			.equal-cell.equal-cell-1 =
+			.equal-cell.equal-cell-2 =
+			.equal-cell.equal-cell-3 =
+			.number-cell.number-cell-1 8
+			.number-cell.number-cell-2 3
+			.number-cell.number-cell-3 12
+			.number-cell.number-cell-4 23
+			.brace-cell-1 
+				+repeatWithBreaks('}', 2)
+			.brace-cell-2 
+				+repeatWithBreaks('}', 2)
+			.brace-cell-3
+				+repeatWithBreaks('{', 4)
+			.brace-cell-4 
+				+repeatWithBreaks('{', 3)
+			.brace-cell-5 
+				+repeatWithBreaks('{', 6)
+			.brace-cell-6 
+				+repeatWithBreaks('}', 4)
+			.brace-cell-7 
+				+repeatWithBreaks('}', 3)
+			.brace-cell-8 
+				+repeatWithBreaks('}', 6)
+
 		.indent
 			| Nun zieht er sein Logarithmenbuch, d. h. seines mußte er gegen ein unverdächtiges der nahegelegenen Mädchenschule eintauschen, und findet nach Subtraktion der Mantissen von 23 und 365 einen Häufigkeitssatz von 630%, also ungefähr den von Vorkommen „höherer Intelligenz“ (IQ > 125) in den USA. Damit ist das Problem aber eigentlich erschöpft, und es hat von dem 
 			em guten Tag 
