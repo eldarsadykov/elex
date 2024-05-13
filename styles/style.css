@@ -205,43 +205,43 @@ sup {
 
 /* leftmost text cells  */
 
-#bezirksgericht-2 .text-cell-1 {
+#bezirksgericht-2 #text-cell-1 {
   grid-area: 1 / 1 / span 4 / span 1;
 }
 
-#bezirksgericht-2 .text-cell-2 {
+#bezirksgericht-2 #text-cell-2 {
   grid-area: 6 / 1 / span 3 / span 1;
 }
 
-#bezirksgericht-2 .text-cell-3 {
+#bezirksgericht-2 #text-cell-3 {
   grid-area: 10 / 1 / span 6 / span 1;
 }
 
 /* middle text cells  */
 
-#bezirksgericht-2 .text-cell-4 {
+#bezirksgericht-2 #text-cell-4 {
   grid-area: 1 / 4 / span 4 / span 1;
 }
 
-#bezirksgericht-2 .text-cell-5 {
+#bezirksgericht-2 #text-cell-5 {
   grid-area: 6 / 4 / span 3 / span 1;
 }
 
-#bezirksgericht-2 .text-cell-6 {
+#bezirksgericht-2 #text-cell-6 {
   grid-area: 10 / 4 / span 6 / span 1;
 }
 
 /* rightmost text cells  */
 
-#bezirksgericht-2 .text-cell-7 {
+#bezirksgericht-2 #text-cell-7 {
   grid-area: 1 / 6 / span 4 / span 1;
 }
 
-#bezirksgericht-2 .text-cell-8 {
+#bezirksgericht-2 #text-cell-8 {
   grid-area: 6 / 6 / span 3 / span 1;
 }
 
-#bezirksgericht-2 .text-cell-9 {
+#bezirksgericht-2 #text-cell-9 {
   grid-area: 10 / 6 / span 6 / span 1;
 }
 
@@ -256,35 +256,35 @@ sup {
   transform: scaleX(-100%);
 }
 
-#bezirksgericht-2 .brace-cell-1 {
+#bezirksgericht-2 #brace-cell-1 {
   grid-area: 1 / 2 / span 2 / span 1;
 }
 
-#bezirksgericht-2 .brace-cell-2 {
+#bezirksgericht-2 #brace-cell-2 {
   grid-area: 10 / 2 / span 2 / span 1;
 }
 
-#bezirksgericht-2 .brace-cell-3 {
+#bezirksgericht-2 #brace-cell-3 {
   grid-area: 1 / 3 / span 4 / span 1;
 }
 
-#bezirksgericht-2 .brace-cell-4 {
+#bezirksgericht-2 #brace-cell-4 {
   grid-area: 6 / 3 / span 3 / span 1;
 }
 
-#bezirksgericht-2 .brace-cell-5 {
+#bezirksgericht-2 #brace-cell-5 {
   grid-area: 10 / 3 / span 6 / span 1;
 }
 
-#bezirksgericht-2 .brace-cell-6 {
+#bezirksgericht-2 #brace-cell-6 {
   grid-area: 1 / 5 / span 4 / span 1;
 }
 
-#bezirksgericht-2 .brace-cell-7 {
+#bezirksgericht-2 #brace-cell-7 {
   grid-area: 6 / 5 / span 3 / span 1;
 }
 
-#bezirksgericht-2 .brace-cell-8 {
+#bezirksgericht-2 #brace-cell-8 {
   grid-area: 10 / 5 / span 6 / span 1;
 }
 
@@ -299,32 +299,32 @@ sup {
   text-align: right;
 }
 
-#bezirksgericht-2 .equal-cell-1 {
+#bezirksgericht-2 #equal-cell-1 {
   grid-area: 1 / 7 / span 4 / span 1;
 }
 
-#bezirksgericht-2 .equal-cell-2 {
+#bezirksgericht-2 #equal-cell-2 {
   grid-area: 6 / 7 / span 3 / span 1;
 }
 
-#bezirksgericht-2 .equal-cell-3 {
+#bezirksgericht-2 #equal-cell-3 {
   grid-area: 10 / 7 / span 6 / span 1;
 }
 
-#bezirksgericht-2 .number-cell-1 {
+#bezirksgericht-2 #number-cell-1 {
   grid-area: 1 / 8 / span 4 / span 1;
   min-width: 2em;
 }
 
-#bezirksgericht-2 .number-cell-2 {
+#bezirksgericht-2 #number-cell-2 {
   grid-area: 6 / 8 / span 3 / span 1;
 }
 
-#bezirksgericht-2 .number-cell-3 {
+#bezirksgericht-2 #number-cell-3 {
   grid-area: 10 / 8 / span 6 / span 1;
 }
 
-#bezirksgericht-2 .number-cell-4 {
+#bezirksgericht-2 #number-cell-4 {
   width: fit-content;
   border-top: 1px solid;
   grid-area: 16 / 8 / span 6 / span 1;
