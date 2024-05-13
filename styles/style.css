@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
 
 @font-face {
   font-family: "EB Garamond SC";
@@ -148,32 +148,38 @@ sup {
 }
 
 #bezirksgericht-1 .und-so-schoene {
+  grid-column: 3 / 11;
   grid-row: 22;
-  grid-column: 4 / 11;
+  text-align: center;
 }
 
 #bezirksgericht-1 .bunte {
   grid-column: 14 / 22;
   grid-row: 22;
+  text-align: left;
 }
 
 #bezirksgericht-1 .eich {
-  grid-column: 20 / 23;
+  grid-column: 14 / 22;
   grid-row: 10;
+  text-align: right;
 }
 #bezirksgericht-1 .hoernchen {
   grid-column: 25 / 33;
   grid-row: 8;
+  text-align: left;
 }
 #bezirksgericht-1 .rennen {
-  grid-column: 30 / 33;
+  grid-column: 25 / 33;
   grid-row: 16;
+  text-align: right;
 }
 #bezirksgericht-1 .draussen {
   grid-column: 36 / 44;
   grid-row: 16;
 }
 #bezirksgericht-1 .vorbei {
-  grid-column: 41 / 44;
+  grid-column: 36 / 44;
   grid-row: 22;
+  text-align: right;
 }
