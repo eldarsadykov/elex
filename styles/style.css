@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@font-face {
+  font-family: "EB Garamond SC";
+  src: url(fonts/EBGaramondSC.woff);
+  font-weight: normal;
+  font-style: normal;
+}
 
 *,
 *::before,
@@ -12,22 +19,22 @@
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
   line-height: 1.5;
   margin: 20px;
-  /* font-size: medium; */
+  font-size: large;
   color: rgb(40, 40, 40);
 }
 
 .small-caps {
-  font-family: "Playfair Display SC", serif;
+  font-family: "EB Garamond SC", serif;
   display: inline;
   /* font-variant: small-caps; */
 }
 
 main {
   margin: 0 auto;
-  max-width: 60ch;
+  max-width: 65ch;
   hyphens: auto;
 }
 
@@ -135,7 +142,7 @@ sup {
 
 #bezirksgericht-1 .underlay {
   grid-template-rows: repeat(24, minmax(0px, 1fr));
-  font-size: x-small;
+  font-size: small;
   position: absolute;
   height: 100%;
 }
