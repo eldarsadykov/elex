@@ -244,6 +244,48 @@ sup {
   grid-area: 10 / 6 / span 6 / span 1;
 }
 
+/* #bezirksgericht-2 .brace-left {
+  margin-right: auto;
+  margin-left: 0;
+} */
+
+/* #bezirksgericht-2 .brace-right {
+  margin-right: 0;
+  margin-left: auto;
+} */
+
+#bezirksgericht-2 .brace-right-2x {
+  transform: scaleX(100%);
+}
+
+#bezirksgericht-2 .brace-left-2x {
+  transform: scaleX(-100%);
+}
+
+#bezirksgericht-2 .brace-right-3x {
+  transform: scaleX(66%);
+}
+
+#bezirksgericht-2 .brace-left-3x {
+  transform: scaleX(-66%);
+}
+
+#bezirksgericht-2 .brace-right-4x {
+  transform: scaleX(50%);
+}
+
+#bezirksgericht-2 .brace-left-4x {
+  transform: scaleX(-50%);
+}
+
+#bezirksgericht-2 .brace-right-6x {
+  transform: scaleX(33%);
+}
+
+#bezirksgericht-2 .brace-left-6x {
+  transform: scaleX(-33%);
+}
+
 #bezirksgericht-2 .brace-cell-1 {
   grid-area: 1 / 2 / span 2 / span 1;
 }
