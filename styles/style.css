@@ -1,30 +1,4 @@
-@font-face {
-  font-family: "Adobe Garamond Pro";
-  src: url("fonts/AGaramondPro-Regular.woff2") format("woff2"), url("fonts/AGaramondPro-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Adobe Garamond Pro";
-  src: url("fonts/AGaramondPro-Bold.woff2") format("woff2"), url("fonts/AGaramondPro-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Adobe Garamond Pro";
-  src: url("fonts/AGaramondPro-Italic.woff2") format("woff2"), url("fonts/AGaramondPro-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Adobe Garamond Pro";
-  src: url("fonts/AGaramondPro-BoldItalic.woff2") format("woff2"), url("fonts/AGaramondPro-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-}
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 *,
 *::before,
@@ -38,16 +12,17 @@
 }
 
 body {
-  font-family: "Adobe Garamond Pro", serif;
+  font-family: "Playfair Display", serif;
   line-height: 1.5;
   margin: 20px;
-  font-size: larger;
+  /* font-size: medium; */
   color: rgb(40, 40, 40);
 }
 
 .small-caps {
+  font-family: "Playfair Display SC", serif;
   display: inline;
-  font-variant: small-caps;
+  /* font-variant: small-caps; */
 }
 
 main {
@@ -160,7 +135,7 @@ sup {
 
 #bezirksgericht-1 .underlay {
   grid-template-rows: repeat(24, minmax(0px, 1fr));
-  font-size: small;
+  font-size: x-small;
   position: absolute;
   height: 100%;
 }
