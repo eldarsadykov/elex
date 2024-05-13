@@ -294,9 +294,13 @@ sup {
   text-align: center;
 }
 
+#bezirksgericht-2 .equal-cell {
+  min-width: 2em;
+  text-align: right;
+}
+
 #bezirksgericht-2 .equal-cell-1 {
   grid-area: 1 / 7 / span 4 / span 1;
-  min-width: 2em;
 }
 
 #bezirksgericht-2 .equal-cell-2 {
