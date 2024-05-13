@@ -296,6 +296,7 @@ sup {
 
 #bezirksgericht-2 .equal-cell-1 {
   grid-area: 1 / 7 / span 4 / span 1;
+  min-width: 2em;
 }
 
 #bezirksgericht-2 .equal-cell-2 {
@@ -308,7 +309,7 @@ sup {
 
 #bezirksgericht-2 .number-cell-1 {
   grid-area: 1 / 8 / span 4 / span 1;
-  margin: 1em;
+  min-width: 2em;
 }
 
 #bezirksgericht-2 .number-cell-2 {
