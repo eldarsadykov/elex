@@ -145,6 +145,7 @@ sup {
   font-size: small;
   position: absolute;
   height: 100%;
+  hyphens: none;
 }
 
 #bezirksgericht-1 .und-so-schoene {
