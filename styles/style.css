@@ -50,6 +50,10 @@ ul {
   padding-inline-start: 40px; /* Default value, just to remind myself what it is. */
 }
 
+ol {
+  padding-inline-start: 20px;
+}
+
 hr {
   margin: 20px;
 }
