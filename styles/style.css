@@ -67,9 +67,10 @@ h1 {
   font-style: normal;
   text-align: center;
   hyphens: auto;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
+  padding-bottom: 20px;
+  border-bottom: solid 1px;
+  margin: 20px auto;
+  width: 100%;
 }
 
 .poetry {
