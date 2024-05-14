@@ -19,40 +19,41 @@ block main
 			| 
 			b Bezirksgericht 1.
 			|  (Blick aus der Zelle eines konkreten Lyrikers):
-		.grid-container
-			.grid.underlay
-				.und-so-schoene und so schöne
-				.bunte bunte
-				.eich eich 
-				.hoernchen hörnchen 
-				.rennen rennen 
-				.draussen draußen 
-				.vorbei vorbei
-			.grid
-				+letterGroup('jajajajajajajajajajajajajajajajajajajajajaja!')
-				+letterGroup('■          ■          ■          ■          ■')
-				+letterGroup('m          l          n          j          i')
-				+letterGroup('e          a          a          a          c')
-				+letterGroup('r          s          c          d          h')
-				+letterGroup('k          s          h          a          h')
-				+letterGroup('d          d          h          b          a')
-				+letterGroup('i          i          e          i          b')
-				+letterGroup('r          c          r          s          e')
-				+letterGroup('d          h          s          t          g')
-				+letterGroup('a          n          i          d          e')
-				+letterGroup('s          i          t          e          s')
-				+letterGroup('e          e          z          r          p')
-				+letterGroup('i          s          t          t          r')
-				+letterGroup('n          c          i          i          o')
-				+letterGroup('e          h          m          n          c')
-				+letterGroup('s          n          h          t          h')
-				+letterGroup('c          a          a          i          e')
-				+letterGroup('h          p          e          n          n')
-				+letterGroup('u          p          f          g          h')
-				+letterGroup('r          e          e          e          u')
-				+letterGroup('l          n          n          r          k')
-				+letterGroup('■          ■          ■          ■          ■')
-				+letterGroup('jajajajajajajajajajajajajajajajajajajajajaja!')
+		#grid-scroller
+			#grid-container
+				.grid.underlay
+					.und-so-schoene und so schöne
+					.bunte bunte
+					.eich eich 
+					.hoernchen hörnchen 
+					.rennen rennen 
+					.draussen draußen 
+					.vorbei vorbei
+				.grid
+					+letterGroup('jajajajajajajajajajajajajajajajajajajajajaja!')
+					+letterGroup('■          ■          ■          ■          ■')
+					+letterGroup('m          l          n          j          i')
+					+letterGroup('e          a          a          a          c')
+					+letterGroup('r          s          c          d          h')
+					+letterGroup('k          s          h          a          h')
+					+letterGroup('d          d          h          b          a')
+					+letterGroup('i          i          e          i          b')
+					+letterGroup('r          c          r          s          e')
+					+letterGroup('d          h          s          t          g')
+					+letterGroup('a          n          i          d          e')
+					+letterGroup('s          i          t          e          s')
+					+letterGroup('e          e          z          r          p')
+					+letterGroup('i          s          t          t          r')
+					+letterGroup('n          c          i          i          o')
+					+letterGroup('e          h          m          n          c')
+					+letterGroup('s          n          h          t          h')
+					+letterGroup('c          a          a          i          e')
+					+letterGroup('h          p          e          n          n')
+					+letterGroup('u          p          f          g          h')
+					+letterGroup('r          e          e          e          u')
+					+letterGroup('l          n          n          r          k')
+					+letterGroup('■          ■          ■          ■          ■')
+					+letterGroup('jajajajajajajajajajajajajajajajajajajajajaja!')
 	#bezirksgericht-2
 		div
 			| 
@@ -60,45 +61,46 @@ block main
 			|  Der eingegitterte Atomforscher, der hier sicherer aufbewahrt ist als in den Verliesen des zuständigen Geheimdienstes, da ihn hier unter Streunern und Ehestörern niemand vermutet, hat es längst aufgegeben, sich ins Birkenund Weidengrün und unter die → 
 			a(href="eichhoernchen.html") Eichhörnchen
 			|  hinauszusehnen. Heute macht er sich einen guten Tag durch die Errechnung der Häufigkeit von Datumstriaden mit gleichen Anfangsbuchstaben. Er kommt auf 23 unter 365 Tagen, und zwar:
-		.grid 
-			#text-cell-1
-				+lineBreaks(['Dienstag', 'Donnerstag'])
-			#text-cell-2 
-				| Freitag
-			#text-cell-3
-				+lineBreaks(['Samstag', 'Sonntag'])
-			#text-cell-4
-				+lineBreaks(['dritter', 'dreizehnter', 'dreiundzwanzigster', 'dreißigster'])
-			#text-cell-5
-				+lineBreaks(['fünfter', 'fünfzehnter', 'fünfundzwanzigster'])
-			#text-cell-6
-				+lineBreaks(['sechster', 'siebenter', 'sechzehnter', 'siebzehnter', 'sechsundzwanzigster', 'siebenundzwanzigster'])
-			#text-cell-7 Dezember 
-			#text-cell-8 Febraur 
-			#text-cell-9 September 
-			#equal-cell-1.equal-cell =
-			#equal-cell-2.equal-cell =
-			#equal-cell-3.equal-cell =
-			#number-cell-1.number-cell 8
-			#number-cell-2.number-cell 3
-			#number-cell-3.number-cell 12
-			#number-cell-4.number-cell 23
-			#brace-cell-1.brace-left
-				+accolade()
-			#brace-cell-2.brace-left 
-				+accolade()
-			#brace-cell-3.brace-right
-				+accolade()
-			#brace-cell-4.brace-right 
-				+accolade()
-			#brace-cell-5.brace-right 
-				+accolade()
-			#brace-cell-6.brace-left 
-				+accolade()
-			#brace-cell-7.brace-left 
-				+accolade()
-			#brace-cell-8.brace-left 
-				+accolade()
+		#grid-scroller
+			#grid 
+				#text-cell-1
+					+lineBreaks(['Dienstag', 'Donnerstag'])
+				#text-cell-2 
+					| Freitag
+				#text-cell-3
+					+lineBreaks(['Samstag', 'Sonntag'])
+				#text-cell-4
+					+lineBreaks(['dritter', 'dreizehnter', 'dreiundzwanzigster', 'dreißigster'])
+				#text-cell-5
+					+lineBreaks(['fünfter', 'fünfzehnter', 'fünfundzwanzigster'])
+				#text-cell-6
+					+lineBreaks(['sechster', 'siebenter', 'sechzehnter', 'siebzehnter', 'sechsundzwanzigster', 'siebenundzwanzigster'])
+				#text-cell-7 Dezember 
+				#text-cell-8 Febraur 
+				#text-cell-9 September 
+				#equal-cell-1.equal-cell =
+				#equal-cell-2.equal-cell =
+				#equal-cell-3.equal-cell =
+				#number-cell-1.number-cell 8
+				#number-cell-2.number-cell 3
+				#number-cell-3.number-cell 12
+				#number-cell-4.number-cell 23
+				#brace-cell-1.brace-left
+					+accolade()
+				#brace-cell-2.brace-left 
+					+accolade()
+				#brace-cell-3.brace-right
+					+accolade()
+				#brace-cell-4.brace-right 
+					+accolade()
+				#brace-cell-5.brace-right 
+					+accolade()
+				#brace-cell-6.brace-left 
+					+accolade()
+				#brace-cell-7.brace-left 
+					+accolade()
+				#brace-cell-8.brace-left 
+					+accolade()
 		.indent
 			| Nun zieht er sein Logarithmenbuch, d. h. seines mußte er gegen ein unverdächtiges der nahegelegenen Mädchenschule eintauschen, und findet nach Subtraktion der Mantissen von 23 und 365 einen Häufigkeitssatz von 630%, also ungefähr den von Vorkommen „höherer Intelligenz“ (IQ > 125) in den USA. Damit ist das Problem aber eigentlich erschöpft, und es hat von dem 
 			em guten Tag 

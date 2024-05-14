@@ -18,6 +18,10 @@
   padding: 0;
 }
 
+:root {
+  --text-width: 65ch;
+}
+
 body {
   font-family: "EB Garamond", serif;
   line-height: 1.5;
@@ -34,7 +38,7 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 65ch;
+  max-width: var(--text-width);
   hyphens: auto;
 }
 
@@ -66,7 +70,7 @@ h2 {
 }
 
 .poetry {
-  margin: 1em;
+  margin: 1lh;
   max-width: fit-content;
   margin-right: auto;
   margin-left: auto;
@@ -128,10 +132,15 @@ sup {
   align-content: center;
 }
 
-#bezirksgericht-1 .grid-container {
+#bezirksgericht-1 #grid-scroller {
+  overflow-x: scroll;
+  margin: 0.5lh 0;
+}
+
+#bezirksgericht-1 #grid-container {
   position: relative;
-  margin-top: 1lh;
-  margin-bottom: 1lh;
+  margin: 0.5lh 0.5ch;
+  min-width: calc(var(--text-width) * 0.8);
 }
 
 #bezirksgericht-1 .grid {
@@ -146,7 +155,7 @@ sup {
   font-size: small;
   position: absolute;
   height: 100%;
-  hyphens: none;
+  white-space: nowrap;
 }
 
 #bezirksgericht-1 .und-so-schoene {
@@ -191,14 +200,17 @@ sup {
   text-align: right;
 }
 
-#bezirksgericht-2 .grid {
+#bezirksgericht-2 #grid-scroller {
+  margin: 0.5lh 0;
+  overflow-x: auto;
+}
+
+#bezirksgericht-2 #grid {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(16, 1lh);
-  margin-top: 1lh;
-  margin-bottom: 1lh;
-  overflow-x: scroll;
+  margin: 0.5lh 0;
 }
 
 /* row-start / column-start / row-end / column-end */
