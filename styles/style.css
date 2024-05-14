@@ -133,6 +133,7 @@ sup {
 }
 
 #bezirksgericht-1 #grid-scroller {
+  line-height: 1.3;
   overflow-x: scroll;
   margin: 0.5lh 0;
 }
@@ -140,7 +141,7 @@ sup {
 #bezirksgericht-1 #grid-container {
   position: relative;
   margin: 0.5lh 0.5ch;
-  min-width: calc(var(--text-width) * 0.8);
+  min-width: calc(var(--text-width) * 0.75);
 }
 
 #bezirksgericht-1 .grid {
