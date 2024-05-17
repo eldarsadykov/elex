@@ -43,18 +43,24 @@ def get_js_array_of_titles():
     # Find all matches in the text
     matches = re.findall(pattern, text)
 
-    # Initialize the JS dictionary
+    # Initialize the JS dictionary and keys array
     js_dict = "const titles = {\n"
+    keys_array = "const keys = [\n"
 
-    # Construct the JS dictionary entries
+    # Construct the JS dictionary entries and keys array
     for match in matches:
         index, address, title = match
         js_dict += (
             f'    "{title}": {{ "index": {int(index)}, "address": "{address}" }},\n'
         )
+        keys_array += f'    "{title}",\n'
 
-    # Close the JS dictionary
+    # Close the JS dictionary and keys array
     js_dict += "};"
+    keys_array += "];"
 
-    # Print the resulting JS dictionary
+    # Print the resulting JS dictionary and keys array
     print(js_dict)
+    print(keys_array)
+
+get_js_array_of_titles()

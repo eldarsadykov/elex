@@ -14,13 +14,32 @@ html(lang="de")
                 div
                     |Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium voluptas temporibus perferendis nisi, iure ad quibusdam facere modi facilis tempore? Facere animi nulla obcaecati, doloremque in voluptatum natus odio expedita?
             #navigation
-                block navigation
-                    ul
-                        li
-                            a(href="../index.html") Titelblatt
+                ul
+                    - const isNotInhaltsverzeichnis = title != "Inhaltsverzeichnis"
+                    - const isNotGebrauchsanweisung = title != "Gebrauchsanweisung"
+                    - const isNotUeberDenLexikonRoman = title != "Über den Lexikon-Roman"
+                    if isNotInhaltsverzeichnis & isNotUeberDenLexikonRoman
+                        - const index = list[title].index - 1
+
+                        - const previousIndex = index - 1
+                        if previousIndex >= 0
+                            - const previousAddress = list[keys[previousIndex]].address
+                            li
+                                a(href=previousAddress) Vorherige Seite
+
+                        - const nextIndex = index + 1
+                        if nextIndex < keys.length
+                            - const nextAddress = list[keys[nextIndex]].address
+                            li
+                                a(href=nextAddress) Nächste Seite
+                    if isNotInhaltsverzeichnis
                         li
                             a(href="inhaltsverzeichnis.html") Inhaltsverzeichnis
+                    if isNotGebrauchsanweisung
                         li
                             a(href="gebrauchsanweisung.html") Gebrauchsanweisung
+                    if isNotUeberDenLexikonRoman
                         li
                             a(href="ueber-den-lexikon-roman.html") Über den Lexikon-Roman
+                    li
+                        a(href="../index.html") Titelblatt
