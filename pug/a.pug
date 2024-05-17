@@ -1,6 +1,8 @@
 extends ../templates/layout
+
 block main
-	h1 A
+	- const title = "A"
+	h1= title
 	#a
 		div
 			| 
@@ -10,3 +12,10 @@ block main
 				span.small-caps Gebrauchsanweisung
 			| 
 			|  zurück, denn ohne die werden Sie das Buch nicht zum Roman machen. Ja: dieses Buch müssen erst Sie zum Roman machen. Im neuen Theater spielt das Publikum mit. Warum nicht im neuen Roman?
+append navigation
+
+	ul
+		each item, index in list
+			if item == title
+				li= list[index-1]
+				li= list[index+1]
