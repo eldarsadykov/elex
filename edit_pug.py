@@ -62,5 +62,3 @@ def get_js_array_of_titles():
     # Print the resulting JS dictionary and keys array
     print(js_dict)
     print(keys_array)
-
-get_js_array_of_titles()
