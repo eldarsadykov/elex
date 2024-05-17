@@ -1,7 +1,8 @@
 import os
+import re
 
 # Specify the directory path
-directory_path = 'pug'
+directory_path = "pug"
 
 # List all files and directories in the given path
 for filename in os.listdir(directory_path):
@@ -15,14 +16,12 @@ for filename in os.listdir(directory_path):
         continue
 
     # Read all lines from the file
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
+    with open(file_path, "r") as file:
+        input_text = file.read()
 
-    # Check if there are at least four lines to remove
-    if len(lines) >= 4:
-        lines = lines[:-4]  # Remove the last four lines
+        pattern = r"h1 (.+)"
+        output_text = re.sub(pattern, r'- var title = "\1"\nh1= title', input_text)
 
     # Write the remaining lines back to the file
-    with open(file_path, 'w') as file:
-        file.writelines(lines)
-
+    with open(file_path, "w") as file:
+        file.write(output_text)
