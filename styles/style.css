@@ -82,7 +82,7 @@ h1 {
 
 a {
   color: var(--apple-standard-blue);
-  transition-duration: 300ms;
+  transition-duration: 200ms;
   transition-property: text-decoration-color;
   text-decoration-color: transparent;
 }
