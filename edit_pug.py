@@ -1,10 +1,23 @@
 import os
 import re
 
-# Specify the directory path
 directory_path = "pug"
 
-# List all files and directories in the given path
+
+def replace_titles_with_variables(file):
+    input_text = file.read()
+    pattern = r"h1 (.+)"
+    output_text = re.sub(pattern, r'- const title = "\1"\n\th1= title', input_text)
+    return output_text
+
+
+def process_text(file):
+    input_text = file.read()
+    pattern = r"h1 (.+)"
+    output_text = re.sub(pattern, r'- const title = "\1"\n\th1= title', input_text)
+    return output_text
+
+
 for filename in os.listdir(directory_path):
     # Construct full file path
     file_path = os.path.join(directory_path, filename)
@@ -17,10 +30,8 @@ for filename in os.listdir(directory_path):
 
     # Read all lines from the file
     with open(file_path, "r") as file:
-        input_text = file.read()
 
-        pattern = r"h1 (.+)"
-        output_text = re.sub(pattern, r'- const title = "\1"\n\th1= title', input_text)
+        output_text = process_text(file)
 
     # Write the remaining lines back to the file
     with open(file_path, "w") as file:
