@@ -121,8 +121,8 @@ sup {
 #bearbeitungsfortschritt {
   margin: 20px 0;
   padding: 20px 0;
-  border-top: solid 1px;
-  border-bottom: solid 1px;
+  border-top: dashed 1px;
+  border-bottom: dashed 1px;
   text-align: center;
 }
 
@@ -134,17 +134,19 @@ sup {
   height: 100vh;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 
 #title-page {
   hyphens: none;
+  text-wrap: nowrap;
   text-align: center;
 }
 
 #author,
 #druden,
 #lesen {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 #druden {
@@ -155,7 +157,7 @@ sup {
 
 #lexikon,
 #roman {
-  font-size: 4.8rem;
+  font-size: 5em;
 }
 
 #auen-19 .offset-right {
