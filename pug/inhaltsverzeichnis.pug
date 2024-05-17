@@ -1,6 +1,7 @@
 extends ../templates/layout
 block main
-	h1 Inhaltsverzeichnis
+	- const title = "Inhaltsverzeichnis"
+	h1= title
 	#inhaltsverzeichnis
 		div
 			| 1. 
