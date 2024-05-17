@@ -20,7 +20,7 @@ for filename in os.listdir(directory_path):
         input_text = file.read()
 
         pattern = r"h1 (.+)"
-        output_text = re.sub(pattern, r'- var title = "\1"\n\th1= title', input_text)
+        output_text = re.sub(pattern, r'- const title = "\1"\n\th1= title', input_text)
 
     # Write the remaining lines back to the file
     with open(file_path, "w") as file:
