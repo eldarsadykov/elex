@@ -5,15 +5,17 @@ directory_path = "pug"
 
 
 def process_text(file):
-    input_text = file.read()
-    # Define the patterns to match and the replacements
-    pattern = r"\t\tdiv\n\t\t\t| \t\t\tb"
-    replacement = "\t\tdiv\n\t\t\t| \t\t\t\.inline-title"
+    pug_content = file.read()
+   # Split the content into lines
+    lines = pug_content.split('\n')
 
-    # Perform the replacements
-    output_text = re.sub(pattern, replacement, input_text)
+    # Replace the specific line (index 7 because of 0-based indexing)
+    lines[7] = lines[7].replace('b ', '#inline-title ')
 
-    return output_text
+    # Join the lines back into a single string
+    updated_pug_content = '\n'.join(lines)
+
+    return updated_pug_content
 
 
 def process_file(file_path):
