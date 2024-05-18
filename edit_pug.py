@@ -7,8 +7,8 @@ directory_path = "pug"
 def process_text(file):
     input_text = file.read()
     # Define the patterns to match and the replacements
-    pattern = r"\t\tdiv\n\t\t\t| \t\t\tb"
-    replacement = "\t\tdiv\n\t\t\t| \t\t\t.inline-title"
+    pattern = r"\t\tdiv\n\t\t\t| \n\t\t\tb"
+    replacement = "\t\tdiv\n\t\t\t| \n\t\t\t.inline-title"
 
     # Perform the replacements
     output_text = re.sub(pattern, replacement, input_text)
