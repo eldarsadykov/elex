@@ -7,17 +7,13 @@ directory_path = "pug"
 def process_text(file):
     input_text = file.read()
     # Define the patterns to match and the replacements
-    pattern_block_main = r"block main\n"
-    replacement_block_title_const = "block title-const\n"
-
-    pattern_h1 = r"\s*h1= .+\n"
-    replacement_h1_block_main = "\nblock main\n"
+    pattern = r"\t\tdiv\n\t\t\t|\t\t\tb"
+    replacement = "\t\tdiv\n\t\t\t|\t\t\t.inline-title"
 
     # Perform the replacements
-    pug_content = re.sub(pattern_block_main, replacement_block_title_const, input_text)
-    pug_content = re.sub(pattern_h1, replacement_h1_block_main, pug_content)
+    output_text = re.sub(pattern, replacement, input_text)
 
-    return pug_content
+    return output_text
 
 
 def process_file(file_path):
