@@ -6,9 +6,18 @@ directory_path = "pug"
 
 def process_text(file):
     input_text = file.read()
-    pattern = r"h1 (.+)"
-    output_text = re.sub(pattern, r'- const title = "\1"\n\th1= title', input_text)
-    return output_text
+    # Define the patterns to match and the replacements
+    pattern_block_main = r"block main\n"
+    replacement_block_title_const = "block title-const\n"
+
+    pattern_h1 = r"\s*h1= .+\n"
+    replacement_h1_block_main = "    block main\n"
+
+    # Perform the replacements
+    pug_content = re.sub(pattern_block_main, replacement_block_title_const, input_text)
+    pug_content = re.sub(pattern_h1, replacement_h1_block_main, pug_content)
+
+    return pug_content
 
 
 def process_file(file_path):
@@ -62,3 +71,6 @@ def get_js_array_of_titles():
     # Print the resulting JS dictionary and keys array
     print(js_dict)
     print(keys_array)
+
+
+process_directory(directory_path)
