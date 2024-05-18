@@ -97,6 +97,11 @@ sup {
   text-align: right;
 }
 
+.inline-title {
+  display: inline;
+  font-weight: bold;
+}
+
 /* Page-specific styles. */
 
 #navigation {
