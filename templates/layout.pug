@@ -11,7 +11,8 @@ html(lang="de")
         main
             block title-const
                 - const title = "Title"
-            if keys.includes(title)
+            - const includeNumberInTitle = false
+            if keys.includes(title) & includeNumberInTitle
                 h1= list[title].index + ". " + title
             else 
                 h1= title
