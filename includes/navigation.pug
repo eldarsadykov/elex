@@ -1,28 +1,24 @@
 #navigation
     ul
-        - const inhaltsverzeichnis = title == "Inhaltsverzeichnis"
-        - const gebrauchsanweisung = title == "Gebrauchsanweisung"
-        - const ueberDenLexikonRoman = title == "Über den Lexikon-Roman"
-        - const isPageTitle = keys.includes(title)
-        if isPageTitle
+        if keys.includes(title)
             - const index = list[title].index - 1
             - const nextIndex = index + 1
+            - const previousIndex = index - 1
             if nextIndex < keys.length
                 - const nextAddress = list[keys[nextIndex]].address
                 li
                     a(href=nextAddress) Nächste Seite
-            - const previousIndex = index - 1
             if previousIndex >= 0
                 - const previousAddress = list[keys[previousIndex]].address
                 li
                     a(href=previousAddress) Vorherige Seite
-        if !inhaltsverzeichnis
+        unless title == "Inhaltsverzeichnis"
             li
                 a(href="inhaltsverzeichnis.html") Inhaltsverzeichnis
-        if !gebrauchsanweisung
+        unless title == "Gebrauchsanweisung"
             li
                 a(href="gebrauchsanweisung.html") Gebrauchsanweisung
-        if !ueberDenLexikonRoman
+        unless title == "Über den Lexikon-Roman"
             li
                 a(href="ueber-den-lexikon-roman.html") Über den Lexikon-Roman
         li
