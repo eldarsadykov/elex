@@ -413,3 +413,10 @@ sup {
     flex-grow: 1;
   }
 }
+
+#bordabenteuer-3 {
+  & .raum {
+    text-align: center;
+    font-size: small;
+  }
+}
