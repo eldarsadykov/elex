@@ -8,10 +8,10 @@ mixin listItems(startIndex, endIndex)
 			li
 				a(href=item.address)= itemTitle
 
-block main
+block title-const
 	- const progressIndex = 34
 	- const title = "Inhaltsverzeichnis"
-	h1= title
+block main
 	#inhaltsverzeichnis
 		+listItems(0, progressIndex)
 		#bearbeitungsfortschritt Bearbeitungsfortschritt

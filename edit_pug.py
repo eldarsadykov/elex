@@ -11,7 +11,7 @@ def process_text(file):
     replacement_block_title_const = "block title-const\n"
 
     pattern_h1 = r"\s*h1= .+\n"
-    replacement_h1_block_main = "    block main\n"
+    replacement_h1_block_main = "\nblock main\n"
 
     # Perform the replacements
     pug_content = re.sub(pattern_block_main, replacement_block_title_const, input_text)

@@ -11,7 +11,10 @@ html(lang="de")
         main
             block title-const
                 - const title = "Title"
-            h1= list[title].index + ". " + title
+            if keys.includes(title)
+                h1= list[title].index + ". " + title
+            else 
+                h1= title
             block main
                 #title
                     div
