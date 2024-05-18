@@ -397,3 +397,19 @@ sup {
     grid-area: 16 / 8 / span 6 / span 1;
   }
 }
+
+#bordabenteuer-2 {
+  & .actor-line {
+    display: flex;
+  }
+
+  & .actor {
+    display: inline-block;
+    min-width: 3ch;
+  }
+
+  & .line {
+    display: inline-block;
+    flex-grow: 1;
+  }
+}
