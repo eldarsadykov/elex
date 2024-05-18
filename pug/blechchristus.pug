@@ -1,17 +1,17 @@
 extends ../templates/layout
 block main
 	- const title = "Blechchristus"
-	h1= title
+	h1= list[title].index + ". " + title
 	#blechchristus
 		div
 			| 
 			b Blechchristus.
 			|  Die Wirren, die seit dem Konzil nicht zur Ruh kommen. Ein Jungkaplan dichtet das Spiritual vom Blechchristus am Feldrand:
-		.indent
+		.poetry
 			| Die Tauben scheißen Christus an,
-		.indent
+			br
 			| doch Christus bleibt der Schmerzensmann,
-		.indent
-			| hej, hej, Kyrieleison .....
+			br
+			| hej, hej, Kyrieleison.....
 		.indent
 			| »Die Tauben« scheinen ihm schön doppelsinnig. Das Lied wird einmal gejazzt, von der Pfarrjugend, mit viel Vergnügen. Niemand weiß recht, was mit dem Jungkaplan geschehen soll. Das Lied bleibt jedenfalls einstweilen suspendiert.

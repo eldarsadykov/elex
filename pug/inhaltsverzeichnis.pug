@@ -1,15 +1,15 @@
 extends ../templates/layout
 
-mixin listItems(start, end)
-	ol(start=start + 1)
-		- for (var i = start; i < end; i++)
+mixin listItems(startIndex, endIndex)
+	ol(start=startIndex + 1)
+		- for (var i = startIndex; i < endIndex; i++)
 			- const itemTitle = keys[i]
 			- const item = list[itemTitle]
 			li
 				a(href=item.address)= itemTitle
 
 block main
-	- const progressIndex = 30
+	- const progressIndex = 34
 	- const title = "Inhaltsverzeichnis"
 	h1= title
 	#inhaltsverzeichnis
