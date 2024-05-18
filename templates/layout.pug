@@ -9,9 +9,11 @@ html(lang="de")
         title Lexikon-Roman
     body
         main
-            block main
+            block title-const
                 - const title = "Title"
-                h1= title
-                div
-                    | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium voluptas temporibus perferendis nisi, iure ad quibusdam facere modi facilis tempore? Facere animi nulla obcaecati, doloremque in voluptatum natus odio expedita?
+            h1= list[title].index + ". " + title
+            block main
+                #title
+                    div
+                        | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium voluptas temporibus perferendis nisi, iure ad quibusdam facere modi facilis tempore? Facere animi nulla obcaecati, doloremque in voluptatum natus odio expedita?
             include ../includes/navigation
