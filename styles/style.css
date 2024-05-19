@@ -423,7 +423,8 @@ sup {
 	}
 }
 
-#bordabenteuer-2 {
+#bordabenteuer-2,
+#element-x-4 {
 	& .actor-line {
 		display: flex;
 	}
@@ -447,8 +448,9 @@ sup {
 }
 
 #diensthaeuschen-1,
-#eklektizismus {
-	ul {
+#eklektizismus,
+#element-x-17 {
+	& ul {
 		list-style-type: none;
 		padding-inline-start: 20px;
 		+ p {
