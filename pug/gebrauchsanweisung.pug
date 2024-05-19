@@ -2,13 +2,13 @@ extends ../templates/layout
 block title-const
 	- const title = "Gebrauchsanweisung"
 block main
-	#gebrauchsanweisung
-		div
+	article#gebrauchsanweisung
+		p
 			| Dieses Buch hat eine Gebrauchsanweisung, denn es wäre hübsch, wenn Sie sich aus ihm einen Roman basteln wollten. Die sentimentale Reise zum Exporteurtreffen in Druden muß erst vollzogen werden. Das Material liegt bereit, wie die Donau und die Anhäufungen von Pflanzen, Steinen und Menschen an ihren Ufern für viele Reisen und Nebenausflüge nach Wahl bereitliegen. Das Material ist alphabetisch geordnet, damit Sie es mühelos auffinden. Wie in einem Lexikon. Aus dem Lexikon sind Ihnen auch die Hinweispfeile bekannt (→), die Ihnen raten sollen, wie Sie am besten weitergehen, wie Sie sich zusätzlich informieren oder wie Sie vom Hundertsten ins Tausendste gelangen können. Wie im Lexikon haben Sie die Freiheit, jeden Hinweispfeil zu beherzigen oder zu übergehen. (Selbst übergangene Pfeile geben dem Reizwort ja eine gewisse räumliche Tiefe.) 
 			em Die 
 			| Hinweise, die Ihnen von Etappe zu Etappe die Fortsetzung der Reise ermöglichen sollen und die Sie daher vielleicht mit Vorrang beachten werden, sind 
 			em schräg gedruckt.
-		.indent
+		p
 			| Eines darf Sie nicht verwirren: wenn Sie zum Beispiel auf 
 			span.small-caps Städtchen
 			|  hingewiesen werden und beim Nachschlagen 
@@ -20,7 +20,7 @@ block main
 			|  kennenzulernen, werden Sie im weiteren Verlauf des Romans noch Gelegenheit haben, dort, wo der nächste Hinweis 
 			span.small-caps Städtchen
 			|  folgt.
-		.indent
+		p
 			| Noch eines darf Sie nicht verwirren: wenn Sie in diesem 
 			span.small-caps Städtchen
 			| , das der sentimentale Exporteur ja nur vom Schiff aus sieht, dem Helden nicht begegnen. Nur scheinbar begegnen Sie ihm nicht, nur scheinbar geht die Handlung dort — unter den Ziegen, Unkräutern, Vagabunden — nicht weiter. In Wahrheit geschieht mit dem Helden Ungeheures: Ziegen, Unkräuter, Vagabunden werden Bestandteil seiner Welt. Wenn Sie sich an einen fatalen Tag erinnern: Abschlußprüfung, Gefangennahme, Verlobung..., wird der dunstige Blauhimmel oder ein rastendes Trödlerpferd, ein Bausparhaus mit Klavieretüden oder ein zerbrochenes Zahnarztschild auf dem Gehsteig die führende Rolle in dieser Erinnerung spielen. Und dann: ständen am Ufer nur Pappdeckelkulissen, von der DDSG zu Ehren des sentimentalen Exporteurs rasch hingebaut wie die Krimdörfer des Fürsten Potemkin, hätte der Held eine magere Reise. Das Wichtigste an einem Tor, das man sieht, ist doch, daß Gänge dahinter sind, das Wichtigste an Kindern, die vor einem spielen, ist doch ihre daheimgebliebene Schwester oder ihr Schulatlas mit dem verkritzelten Afrika, das Wichtigste an einer bunten Stranddame ist, daß sie morgen Papier zählen oder Gift nehmen wird. Betrachten Sie einen Stadtplan: er sagt, daß Sie durch die Bierschädelgasse an der alten Brauerei vorbei zum Dirndlmarkt gehen können und — genau so wirklich! — durch die Rußnasengasse über den Judensturz zum Hotel Wildschwein. 
@@ -28,7 +28,7 @@ block main
 			| Und ich will Ihnen keinen 
 			em sentimentalen Exporteur im Glaskasten 
 			| vorführen, sondern eine kleine Reise, ein Mikromodell Welt, gruppiert um den sentimentalen Exporteur, der ihr Bestandteil ist, wie sie sein Bestandteil ist.
-		.indent
+		p
 			| Noch etwas: Wer hat nicht schon im Lexikon, 
 			span.small-caps Goldschminke
 			|  nachschlagen wollend, erst einmal den Artikel über 
@@ -48,13 +48,13 @@ block main
 			| in die 
 			em Welt 
 			| befreien.
-		.indent
+		p
 			| Daß die Sentimentale Reise ein Möglichkeitenroman ist, wurde nun ausgesprochen. Er ist ein Mobile, wie man es von der Decke herabhängen hat, damit es in jedem Luftzittern mitlebt und wechselt. Er ist ein Spiel, das nicht nach einmaligem Gebrauch ausgespielt ist. Lesen Sie einmal dem Schiff nach und einmal dem Alphabet, einmal durcheinander und einmal Überschlagenes nachholend oder 
 			span.small-caps Städtchen
 			|  tauschend. Vergleichen Sie Abfahrt- und Ankunftkater, Aussaat und Ernte, Milchblau und Schweinchenrosig. Legen Sie einmal den Helden beiseite und spielen Sie ohne ihn mit den Ödstättenkindern, gehen Sie von Bord und machen Sie sich in der Au selbständig. Blättern Sie später wahl- und gedankenlos in dem Buch oder benützen Sie das Würfelspiel Ihres Kindes. (»Man überschlage drei Kapitel« oder »man kehre zum Ausgangspunkt zurück«.) (Bauer + Jelinek haben die aleatorische Textverwertung übrigens unabhängig von mir »erfunden«.)
-		.indent
+		p
 			| Die Dürftigkeit des Modells sehen Sie mir, bitte, nach. Geographisch wie psychologisch wie kombinatorisch könnte es ungleich reicher sein. Nehmen Sie das Prinzip für die Durchführung, denken Sie an den ersten Computer, erweitern Sie den Roman durch eigene Weiterknüpfung an Reizwörter, am besten: schreiben Sie ein Buch, das meines in seiner Kleinheit festnagelt.
-		.indent
+		p
 			| Diese Gebrauchsanweisung ist kein Vorwort, denn sie ist nötig. Mit Vorworten verschone ich Sie. Wer die Schonung ausschlägt weil er Vorworte liebt oder weitere Informationen will, schlage unter → 
 			a(href="vorworte.html") Vorworte
 			|  nach. Das Gros folge mir, bitte, gleich zum → 

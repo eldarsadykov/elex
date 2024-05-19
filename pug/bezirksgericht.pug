@@ -15,13 +15,13 @@ mixin accolade()
 block title-const
 	- const title = "Bezirksgericht"
 block main
-	#bezirksgericht-1
-		div
+	article#bezirksgericht-1
+		p
 			| 
 			b.inline-title Bezirksgericht 1.
 			|  (Blick aus der Zelle eines konkreten Lyrikers):
-		#grid-scroller
-			#grid-container
+		article#grid-scroller
+			article#grid-container
 				.grid.underlay
 					.und-so-schoene und so schöne
 					.bunte bunte
@@ -55,54 +55,54 @@ block main
 					+letterGroup('l          n          n          r          k')
 					+letterGroup('■          ■          ■          ■          ■')
 					+letterGroup('jajajajajajajajajajajajajajajajajajajajajaja!')
-	#bezirksgericht-2
-		div
+	article#bezirksgericht-2
+		p
 			| 
 			b.inline-title Bezirksgericht 2.
 			|  Der eingegitterte Atomforscher, der hier sicherer aufbewahrt ist als in den Verliesen des zuständigen Geheimdienstes, da ihn hier unter Streunern und Ehestörern niemand vermutet, hat es längst aufgegeben, sich ins Birken- und Weidengrün und unter die → 
 			a(href="eichhoernchen.html") Eichhörnchen
 			|  hinauszusehnen. Heute macht er sich einen guten Tag durch die Errechnung der Häufigkeit von Datumstriaden mit gleichen Anfangsbuchstaben. Er kommt auf 23 unter 365 Tagen, und zwar:
-		#grid-scroller
-			#grid 
-				#text-cell-1
+		article#grid-scroller
+			article#grid 
+				article#text-cell-1
 					+lineBreaks(['Dienstag', 'Donnerstag'])
-				#text-cell-2 
+				article#text-cell-2 
 					| Freitag
-				#text-cell-3
+				article#text-cell-3
 					+lineBreaks(['Samstag', 'Sonntag'])
-				#text-cell-4
+				article#text-cell-4
 					+lineBreaks(['dritter', 'dreizehnter', 'dreiundzwanzigster', 'dreißigster'])
-				#text-cell-5
+				article#text-cell-5
 					+lineBreaks(['fünfter', 'fünfzehnter', 'fünfundzwanzigster'])
-				#text-cell-6
+				article#text-cell-6
 					+lineBreaks(['sechster', 'siebenter', 'sechzehnter', 'siebzehnter', 'sechsundzwanzigster', 'siebenundzwanzigster'])
-				#text-cell-7 Dezember 
-				#text-cell-8 Febraur 
-				#text-cell-9 September 
-				#equal-cell-1.equal-cell =
-				#equal-cell-2.equal-cell =
-				#equal-cell-3.equal-cell =
-				#number-cell-1.number-cell 8
-				#number-cell-2.number-cell 3
-				#number-cell-3.number-cell 12
-				#number-cell-4.number-cell 23
-				#brace-cell-1.brace-left
+				article#text-cell-7 Dezember 
+				article#text-cell-8 Febraur 
+				article#text-cell-9 September 
+				article#equal-cell-1.equal-cell =
+				article#equal-cell-2.equal-cell =
+				article#equal-cell-3.equal-cell =
+				article#number-cell-1.number-cell 8
+				article#number-cell-2.number-cell 3
+				article#number-cell-3.number-cell 12
+				article#number-cell-4.number-cell 23
+				article#brace-cell-1.brace-left
 					+accolade()
-				#brace-cell-2.brace-left 
+				article#brace-cell-2.brace-left 
 					+accolade()
-				#brace-cell-3.brace-right
+				article#brace-cell-3.brace-right
 					+accolade()
-				#brace-cell-4.brace-right 
+				article#brace-cell-4.brace-right 
 					+accolade()
-				#brace-cell-5.brace-right 
+				article#brace-cell-5.brace-right 
 					+accolade()
-				#brace-cell-6.brace-left 
+				article#brace-cell-6.brace-left 
 					+accolade()
-				#brace-cell-7.brace-left 
+				article#brace-cell-7.brace-left 
 					+accolade()
-				#brace-cell-8.brace-left 
+				article#brace-cell-8.brace-left 
 					+accolade()
-		.indent
+		p
 			| Nun zieht er sein Logarithmenbuch, d. h. seines mußte er gegen ein unverdächtiges der nahegelegenen Mädchenschule eintauschen, und findet nach Subtraktion der Mantissen von 23 und 365 einen Häufigkeitssatz von 6.30%, also ungefähr den von Vorkommen »höherer Intelligenz« (IQ > 125) in den USA. Damit ist das Problem aber eigentlich erschöpft, und es hat von dem 
 			em guten Tag 
 			| nur einige Minuten verwirklicht.

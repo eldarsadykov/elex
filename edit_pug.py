@@ -6,16 +6,8 @@ directory_path = "pug"
 
 def process_text(file):
     pug_content = file.read()
-   # Split the content into lines
-    lines = pug_content.split('\n')
 
-    # Replace the specific line (index 7 because of 0-based indexing)
-    lines[7] = lines[7].replace('b ', '#inline-title ')
-
-    # Join the lines back into a single string
-    updated_pug_content = '\n'.join(lines)
-
-    return updated_pug_content
+    return pug_content
 
 
 def process_file(file_path):
@@ -71,4 +63,4 @@ def get_js_array_of_titles():
     print(keys_array)
 
 
-process_directory(directory_path)
+# process_directory(directory_path)

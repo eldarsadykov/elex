@@ -13,7 +13,7 @@ block title-const
 	- const progressIndex = list[progressTitle].index
 	- const title = "Inhaltsverzeichnis"
 block main
-	#inhaltsverzeichnis
+	article#inhaltsverzeichnis
 		+listItems(0, progressIndex)
-		#bearbeitungsfortschritt Bearbeitungsfortschritt
+		article#bearbeitungsfortschritt Bearbeitungsfortschritt
 		+listItems(progressIndex, keys.length)

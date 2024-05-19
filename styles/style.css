@@ -62,16 +62,43 @@ h1 {
   width: 100%;
 }
 
+a {
+  color: var(--apple-standard-blue);
+  text-decoration: none;
+}
+
+article {
+  & p {
+    text-indent: 20px;
+  }
+
+  > p:first-of-type {
+    text-indent: 0;
+  }
+}
+
 .poetry {
   margin: 1lh;
   max-width: fit-content;
   margin-right: auto;
   margin-left: auto;
+  + p {
+    text-indent: 0;
+  }
 }
 
-a {
-  color: var(--apple-standard-blue);
-  text-decoration: none;
+.align-center {
+  text-align: center;
+  + p {
+    text-indent: 0;
+  }
+}
+
+.align-right {
+  text-align: right;
+  + p {
+    text-indent: 0;
+  }
 }
 
 a:hover,
@@ -87,14 +114,6 @@ sup {
 
 .spaced {
   letter-spacing: 1ch;
-}
-
-.align-center {
-  text-align: center;
-}
-
-.align-right {
-  text-align: right;
 }
 
 .inline-title {
@@ -123,7 +142,8 @@ sup {
   }
 
   & ol {
-    padding-inline-start: 40px;
+    list-style-position: inside;
+    padding-inline-start: 0px;
   }
 }
 
@@ -160,7 +180,9 @@ sup {
   & .offset-right {
     text-align: right;
     margin: 1em 20% 1em auto;
-    line-height: 1em;
+    + p {
+      text-indent: 0;
+    }
   }
 }
 
@@ -257,6 +279,9 @@ sup {
   & #grid-scroller {
     margin: 0.5lh 0;
     overflow-x: auto;
+    + p {
+      text-indent: 0;
+    }
   }
 
   & #grid {
@@ -418,5 +443,13 @@ sup {
   & .raum {
     text-align: center;
     font-size: small;
+  }
+}
+
+#staedtchen-1 {
+  & ul {
+    list-style-position: inside;
+    padding-inline-start: 0px;
+    text-indent: 20px;
   }
 }
