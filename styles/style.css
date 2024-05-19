@@ -446,6 +446,16 @@ sup {
   }
 }
 
+#diensthaeuschen-1 {
+  ul {
+    list-style-type: none;
+    padding-inline-start: 20px;
+    + p {
+      text-indent: 0;
+    }
+  }
+}
+
 #staedtchen-1 {
   & ul {
     list-style-position: inside;
