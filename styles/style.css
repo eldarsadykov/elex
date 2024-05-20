@@ -38,7 +38,22 @@ main {
 }
 
 ul {
-	padding-inline-start: 40px; /* Default value, just to remind myself what it is. */
+	/* Default value, just to remind myself what it is. */
+	padding-inline-start: 40px; 
+
+	&.no-bullets-padding {
+		list-style-type: none;
+		padding-inline-start: 20px;
+		+ p {
+			text-indent: 0;
+		}
+	}
+
+	&.inside-indent-text {
+		list-style-position: inside;
+		padding-inline-start: 0px;
+		text-indent: 20px;
+	}
 }
 
 ol {
@@ -82,9 +97,14 @@ article {
 	max-width: fit-content;
 	margin-right: auto;
 	margin-left: auto;
+	text-indent: 0;
 	+ p {
 		text-indent: 0;
 	}
+}
+
+.no-indent {
+	text-indent: 0;
 }
 
 .align-center {
@@ -444,25 +464,5 @@ sup {
 	& .raum {
 		text-align: center;
 		font-size: small;
-	}
-}
-
-#diensthaeuschen-1,
-#eklektizismus,
-#element-x-17 {
-	& ul {
-		list-style-type: none;
-		padding-inline-start: 20px;
-		+ p {
-			text-indent: 0;
-		}
-	}
-}
-
-#staedtchen-1 {
-	& ul {
-		list-style-position: inside;
-		padding-inline-start: 0px;
-		text-indent: 20px;
 	}
 }
