@@ -14,6 +14,7 @@
 	--apple-standard-blue: #007aff;
 	--line-height: 1.625;
 	--body-font-color: rgb(27, 27, 27);
+	--reader-link-color: rgb(65, 110, 210);
 }
 
 body {
@@ -84,7 +85,7 @@ h1 {
 }
 
 a {
-	color: var(--apple-standard-blue);
+	color: var(--reader-link-color);
 	text-decoration: none;
 }
 
@@ -139,12 +140,6 @@ article {
 	+ p {
 		text-indent: 0;
 	}
-}
-
-a:hover,
-a:focus {
-	color: white;
-	background-color: var(--apple-standard-blue);
 }
 
 sup,
