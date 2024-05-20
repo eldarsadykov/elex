@@ -13,6 +13,7 @@
 	--text-width: 60ch;
 	--apple-standard-blue: #007aff;
 	--line-height: 1.625;
+	--body-font-color: rgb(27, 27, 27);
 }
 
 body {
@@ -20,7 +21,7 @@ body {
 	line-height: var(--line-height);
 	margin: 0 20px;
 	font-size: 1em;
-	color: black;
+	color: var(--body-font-color);
 }
 
 .footnote {
@@ -72,15 +73,13 @@ hr {
 }
 
 h1 {
-	margin: 20px;
-	font-weight: bold;
-	font-style: normal;
-	text-align: center;
-	hyphens: auto;
-	padding: 20px;
 	border-bottom: solid 1px;
 	border-top: solid 1px;
-	margin: 20px auto;
+	font-weight: bold;
+	hyphens: auto;
+	margin: 20px 0;
+	padding: 20px 0;
+	text-align: center;
 	width: 100%;
 }
 
