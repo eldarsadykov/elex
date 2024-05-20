@@ -39,7 +39,7 @@ main {
 
 ul {
 	/* Default value, just to remind myself what it is. */
-	padding-inline-start: 40px; 
+	padding-inline-start: 40px;
 
 	&.no-bullets-padding {
 		list-style-type: none;
@@ -92,7 +92,15 @@ article {
 	}
 }
 
-.poetry {
+.indexed-grid {
+	display: grid;
+	grid-template-columns: auto auto;
+	& .grid-index {
+		padding-inline-end: 1ch;
+	}
+}
+
+p.poetry {
 	margin: 1lh;
 	max-width: fit-content;
 	margin-right: auto;
@@ -440,23 +448,6 @@ sup {
 		width: fit-content;
 		border-top: 1px solid;
 		grid-area: 16 / 8 / span 6 / span 1;
-	}
-}
-
-#bordabenteuer-2,
-#element-x-4 {
-	& .actor-line {
-		display: flex;
-	}
-
-	& .actor {
-		display: inline-block;
-		min-width: 3ch;
-	}
-
-	& .line {
-		display: inline-block;
-		flex-grow: 1;
 	}
 }
 
