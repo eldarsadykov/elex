@@ -8,7 +8,7 @@ mixin listItems(startIndex, endIndex)
 			li
 				a(href=item.address)= itemTitle
 
-block title-const
+block page-vars
 	- const progressTitle = "Fehlertoleranz"
 	- const progressIndex = list[progressTitle].index
 	- const progressPercents = (progressIndex / keys.length * 100).toFixed(2)
