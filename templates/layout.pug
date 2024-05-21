@@ -7,11 +7,12 @@ html(lang="de")
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet" href="../styles/normalize.css")
         link(rel="stylesheet" href="../styles/style.css")
-        title Lexikon-Roman
+        block title-const
+            - const title = "Title"
+        title= `${title} | Lexikon-Roman`
     body
         main
-            block title-const
-                - const title = "Title"
+
             - const includeNumberInTitle = false
             if keys.includes(title) & includeNumberInTitle
                 h1= list[title].index + ". " + title
