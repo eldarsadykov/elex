@@ -11,9 +11,11 @@ mixin listItems(startIndex, endIndex)
 block title-const
 	- const progressTitle = "Fehlertoleranz"
 	- const progressIndex = list[progressTitle].index
+	- const progressPercents = (progressIndex / keys.length * 100).toFixed(2)
 	- const title = "Inhaltsverzeichnis"
+
 block main
 	article#inhaltsverzeichnis
 		+listItems(0, progressIndex)
-		article#bearbeitungsfortschritt Bearbeitungsfortschritt
+		article#bearbeitungsfortschritt= `Bearbeitungsfortschritt: ${progressPercents}%`
 		+listItems(progressIndex, keys.length)
