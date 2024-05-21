@@ -9,8 +9,8 @@ mixin lineBreaks(items)
 		if index !== items.length - 1
 			br
 
-mixin accolade()
-	img(src="../styles/assets/Accolade_V9.svg" alt="" width="100%" height="100%")
+mixin curly-bracket(side, height)
+	img(src=`../styles/assets/curly-bracket-${side}-x${height}.svg` alt="" width="100%" height="100%")
 
 block page-vars
 	- const title = "Bezirksgericht"
@@ -86,22 +86,22 @@ block main
 				article#number-cell-2.number-cell 3
 				article#number-cell-3.number-cell 12
 				article#number-cell-4.number-cell 23
-				article#brace-cell-1.brace-left
-					+accolade()
-				article#brace-cell-2.brace-left 
-					+accolade()
-				article#brace-cell-3.brace-right
-					+accolade()
-				article#brace-cell-4.brace-right 
-					+accolade()
-				article#brace-cell-5.brace-right 
-					+accolade()
-				article#brace-cell-6.brace-left 
-					+accolade()
-				article#brace-cell-7.brace-left 
-					+accolade()
-				article#brace-cell-8.brace-left 
-					+accolade()
+				article#curly-bracket-cell-1.curly-bracket-right
+					+curly-bracket("right", 2)
+				article#curly-bracket-cell-2.curly-bracket-right
+					+curly-bracket("right", 2)
+				article#curly-bracket-cell-3.curly-bracket-left
+					+curly-bracket("left", 4)
+				article#curly-bracket-cell-4.curly-bracket-left
+					+curly-bracket("left", 3)
+				article#curly-bracket-cell-5.curly-bracket-left 
+					+curly-bracket("left", 6)
+				article#curly-bracket-cell-6.curly-bracket-right 
+					+curly-bracket("right", 4)
+				article#curly-bracket-cell-7.curly-bracket-right 
+					+curly-bracket("right", 3)
+				article#curly-bracket-cell-8.curly-bracket-right 
+					+curly-bracket("right", 6)
 		p
 			| Nun zieht er sein Logarithmenbuch, d. h. seines mußte er gegen ein unverdächtiges der nahegelegenen Mädchenschule eintauschen, und findet nach Subtraktion der Mantissen von 23 und 365 einen Häufigkeitssatz von 6.30%, also ungefähr den von Vorkommen »höherer Intelligenz« (IQ > 125) in den USA. Damit ist das Problem aber eigentlich erschöpft, und es hat von dem 
 			em guten Tag 
