@@ -183,7 +183,7 @@ sub {
 }
 
 #title-page-container {
-  height: 100vh;
+  height: 100dvh;
   display: grid;
   place-items: center;
 
