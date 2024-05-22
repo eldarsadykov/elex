@@ -490,6 +490,8 @@ sub {
     .title {
       text-align: center;
       letter-spacing: 0.5ch;
+      margin-bottom: 0.5lh;
+      hyphens: auto;
     }
   }
 }
