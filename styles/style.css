@@ -459,3 +459,18 @@ sub {
     font-size: small;
   }
 }
+
+#filmtitelspiel-1 {
+  .grid {
+    /* hyphens: auto; */
+    overflow-x: auto;
+    margin: 1lh 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+  .grid-element {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+  }
+}
