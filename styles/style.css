@@ -368,6 +368,7 @@ sub {
 
   & .curly {
     margin: 0 auto;
+    padding: 0 1ch;
 
     &#cell-1 {
       grid-area: 1 / 2 / span 2 / span 1;
