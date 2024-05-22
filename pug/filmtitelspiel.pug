@@ -1,4 +1,15 @@
 extends ../templates/layout
+
+mixin createList(title, items)
+	ul
+		li
+			| Tu #{title} in den Titel:
+			br
+			each item, index in items
+				| #{item}
+				if index < items.length - 1
+					br
+
 block page-vars
 	- const title = "Filmtitelspiel"
 block main
@@ -57,277 +68,243 @@ block main
 			.grid-element
 				| So badet die Welt —  Komisches, Wissenswertes, Nacktes!
 			.grid-element
-				| Das blaue Meer und du Gunther Sachs in Tahiti.
+				| Das blaue Meer und du 
 			.grid-element
-				| Tierstudie in Farben.
+				| Gunther Sachs in Tahiti. Tierstudie in Farben. Klimaanlage vorhanden.
 			.grid-element
-				| Klimaanlage vorhanden.
+				| Aeneas—der Held von Troja 
 			.grid-element
-				| Aeneas—der Held von Troja Dido, Wien IV., wegen
+				| Dido, Wien IV., wegen Umbaues geschlossen
 			.grid-element
-				| Umbaues geschlossen
+				| Dr. Schiwago, 88. Woche 
 			.grid-element
-				| Dr. Schiwago, 88. Woche Angelique, 88. Teil
+				| Angelique, 88. Teil
 			.grid-element
-				| Liebe 1—1000 Der lange Tag der Rache
+				| Liebe 1—1000 
 			.grid-element
-				| Hochzeitsnacht vor Zeugen Nur noch 72 Stunden
+				| Der lange Tag der Rache
 			.grid-element
-				| 69 Liebesspiele 2 Särge auf Bestellung
+				| Hochzeitsnacht vor Zeugen 
 			.grid-element
-				| Drei grüne Hunde Leitfaden für Seitensprünge
+				| Nur noch 72 Stunden
 			.grid-element
-				| Schwarze Sporen Ich bin neugierig
+				| 69 Liebesspiele 
 			.grid-element
-				| Vom Haß getrieben Brautzeit und Ehe (jeder 1000. Besucher erhält
+				| 2 Särge auf Bestellung
 			.grid-element
-				| wertv. Buch!)
+				| Drei grüne Hunde 
 			.grid-element
-				| Sex in der Ehe Perversion
+				| Leitfaden für Seitensprünge
 			.grid-element
-				| Das Bett und die Kerzen
+				| Schwarze Sporen 
 			.grid-element
-				| (zwei Körper — füreinander
+				| Ich bin neugierig
 			.grid-element
-				| geschaffen– geben sich alles!) Dreck und Tod in 20
+				| Vom Haß getrieben 
 			.grid-element
-				| Stunden
+				| Brautzeit und Ehe (jeder 1000. Besucher erhält wertv. Buch!)
 			.grid-element
-				| Ohne Dollars kein Sarg Tagebuch einer Frauen-
+				| Sex in der Ehe 
 			.grid-element
-				| ärztin
+				| Perversion
 			.grid-element
-				| Der große Postraub Sex aus Schweden
+				| Das Bett und die Kerzen (zwei Körper — füreinander geschaffen – geben sich alles!) 
 			.grid-element
-				| Helga (aus der Intimsphäre einer
+				| Dreck und Tod in 20 Stunden
 			.grid-element
-				| jungen Frau) Nackt unter Affen
+				| Ohne Dollars kein Sarg 
 			.grid-element
-				| Das Insektenweib DDT
+				| Tagebuch einer Frauenärztin
 			.grid-element
-				| Das Folterhaus der Lady Morgan Der nächste Herr – dieselbe
+				| Der große Postraub 
 			.grid-element
-				| Dame
+				| Sex aus Schweden
 			.grid-element
-				| Erpressung durch Scorpio Schönheit der körperlichen
+				| Helga (aus der Intimsphäre einer jungen Frau) 
 			.grid-element
-				| Liebe
+				| Nackt unter Affen
 			.grid-element
-				| Brutale Lust Frühjahrskonzert der
+				| Das Insektenweib 
 			.grid-element
-				| niederösterr.Tonkünstler
+				| DDT
+			.grid-element
+				| Das Folterhaus der Lady Morgan 
+			.grid-element
+				| Der nächste Herr – dieselbe Dame
+			.grid-element
+				| Erpressung durch Scorpio 
+			.grid-element
+				| Schönheit der körperlichen Liebe
+			.grid-element
+				| Brutale Lust 
+			.grid-element
+				| Frühjahrskonzert der niederösterr.Tonkünstler
 			.grid-element
 				| Cosa Nostra — Erzfeind des FBI
-				|  Sie treffen sich, sie lieben sich
 			.grid-element
-				| Batman hält die Welt in Atem Der Tölpel vom Dienst
+				| Sie treffen sich, sie lieben sich
 			.grid-element
-				| Panzerspähtrupp Totenkopf Mein Körper für ein
+				| Batman hält die Welt in Atem 
 			.grid-element
-				| Pokerspiel
+				| Der Tölpel vom Dienst
 			.grid-element
-				| Das Paradies der flotten Sünder Schnellboote vor Bataan
+				| Panzerspähtrupp Totenkopf 
 			.grid-element
-				| Katanga Ich habe Lust (nur heute!)
+				| Mein Körper für ein Pokerspiel
 			.grid-element
-				| Krach mit der Kompanie Sie möchte immer wieder
+				| Das Paradies der flotten Sünder 
 			.grid-element
-				| Die letzte Kompanie Das Geheimnis der jungen
+				| Schnellboote vor Bataan
 			.grid-element
-				| Witwen
+				| Katanga 
 			.grid-element
-				| Hölle auf Okinawa Das Wunder der Liebe
+				| Ich habe Lust (nur heute!)
 			.grid-element
-				| Brennt Paris? Knusprige Leichen mit
+				| Krach mit der Kompanie 
 			.grid-element
-				| Sex-Appeal
+				| Sie möchte immer wieder
 			.grid-element
-				| Moskau brennt Tagebuch der Lust —
+				| Die letzte Kompanie 
 			.grid-element
-				| (wg. d. gr. Erfolges 3. Woche) Mädchen in ungezähmter
+				| Das Geheimnis der jungen Witwen
 			.grid-element
-				| Erotik
+				| Hölle auf Okinawa 
 			.grid-element
-				| Pulver und Blei Das heilige Erbe
+				| Das Wunder der Liebe
 			.grid-element
-				| Ich spreng euch alle in die Luft Das hab ich von Papa gelernt
+				| Brennt Paris? 
 			.grid-element
-				| Kampfgeschwader Totenkopf Mach mich kalt – ich friere!
+				| Knusprige Leichen mit Sex-Appeal
 			.grid-element
-				| Stirb aufrecht, Schurke! Dieser Film vermittelt ein
+				| Moskau brennt (wg. d. gr. Erfolges 3. Woche)
 			.grid-element
-				| unbekanntes Lustgefühl
+				| Tagebuch der Lust — Mädchen in ungezähmter Erotik
 			.grid-element
-				| Fantomas bedroht die Welt Heute letzter Tag Sex und
+				| Pulver und Blei 
 			.grid-element
-				| nackte Frauen!
+				| Das heilige Erbe
+			.grid-element
+				| Ich spreng euch alle in die Luft 
+			.grid-element
+				| Das hab ich von Papa gelernt
+			.grid-element
+				| Kampfgeschwader Totenkopf 
+			.grid-element
+				| Mach mich kalt – ich friere!
+			.grid-element
+				| Stirb aufrecht, Schurke! 
+			.grid-element
+				| Dieser Film vermittelt ein unbekanntes Lustgefühl
+			.grid-element
+				| Fantomas bedroht die Welt 
+			.grid-element
+				| Heute letzter Tag Sex und nackte Frauen!
 	article#filmtitelspiel-2
 		p
 			| 
 			b.inline-title Filmtitelspiel 2.
 			|  Man entdecke hinter den Titeln der laufenden Kinoprogramme die Rezepturen und führe so das Viele auf ein Weniges zurück. Beispiel aus Raum Wien / Zeit der Exporteurreise:
-		p
-			| • Tu den Tiger in den Titel:
-		p
-			| Flagge des Tigers
-		p
-			| Der Tiger von Sadres
-		p
-			| Der Tiger parfumiert sich mit Dynamit
-		p
-			| • Tu den Panther in den Titel:
-		p
-			| Drei blaue Panther
-		p
-			| Gungala—die nackte Pantherin
-		p
-			| • Tu den Tierfang in den Titel:
-		p
-			| Die Falle von Singapur
-		p
-			| 100 Bandidos in der Falle
-		p
-			| Frauen als Köder für 
-			span.small-caps Cd
-			|  7
-		p
-			| Kommissar X: Jagd auf Unbekannt
-		p
-			| Bob Fleming hetzt Professor G.
-		p
-			| • Tu den Teufel in den Titel:
-		p
-			| Engel des Satans Engel der Hölle
-		p
-			| Vorposten zur Hölle
-		p
-			| Hölle auf Okinawa
-		p
-			| In Montana ist die Hölle los
-		p
-			| In Colorado ist der Teufel los
-		p
-			| Der Anwalt des Teufels
-		p
-			| Das Teufelsweib von Texas
-		p
-			| Sumuru — die Tochter des Satans
-		p
-			| Die Verfluchten
-		p
-			| • Tu den Tod in den Titel:
-		p
-			| Dreck und Tod in 20 Stunden
-		p
-			| Der Tod fliegt nach Jamaica
-		p
-			| Der Tod eines Killers
-		p
-			| Django tötet leise
-		p
-			| U 23 — tödliche Tiefen
-		p
-			| Kampfgeschwader Totenkopf
-		p
-			| Panzerspähtrupp Totenkopf
-		p
-			| Stirb aufrecht, Schurke!
-		p
-			| Karate Killer
-		p
-			| Mach mich kalt, ich friere
-		p
-			| • Tu Todesarten in den Titel:
-		p
-			| Keinen Cent für Ringos Kopf
-		p
-			| Ritt zum Galgenbaum
-		p
-			| Hängen sollst du in Wyoming
-		p
-			| Der Mann mit den goldenen Colts
-		p
-			| Heiße Colts in harten Fäusten
-		p
-			| Treffpunkt für zwei Pistolen
-		p
-			| Serenade für zwei Pistolen
-		p
-			| Duell der Gringos
-		p
-			| Sechs Kugeln für Gringo
-		p
-			| Für eine Handvoll Blei
-		p
-			| Pulver und Blei
-		p
-			| Pulverdampf ist kein Parfum
-		p
-			| Gewehre zum Apachenpaß
-		p
-			| Der Tiger parfumiert sich mit Dynamit
-		p
-			| Ich spreng euch alle in die Luft
-		p
-			| • Tu die Särge in den Titel:
-		p
-			| Lucky M. füllt alle Särge
-		p
-			| Zwei Särge auf Bestellung
-		p
-			| Ohne Dollars kein Sarg
-		p
-			| • Tu Haß und Rache in den Titel:
-		p
-			| Vom Haß getrieben
-		p
-			| Die Rache des Mexikaners
-		p
-			| Der lange Tag der Rache
-		p
-			| • Tu die Fäuste in den Titel:
-		p
-			| Heiße Colts in harten Fäusten
-		p
-			| Der Titan mit der eisernen Faust
-		p
-			| Das rote Phantom schlägt zu
-		p
-			| Zwei schlagen zurück
-		p
-			| • Tu das Blut in den Titel:
-		p
-			| An seinen Stiefeln klebte Blut
-		p
-			| 10.000 blutige Dollar
-		p
-			| Das Geheimnis der blutigen Perlen
-		p
-			| Im Schloß der blutigen Begierde
-		p
-			| • Tu die Ziffern in den Titel:
-		p
-			| Zwei schlagen zurück
-		p
-			| Drei grüne Hunde
-		p
-			| Drei blaue Panther
-		p
-			| Die vier vom Amazonas
-		p
-			| Die gefürchteten Vier
-		p
-			| Die fünf Vogelfreien
-		p
-			| Fünf gegen Casablanca
-		p
-			| Sieben gegen Chicago
-		p
-			| 100 Bandidos in der Falle
-		p
-			| 10.000 blutige Dollar
-		p
-			| Etcetc.
+		+createList('den Tiger', [
+		'Flagge des Tigers',
+		'Der Tiger von Sadres',
+		'Der Tiger parfumiert sich mit Dynamit'
+		])
+
+		+createList('den Panther', [
+		'Drei blaue Panther',
+		'Gungala—die nackte Pantherin'
+		])
+
+		+createList('den Tierfang', [
+		'Die Falle von Singapur',
+		'100 Bandidos in der Falle',
+		'Frauen als Köder für CD 7',
+		'Kommissar X: Jagd auf Unbekannt',
+		'Bob Fleming hetzt Professor G.'
+		])
+
+		+createList('den Teufel', [
+		'Engel des Satans Engel der Hölle',
+		'Vorposten zur Hölle',
+		'Hölle auf Okinawa',
+		'In Montana ist die Hölle los',
+		'In Colorado ist der Teufel los',
+		'Der Anwalt des Teufels',
+		'Das Teufelsweib von Texas',
+		'Sumuru — die Tochter des Satans',
+		'Die Verfluchten'
+		])
+
+		+createList('den Tod', [
+		'Dreck und Tod in 20 Stunden',
+		'Der Tod fliegt nach Jamaica',
+		'Der Tod eines Killers',
+		'Django tötet leise',
+		'U 23 — tödliche Tiefen',
+		'Kampfgeschwader Totenkopf',
+		'Panzerspähtrupp Totenkopf',
+		'Stirb aufrecht, Schurke!',
+		'Karate Killer',
+		'Mach mich kalt, ich friere'
+		])
+
+		+createList('Todesarten', [
+		'Keinen Cent für Ringos Kopf',
+		'Ritt zum Galgenbaum',
+		'Hängen sollst du in Wyoming',
+		'Der Mann mit den goldenen Colts',
+		'Heiße Colts in harten Fäusten',
+		'Treffpunkt für zwei Pistolen',
+		'Serenade für zwei Pistolen',
+		'Duell der Gringos',
+		'Sechs Kugeln für Gringo',
+		'Für eine Handvoll Blei',
+		'Pulver und Blei',
+		'Pulverdampf ist kein Parfum',
+		'Gewehre zum Apachenpaß',
+		'Der Tiger parfumiert sich mit Dynamit',
+		'Ich spreng euch alle in die Luft'
+		])
+
+		+createList('die Särge', [
+		'Lucky M. füllt alle Särge',
+		'Zwei Särge auf Bestellung',
+		'Ohne Dollars kein Sarg'
+		])
+
+		+createList('Haß und Rache', [
+		'Vom Haß getrieben',
+		'Die Rache des Mexikaners',
+		'Der lange Tag der Rache'
+		])
+
+		+createList('die Fäuste', [
+		'Heiße Colts in harten Fäusten',
+		'Der Titan mit der eisernen Faust',
+		'Das rote Phantom schlägt zu',
+		'Zwei schlagen zurück'
+		])
+
+		+createList('das Blut', [
+		'An seinen Stiefeln klebte Blut',
+		'10.000 blutige Dollar',
+		'Das Geheimnis der blutigen Perlen',
+		'Im Schloß der blutigen Begierde'
+		])
+
+		+createList('die Ziffern', [
+		'Zwei schlagen zurück',
+		'Drei grüne Hunde',
+		'Drei blaue Panther',
+		'Die vier vom Amazonas',
+		'Die gefürchteten Vier',
+		'Die fünf Vogelfreien',
+		'Fünf gegen Casablanca',
+		'Sieben gegen Chicago',
+		'100 Bandidos in der Falle',
+		'10.000 blutige Dollar'
+		])
+		p Etcetc.
 	article#filmtitelspiel-3
 		p
 			| 
