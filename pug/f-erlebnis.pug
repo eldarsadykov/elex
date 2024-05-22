@@ -1,4 +1,9 @@
 extends ../templates/layout
+
+mixin svg 
+	svg(viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" height="1em")
+		path(fill="none" stroke="var(--body-font-color)" stroke-width="8" d="M96 4 4 40l92 20L4 96")
+
 block page-vars
 	- const title = "F-Erlebnis"
 block main
@@ -14,33 +19,42 @@ block main
 		p
 			| In Westnordwest näherte sich ein weißer Punkt / Auf Betonbelag stehen, dann ist der Tag um und / Wurde allmählich ein Haus mit vorgelagertem Garten, in dem / Auf fremdem Sessel knarren, mit Standardmariandl / Heranschwimmen autarker Welt, über deren Zäune / Vorsommerlicher Vegetationsabfall / Ein Balkon formte sich heraus / Mit Standardmariandl Wand an Wand im saubern Nachbarzimmer / Hatte einen Rechen in der Hand / Schwerkraft gewinnend wie ein nahender Planet / Fremde Stimme zu einem scheckigen Plan für den restlichen Tag mitverarbeiten / Mit Standardmariandl in den / Garten nahe genug herangeschwommen / Durch die kleine Balkontür ins Zimmer zurückgehen / Nun war das Haus mit dem Standardmariandl nahe genug / Zu einem mageren Haufen rechen / Lehmpumpenwasser aus einem blauen Glaskrug / Mit Standardmariandl im saubern Nachbarzimmer / Und da stand / Mit Mariandl schlafen / Wirklich ein Standardmariandl.
 		p
-			| Oder: Westnordwestweißpunktnäherung Fremdbalkonbelagtreten Erkennbarwerdenhaus + vorgelagertgarten Vombalkoningartenschauen Hauswirdweltfürsich Imzimmerknarren+Mariandlbalkonstimme + Scheckigtagplanen Erkennbarwerdenbalkon Lehmpumpenuwasserblauglaskrug Balkongewinntschwerkraft Mariandlessenlachen Wirklichmariandlhaufenrechen Wirklichanmariandlschlafen.
+			| Oder: Westnordwestweißpunktnäherung 
+			em Fremdbalkonbelagtreten
+			|  Erkennbarwerdenhaus + vorgelagertgarten 
+			em Vombalkoningartenschauen
+			|  Hauswirdweltfürsich 
+			em Imzimmerknarren
+			| +
+			em Mariandlbalkonstimme
+			|  + 
+			em Scheckigtagplanen
+			|  Erkennbarwerdenbalkon 
+			em Lehmpumpenuwasserblauglaskrug
+			|  Balkongewinntschwerkraft 
+			em Mariandlessenlachen
+			|  Wirklichmariandlhaufenrechen 
+			em Wirklichanmariandlschlafen
+			| .
 		p
-			| Oder: 
-			span.small-caps Wf
-			| —
-			span.small-caps Ev
-			| —
-			span.small-caps Hi
-			| —
-			span.small-caps El
-			| —
-			span.small-caps Bm
-			| —
-			span.small-caps Ww
-			| —alseineneinzigenstichempfinden
+			| Oder:  WF—EV—HI—EL—BM—WW—alseineneinzigenstichempfinden
 		p
-			| Oder: Hausmitdemstandardmariandl <
+			| Oder: Hausmitdemstandardmariandl 
+			+svg
 		p
-			| Oder: H\*abermitallemdetailwissenimquerbalken
+			| Oder: H*abermitallemdetailwissenimquerbalken
 		p
 			| —
 		p
-			| H <
+			| H 
+			+svg
+			| 
 		p
 			| —
 		p
-			| Solche Hohlnadelstichedurchdieeineganzeanzahlchemischerverbindungenmiteinemeinzigenblitzindenkörpergezwängtwerdenkönnen sind es, die beim Ersterfahren oder Erinnern mancher Eindrücke beglückendschmerzen. Plötzlich beim Anwehen eines Geruchs oder Nennen eines Ortsnamens, beim Ansehen eines vergilbten Papptellers in einem Dorfkonditorschaufenster oder beim Hören eines Radiomusikfetzens aus einer sogleich wieder zuknallenden Wäschereiweibergarderobentür: Zick! Gelegentlich sogar ein un-unterbrochener Spaziergang voll Zick!s.
+			| Solche 
+			span.auto-hyphens Hohlnadelstichedurchdieeineganzeanzahlchemischerverbindungenmiteinemeinzigenblitzindenkörpergezwängtwerdenkönnen
+			|  sind es, die beim Ersterfahren oder Erinnern mancher Eindrücke beglückendschmerzen. Plötzlich beim Anwehen eines Geruchs oder Nennen eines Ortsnamens, beim Ansehen eines vergilbten Papptellers in einem Dorfkonditorschaufenster oder beim Hören eines Radiomusikfetzens aus einer sogleich wieder zuknallenden Wäschereiweibergarderobentür: Zick! Gelegentlich sogar ein un-unterbrochener Spaziergang voll Zick!s.
 		p
 			| Das Zick! oder (an das etwas schwärmerische Wort »Fluidum« anknüpfend:) F-Erlebnis, das trotz der Vielelementigkeit als Ein Moment, als Ein Etwas empfunden wird und darum mehr von einem Geruch, einem Frösteln, einer Melodieerinnerung an sich hat als von einer Gedankenkette oder der schriftstellerischen Bildbeschreibung, ist jeweils unvertauschbar. Leider (da mit dem ganzen Leben des Empfinders verbunden:) auch un-mitteilbar. Alle Konkretion und Superkonkretion meiner Abbildversuche sind nur leere Schoten, die einen eindeutigen aber unersetzenden Hinweis auf die Erbsen geben. Die einzige Hoffnung: daß jede genug intensive Konkretion des Erzählers da und dort ein »ähnliches« Zick! zufügen könne — wie fremde Zick!er es an meinem Zick!netz vermochten.
 		p

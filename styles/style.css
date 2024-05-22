@@ -40,7 +40,11 @@ body {
 main {
   margin: 0 auto;
   max-width: var(--text-width);
-  /* hyphens: auto; */
+  hyphens: manual;
+}
+
+.auto-hyphens {
+  hyphens: auto;
 }
 
 .indent {
