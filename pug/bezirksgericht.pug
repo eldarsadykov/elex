@@ -10,16 +10,19 @@ mixin lineBreaks(items)
 			br
 
 mixin curly(orientation, lines)
-	- const counterModifier = -10
+	- const baseV1 = -50.919
+	- const baseV2 = 51.428
+	- const counterModifier = 0
 	- const totalCounterModifier = counterModifier * lines
 	- const lineHeight = 100
 	- const heightMultiplier = (lineHeight + counterModifier * 2) / lineHeight
 	- const baseLineCount = 2
 	- const scaleX = orientation === "left" ? 1 : -1
 	- const heightModifeier = lineHeight * (lines - baseLineCount) / 2
-	- const v1 = -50.919 - heightModifeier - totalCounterModifier
-	- const v2 = 51.428 + heightModifeier + totalCounterModifier
-	- const viewBoxY = - (heightModifeier + totalCounterModifier)
+	- const totalModifier = heightModifeier + totalCounterModifier
+	- const v1 = baseV1 - totalModifier
+	- const v2 = baseV2 + totalModifier
+	- const viewBoxY = -totalModifier
 	- const viewBoxHeight = heightMultiplier * lines * (lineHeight)
 	- let svgAttrs = { }
 	- svgAttrs.xmlns = 'http://www.w3.org/2000/svg'
