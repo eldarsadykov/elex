@@ -368,10 +368,12 @@ sub {
 
   & .curly {
     margin: 0 auto;
-    padding: 0 0.5em;
 
-    .right {
-      transform: scaleX(-1) translateX(-100%);
+    .curly-path {
+      fill: var(--body-font-color);
+      &.right {
+        transform: scaleX(-1) translateX(-100%);
+      }
     }
 
     &#cell-1 {
