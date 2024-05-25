@@ -494,9 +494,23 @@ sub {
 }
 
 #frau-und-freude-das-blatt-mit-herzpfiff-3 {
-  .eros-test {
+  #eros-test {
     font-variant: small-caps;
+    & #line-two {
+      padding-inline-start: 12ch;
+    }
+    #line-three {
+      padding-inline-start: 16ch;
+    }
   }
-  .klopfen {
+  #klopfen {
+    margin: 1em 0;
+    padding: 1em 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    p {
+      padding-left: 4ch;
+      text-indent: -4ch;
+    }
   }
 }
