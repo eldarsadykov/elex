@@ -1,13 +1,14 @@
 include ../includes/variables
 
+block page-vars
+    - const title = "Title"
+
 doctype html
 html(lang="de")
     head
         meta(charset="UTF-8")
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
         link(rel="stylesheet" href="../styles/style.css")
-        block page-vars
-            - const title = "Title"
         title= `${title} | Lexikon-Roman`
     body
         main
@@ -17,6 +18,9 @@ html(lang="de")
                 h1= list[title].index + ". " + title
             else 
                 h1= title
+            if keys.includes(title)
+                if progressIndex < list[title].index
+                    .warning Achtung: noch nicht bearbeitet
             block main
                 #title
                     div

@@ -286,6 +286,7 @@
         "Zukunft des Rotgebrauchs": { "index": 284, "address": "zukunft-des-rotgebrauchs.html" },
         "Zunächst aber": { "index": 285, "address": "zunaechst-aber.html" },
         "Zz": { "index": 286, "address": "zz.html" },
+        "Über den Lexikon-Roman": { "index": 287, "address": "ueber-den-lexikon-roman.html"}
     };
 
     const keys = [
@@ -575,10 +576,24 @@
         "Zukunft des Rotgebrauchs",
         "Zunächst aber",
         "Zz",
+        "Über den Lexikon-Roman",
     ];
+
+    const startEmptyPages = 6;
+    const endEmptyPages = 2;
+    const totalPages = 296;
+
+    const currentPage = 114;
+    const progressTitle = "Hahnenzierden"
+
+    const ratio = (currentPage - startEmptyPages) / (totalPages - (startEmptyPages + endEmptyPages));
+    const progressPercents = (ratio * 100).toFixed(2)
+
+    const progressIndex = list[progressTitle].index
 
 mixin lineBreaks(items)
     each item, index in items
         | #{item}
         if index !== items.length - 1
             br
+
