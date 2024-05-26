@@ -10,6 +10,10 @@
   scroll-behavior: smooth;
 }
 
+html {
+  -webkit-text-size-adjust: none; /* Never autoresize text */
+}
+
 :root {
   --text-width: 60ch;
   --apple-standard-blue: hsl(211, 100%, 50%);
