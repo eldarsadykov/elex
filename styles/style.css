@@ -74,6 +74,9 @@ ul {
 
 ol {
   padding-inline-start: 20px;
+  &.no-bullets-padding {
+    list-style-type: none;
+  }
 }
 
 hr {
