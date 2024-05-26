@@ -618,3 +618,18 @@ sub {
     }
   }
 }
+
+#haeuschen-10 {
+  .grid {
+    margin: 1em auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(auto, 3);
+    column-gap: 1ch;
+
+    .num {
+      text-align: right;
+    }
+  }
+}
