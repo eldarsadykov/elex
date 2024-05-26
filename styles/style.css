@@ -578,7 +578,6 @@ sub {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     grid-auto-flow: column;
-    hyphens: auto;
 
     .column-header {
       font-variant: small-caps;
