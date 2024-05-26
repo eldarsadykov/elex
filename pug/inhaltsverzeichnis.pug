@@ -9,9 +9,15 @@ mixin listItems(startIndex, endIndex)
 				a(href=item.address)= itemTitle
 
 block page-vars
+	- const startEmptyPages = 6;
+	- const endEmptyPages = 2;
+	- const totalPages = 296;
+	- const page = 114;
+	- const ratio = (page - startEmptyPages) / (totalPages - (startEmptyPages + endEmptyPages));
+	- const progressPercents = (ratio * 100).toFixed(2)
 	- const progressTitle = "Hahnenzierden"
 	- const progressIndex = list[progressTitle].index
-	- const progressPercents = (progressIndex / keys.length * 100).toFixed(2)
+
 	- const title = "Inhaltsverzeichnis"
 
 block main
