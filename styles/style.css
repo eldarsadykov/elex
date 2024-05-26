@@ -514,3 +514,57 @@ sub {
     }
   }
 }
+
+#gasthaeuser-16 {
+  #grid {
+    margin: 1em 0;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr auto 1fr;
+    #cell-1 {
+      text-align: right;
+    }
+  }
+}
+
+#gasthaeuser-21 {
+  #schild {
+    margin: 1em auto;
+    width: fit-content;
+    border: solid 1px;
+    padding: 0.5em 1em;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template:
+      'wegen valera'
+      'geschlossen geschlossen';
+
+    font-size: 2rem;
+    text-align: center;
+
+    .wegen,
+    .geschlossen {
+      font-weight: bold;
+    }
+    text-wrap: nowrap;
+
+    .wegen {
+      grid-area: wegen;
+    }
+    .valera {
+      grid-area: valera;
+      font-size: 1.5rem;
+      border-bottom: 3px dotted;
+    }
+
+    .hidden-dots {
+      grid-area: valera;
+      visibility: hidden;
+      overflow-x: hidden;
+    }
+    .geschlossen {
+      grid-area: geschlossen;
+    }
+  }
+}
