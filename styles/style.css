@@ -690,3 +690,33 @@ sub {
     }
   }
 }
+
+#kuessen-2 {
+  position: relative;
+  .grid {
+    overflow-x: auto;
+    column-gap: 0.8ch;
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+
+    .text {
+      min-width: 40ch;
+      padding-left: 20px;
+      text-indent: -20px;
+    }
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .rel {
+    position: relative;
+    left: 20px;
+  }
+
+  .abs {
+    position: absolute;
+  }
+}

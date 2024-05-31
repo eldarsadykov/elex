@@ -1,4 +1,11 @@
 extends ../templates/layout
+
+mixin hiddenWords(words)
+  each word in words
+    span.rel
+      span.abs „
+    span.hidden= word + " "
+
 block page-vars
   - const title = "Küssen"
 block main
@@ -33,100 +40,195 @@ block main
       |  Aus einer erweiterten Kußschule (→ 
       a(href="kuessen.html#kuessen-1") Küssen 1
       | ) mit Dezimalnumeration:
-    p
-      | 0.00 bis 4.99 Die bereits durchgenommenen Salonund
-    p
-      | Anfängerküsse
-    p
-      | 5.00 Der Stirnprothesenkuß
-    p
-      | 5.10 Der Wimpernzupfkuß
-    p
-      | 5.20 Der Nasenlöcherkuß (unerkältet)
-    p
-      | 5.21 » » (erkältet)
-    p
-      | 5.40 Der Damenbartkuß (flachsblond)
-    p
-      | 5.48 » » (maulwurfbrünett)
-    p
-      | 5.49 » » (schwarz)
-    p
-      | 5.55 Der Damenvollbartkuß
-    p
-      | 5.92 Der Doppelkinnkuß
-    p
-      | 5.93 Der Dreifachkinnkuß
-    p
-      | 5.94 Der Vierfachkinnkuß
-    p
-      | 6.00 Der Rauchfangkehrerkuß
-    p
-      | 6.10 Der Drillbohrerkuß
-    p
-      | 6.20 Der Ferdinandkuß
-    p
-      | 6.70 Der Zwiebelkuß
-    p
-      | 6.80 Der Senfkuß (Estragon)
-    p
-      | 6.81 » » (Kremser)
-    p
-      | 6.93 Der Blattlauskuß
-    p
-      | 7.00 Der Achselhöhlenkuß (desodoriert)
-    p
-      | 7.01 » » (naturfrisch)
-    p
-      | 7.10 Der Armreifenknackkuß
-    p
-      | 7.39 Der Büstenhaltersuchkuß
-    p
-      | 7.54 Der Miedersprengkuß (Größe 4)
-    p
-      | 7.55 » » ( » 5)
-    p
-      | 8.00 Der Schwimmhäutekuß
-    p
-      | 8.50 bis 8.59 Die Strumpfküsse
-    p
-      | 8.98 Der Oberschenkelkuß (straffes Fleisch)
-    p
-      | 8.99 » » (schlabbriges Fleisch)
-    p
-      | 9.30 Der Gesäßspaltenkuß
-    p
-      | 9.32 » » (mit Jasminparfum)
-    p
-      | 9.33 » » ( » Hagebuttenparfum)
-    p
-      | 9.40 Der Känguruhkuß
-    p
-      | 9.57 Der Strumpfbandgürtelkuß (besonnen)
-    p
-      | 9.58 » » (unbesonnen)
-    p
-      | 9.59 Der Keuschheitsgürtelkuß
-    p
-      | 9.68 Der Vorkuß zu 9.69
-    p
-      | 9.69 bis 9.96 Küsse, die lt. §§ 169—196 des kaiserl.
-    p
-      | salischen Hofkußerlasses v. 1. 4. 1069 und
-    p
-      | §§ 269-296 der Neuen Bundeskußverordnung
-    p
-      | (
-      span.small-caps Nbkv
-      | ) der Staatsanwaltschaft angezeigt werden
-    p
-      | müssen
-    p
-      | 9.97 Das Anknabbern
-    p
-      | 9.98 Die stückweise (partielle) Auffressung
-    p
-      | 9.99 Die vollständige (totale) Auffressung
+    .grid
+      .numbis 0.00
+      .bis bis
+      .num 4.99 
+      .text Die bereits durchgenommenen Salon- und Anfängerküsse
+      .numbis
+      .bis 
+      .num 5.00 
+      .text Der Stirnprothesenkuß
+      .numbis
+      .bis
+      .num 5.10 
+      .text Der Wimpernzupfkuß
+      .numbis
+      .bis
+      .num 5.20 
+      .text Der Nasenlöcherkuß (unerkältet)
+      .numbis
+      .bis
+      .num 5.21 
+      .text
+        +hiddenWords(["Der", "Nasenlöcherkuß"])
+        | (erkältet)
+      .numbis
+      .bis
+      .num 5.40 
+      .text Der Damenbartkuß (flachsblond)
+      .numbis
+      .bis
+      .num 5.48 
+      .text 
+        +hiddenWords(["Der", "Damenbartkuß"])
+        | (maulwurfbrünett)
+      .numbis
+      .bis
+      .num 5.49 
+      .text
+        +hiddenWords(["Der", "Damenbartkuß"])
+        |(schwarz)
+      .numbis
+      .bis
+      .num 5.55 
+      .text Der Damenvollbartkuß
+      .numbis
+      .bis
+      .num 5.92 
+      .text Der Doppelkinnkuß
+      .numbis
+      .bis
+      .num 5.93 
+      .text Der Dreifachkinnkuß
+      .numbis
+      .bis
+      .num 5.94 
+      .text Der Vierfachkinnkuß
+      .numbis
+      .bis
+      .num 6.00 
+      .text Der Rauchfangkehrerkuß
+      .numbis
+      .bis
+      .num 6.10 
+      .text Der Drillbohrerkuß
+      .numbis
+      .bis
+      .num 6.20 
+      .text Der Ferdinandkuß
+      .numbis
+      .bis
+      .num 6.70 
+      .text Der Zwiebelkuß
+      .numbis
+      .bis
+      .num 6.80 
+      .text Der Senfkuß (Estragon)
+      .numbis
+      .bis
+      .num 6.81 
+      .text
+        +hiddenWords(["Der", "Senfkuß"])
+        | (Kremser)
+      .numbis
+      .bis
+      .num 6.93 
+      .text Der Blattlauskuß
+      .numbis
+      .bis
+      .num 7.00 
+      .text Der Achselhöhlenkuß (desodoriert)
+      .numbis
+      .bis
+      .num 7.01 
+      .text
+        +hiddenWords(["Der", "Achselhöhlenkuß"])
+        | (naturfrisch)
+      .numbis
+      .bis
+      .num 7.10 
+      .text Der Armreifenknackkuß
+      .numbis
+      .bis
+      .num 7.39 
+      .text Der Büstenhaltersuchkuß
+      .numbis
+      .bis
+      .num 7.54 
+      .text Der Miedersprengkuß (Größe 4)
+      .numbis
+      .bis
+      .num 7.55 
+      .text
+        +hiddenWords(["Der", "Miedersprengkuß"])
+        | (
+        +hiddenWords(["Größe"]) 
+        | 5)
+      .numbis
+      .bis
+      .num 8.00 
+      .text Der Schwimmhäutekuß
+      .numbis 8.50
+      .bis bis
+      .num 8.59 
+      .text Die Strumpfküsse
+      .numbis
+      .bis
+      .num 8.98 
+      .text Der Oberschenkelkuß (straffes Fleisch)
+      .numbis
+      .bis
+      .num 8.99 
+      .text
+        +hiddenWords(["Der", "Oberschenkelkuß"])
+        | (schlabbriges Fleisch)
+      .numbis
+      .bis
+      .num 9.30 
+      .text Der Gesäßspaltenkuß
+      .numbis
+      .bis
+      .num 9.32 
+      .text
+        +hiddenWords(["Der", "Gesäßspaltenkuß"])
+        | (mit Jasminparfum)
+      .numbis
+      .bis
+      .num 9.33 
+      .text
+        +hiddenWords(["Der", "Gesäßspaltenkuß"])
+        | (
+        +hiddenWords(["mit"])
+        | Hagebuttenparfum)
+      .numbis
+      .bis
+      .num 9.40 
+      .text Der Känguruhkuß
+      .numbis
+      .bis
+      .num 9.57 
+      .text Der Strumpfbandgürtelkuß (besonnen)
+      .numbis
+      .bis
+      .num 9.58 
+      .text
+        +hiddenWords(["Der", "Strumpfbandgürtelkuß"])
+        | (unbesonnen)
+      .numbis
+      .bis
+      .num 9.59 
+      .text Der Keuschheitsgürtelkuß
+      .numbis
+      .bis
+      .num 9.68 
+      .text Der Vorkuß zu 9.69
+      .numbis 9.69
+      .bis bis
+      .num 9.96
+      .text Küsse, die lt. §§ 169—196 des kaiserl. salischen Hofkußerlasses v. 1. 4. 1069 und §§ 269-296 der Neuen Bundeskußverordnung (NBKV) der Staatsanwaltschaft angezeigt werden müssen
+      .numbis
+      .bis
+      .num 9.97 
+      .text Das Anknabbern
+      .numbis
+      .bis
+      .num 9.98 
+      .text Die stückweise (partielle) Auffressung
+      .numbis
+      .bis
+      .num 9.99 
+      .text Die vollständige (totale) Auffressung
   article#kuessen-3
     p
       | 
