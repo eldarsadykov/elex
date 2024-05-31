@@ -626,17 +626,63 @@ sub {
   }
 }
 
-#haeuschen-10 {
-  .grid {
-    margin: 1em auto;
-    width: fit-content;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(auto, 3);
-    column-gap: 1ch;
+.list-grid {
+  margin: 1em auto;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  column-gap: 1ch;
 
-    .num {
-      text-align: right;
+  .num {
+    text-align: right;
+  }
+
+  &.col-3 {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  &.left {
+    margin: 1em auto 1em 20px;
+  }
+}
+
+#kreissaege-1 {
+  .ni-i-i-i-i-i-li {
+    margin: 1em 0;
+
+    .ni-1 {
+      padding-inline-start: 20px;
+    }
+    .ni-2 {
+      padding-inline-start: calc(20px + 5ch);
+    }
+    .ni-3 {
+      padding-inline-start: calc(20px + 5ch + 2ch);
+    }
+    .ni-4 {
+      padding-inline-start: calc(20px + 5ch + 2ch + 1.5ch);
+    }
+    .ni-5,
+    .ni-6 {
+      padding-inline-start: calc(20px + 5ch + 2ch + 1.5ch + 1ch);
+    }
+  }
+}
+
+#kunststoffliebe {
+  .grid {
+    margin: 1em 0;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: repeat(3, auto);
+    .eins {
+      grid-area: 1 / 2 / 1 / 2;
+    }
+    .und {
+      grid-area: 2 / 1 / 2 / 1;
+    }
+    .wenn {
+      grid-area: 3 / 2 / 3 / 4;
     }
   }
 }
