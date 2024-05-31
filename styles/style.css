@@ -43,6 +43,10 @@ body {
   font-variant: small-caps;
 }
 
+.vertical-margin {
+  margin: 1em 0;
+}
+
 main {
   margin: 0 auto;
   max-width: var(--text-width);
