@@ -744,7 +744,37 @@ sub {
 #maennlich {
   .grid {
     display: grid;
-    grid-template-columns: 1fr auto minmax(1ch, 5ch) auto 1fr;
+    grid-template-columns: 1fr auto minmax(1ch, 6ch) auto 1fr;
     margin: 1em auto;
+  }
+}
+
+#mastmaedchen {
+  .grid {
+    display: grid;
+    overflow-x: auto;
+    grid-template-columns: 1fr repeat(6, auto) 1fr;
+    column-gap: 0.7ch;
+
+    .leftmost {
+      text-align: right;
+    }
+  }
+}
+
+#menschen {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  @media screen and (max-width: 40ch) {
+    .hidden {
+      display: none;
+    }
   }
 }
