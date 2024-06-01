@@ -183,6 +183,10 @@ sub {
   + .poetry {
     margin-top: 0;
   }
+
+  + p {
+    display: inline;
+  }
 }
 
 /* Page-specific styles. */
