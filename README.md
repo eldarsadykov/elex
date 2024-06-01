@@ -14,7 +14,7 @@ Then you need to run
 pug -w pug -o pages -P
 ```
 
-This will make it watch for changes in the Pug files that are located in `./pug` directory and automatically render them at the `./pages` directory with prettified HTML markup.
+from the repository's directory. This will make it watch for changes in the Pug files that are located in `./pug` directory and automatically render them at the `./pages` directory with prettified HTML markup.
 
 ## Contribution
 
