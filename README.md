@@ -11,7 +11,6 @@ This repository is currently all about editing of HTML/CSS version of the novel.
 Then you need to run
 
 ```
-
 pug -w pug -o pages -P
 
 ```
