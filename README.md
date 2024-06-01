@@ -20,7 +20,7 @@ This will make it watch for changes in the Pug files that are located in `./pug`
 
 ## Contribution
 
-We welcome contributions from everyone. Currently, we are especially in need of a skilled UI/UX designer. If you are interested in contributing, please [get in touch](info@eldarsadykov.com) with us.
+We welcome contributions from everyone. Currently, we are especially in need of a skilled UI/UX designer. If you are interested in contributing, please [get in touch](mailto:info@eldarsadykov.com) with us.
 
 ## People
 
