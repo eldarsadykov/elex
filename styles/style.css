@@ -740,3 +740,11 @@ sub {
     margin: 1em auto;
   }
 }
+
+#maennlich {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr auto minmax(1ch, 5ch) auto 1fr;
+    margin: 1em auto;
+  }
+}
