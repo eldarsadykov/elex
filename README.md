@@ -18,7 +18,7 @@ from the repository's directory. This will make it watch for changes in the Pug 
 
 ## Contribution
 
-We welcome contributions from everyone. Currently, we are especially in need of a skilled UI/UX designer. If you are interested in contributing, please [get in touch](mailto:info@eldarsadykov.com) with us.
+We welcome contributions from everyone. Currently, we are especially in need of a skilled UI/UX designer. If you are interested in contributing, please [get in touch](mailto:info@eldarsadykov.com?subject=ELEX) with us.
 
 ## People
 
