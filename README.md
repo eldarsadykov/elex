@@ -5,6 +5,10 @@
 This project is dedicated to a new multimedia edition of a novel by Austrian writer Andreas Okopenko called "Lexikon einer sentimentalen Reise zum Exporteurtreffen in Druden – Roman" (Lexikon-Roman).
 Find out more about ELEX [here](https://www.essl.at/bibliogr/elex.html).
 
+## This website
+
+[Visit this website](https://eldarsadykov.github.io/ELEX-pug-edit/).
+
 ## Getting started
 
 This repository is currently all about editing of HTML/CSS version of the novel. We use Pug tamplates to generate HTML, therefore you need to [install it](https://pugjs.org/api/getting-started.html) to work on this part of the project.
