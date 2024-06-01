@@ -797,7 +797,6 @@ h2.inline-title {
     max-width: calc(var(--text-width) * 0.6);
     width: 100%;
     display: block;
-    object-fit: cover;
-    margin: 1em auto 1em 8ch;
+    margin: 1em auto;
   }
 }
