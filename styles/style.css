@@ -105,6 +105,9 @@ h1 {
 a {
   color: var(--reader-link-color);
   text-decoration: none;
+  &.em {
+    font-style: italic;
+  }
 }
 
 p + p {
