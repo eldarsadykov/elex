@@ -748,16 +748,6 @@ h2.inline-title {
   }
 }
 
-#nachziehverfahren {
-  img {
-    max-width: calc(var(--text-width) * 0.6);
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    margin: 1em auto;
-  }
-}
-
 #maennlich {
   .grid {
     display: grid;
@@ -793,5 +783,21 @@ h2.inline-title {
     .hidden {
       display: none;
     }
+  }
+}
+
+#nachziehverfahren {
+  .grid {
+    display: grid;
+    grid-template-columns: 8ch auto;
+    margin: 1em 0;
+  }
+
+  img {
+    max-width: calc(var(--text-width) * 0.6);
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin: 1em auto 1em 8ch;
   }
 }
