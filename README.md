@@ -24,8 +24,9 @@ We welcome contributions from everyone. Currently, we are especially in need of 
 
 The project is developed by a dedicated team:
 - **Eldar Sadykov** - Programmer / media artist
-- **Karlheinz Essl** - Composer / media artist, one of the original creators of ELEX
 - **Franz Nahrada** - Social researcher, one of the original creators of ELEX
+- **Karlheinz Essl** - Composer / media artist, one of the original creators of ELEX
+
 
 ## Contacts
 
