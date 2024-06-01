@@ -15,7 +15,7 @@ This repository is focused on editing the HTML/CSS version of the novel. We use 
 Then you need to run
 
 ```
-pug --watch pug -out pages --pretty
+pug --watch pug --out pages --pretty
 ```
 
 from the repository's directory. This command will watch for changes in the Pug files located in the `./pug` directory and automatically render them to the `./pages` directory with prettified HTML markup.
