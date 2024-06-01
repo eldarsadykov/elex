@@ -146,6 +146,10 @@ p + p {
   }
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .math {
   + p {
     text-indent: 0;
@@ -724,10 +728,6 @@ h2.inline-title {
     }
   }
 
-  .hidden {
-    visibility: hidden;
-  }
-
   .rel {
     position: relative;
     left: 20px;
@@ -775,10 +775,6 @@ h2.inline-title {
     grid-template-columns: 1fr auto 1fr;
   }
 
-  .hidden {
-    visibility: hidden;
-  }
-
   @media screen and (max-width: 40ch) {
     .hidden {
       display: none;
@@ -798,5 +794,20 @@ h2.inline-title {
     width: 100%;
     display: block;
     margin: 1em auto;
+  }
+}
+
+#oedstaetten-4 {
+  .frei {
+    width: fit-content;
+    font-weight: bold;
+    margin: 1em 35% 1em auto;
+  }
+
+  @media screen and (max-width: 40ch) {
+    .frei {
+      margin: 1em auto;
+      padding-inline-start: 0;
+    }
   }
 }
