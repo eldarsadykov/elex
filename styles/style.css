@@ -184,7 +184,7 @@ sub {
     margin-top: 0;
   }
 
-  + p {
+  + p:not(.poetry) {
     display: inline;
   }
 }
