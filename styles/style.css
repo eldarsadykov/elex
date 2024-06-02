@@ -871,7 +871,10 @@ h2.inline-title {
       .shape {
         fill: none;
         stroke: black;
-        stroke-width: 0.4px;
+        stroke-width: 0.5px;
+        stroke-dasharray: 0.5 1;
+        stroke-linecap: butt;
+        stroke-linejoin: round;
       }
     }
     .text {
