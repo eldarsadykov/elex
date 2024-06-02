@@ -886,6 +886,14 @@ h2.inline-title {
   }
 }
 
-.arial {
-  font-family: 'Apple SD Gothic Neo Bold';
+#susi--und-eiske-epilog {
+  .einer-einem {
+    text-align: center;
+    margin: 0 0.5ch;
+    display: inline-flex;
+    flex-direction: column;
+    .einem {
+      border-top: solid 1px;
+    }
+  }
 }
