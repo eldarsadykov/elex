@@ -146,6 +146,10 @@ p + p {
   }
 }
 
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
 .hidden {
   visibility: hidden;
 }
@@ -732,10 +736,10 @@ h2.inline-title {
     position: relative;
     left: 20px;
   }
+}
 
-  .abs {
-    position: absolute;
-  }
+.abs {
+  position: absolute;
 }
 
 #lollo {
