@@ -113,7 +113,7 @@ a {
     font-style: italic;
   }
   &.arrow::before {
-    content: '→ ';
+    content: '\2192\00A0';
   }
 }
 
