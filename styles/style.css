@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  font-family: var(--serif-font-family);
+  font-family: var(--sans-serif-font-family);
   line-height: var(--line-height);
   margin: 0 20px;
   color: var(--body-font-color);
@@ -136,10 +136,8 @@ p + p {
 }
 
 .poetry {
-  margin: 1em;
+  margin: 1em auto;
   max-width: fit-content;
-  margin-right: auto;
-  margin-left: auto;
   text-indent: 0;
   + p {
     text-indent: 0;
@@ -193,9 +191,9 @@ h2.inline-title {
   font-family: var(--sans-serif-font-family);
   display: inline;
   font-weight: bold;
-  + .poetry {
+  /* + .poetry {
     margin-top: 0;
-  }
+  } */
 
   + p:not(.poetry) {
     display: inline;
@@ -821,5 +819,36 @@ h2.inline-title {
     width: 100%;
     height: 20lh;
     resize: vertical;
+  }
+}
+
+#schlager-1,
+#schlager-2,
+#schlager-3 {
+  .poetry {
+    margin-left: 6em;
+  }
+
+  @media (max-width: 60ch) {
+    .poetry {
+      margin-left: 0;
+    }
+  }
+}
+
+#schwarzmeer-perspektive {
+  .moskau {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 1em;
+  }
+}
+
+#studien-zum-fetischismus-3 {
+  .raum {
+    width: fit-content;
+    text-align: center;
+    margin: 3em auto 40em auto;
+    font-size: small;
   }
 }
