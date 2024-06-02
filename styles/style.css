@@ -16,7 +16,6 @@ html {
 
 :root {
   --text-width: 60ch;
-  --apple-standard-blue: hsl(211, 100%, 50%);
   --line-height: 1.625;
   --body-font-color: rgb(27, 27, 27);
   --link-color: hsl(210, 100%, 50%);
@@ -870,7 +869,7 @@ h2.inline-title {
       height: 100%;
       .shape {
         fill: none;
-        stroke: black;
+        stroke: var(--body-font-color);
         stroke-width: 0.5px;
         stroke-dasharray: 0.5 1;
         stroke-linecap: butt;
