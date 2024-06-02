@@ -714,6 +714,8 @@ h2.inline-title {
   }
 }
 
+/* ===================================================================================== */
+
 #kuessen-2 {
   position: relative;
   .grid {
@@ -850,5 +852,34 @@ h2.inline-title {
     text-align: center;
     margin: 3em auto 40em auto;
     font-size: small;
+  }
+}
+
+.trapezoid-overflow-container {
+  position: relative;
+  overflow-x: auto;
+  .trapezoid-container {
+    width: 30ch;
+    height: 30ch;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .trapezoid {
+      height: 100%;
+      .shape {
+        fill: none;
+        stroke: black;
+        stroke-width: 0.4px;
+      }
+    }
+    .text {
+      position: absolute;
+      font-size: small;
+      text-align: center;
+      width: fit-content;
+      height: fit-content;
+    }
   }
 }

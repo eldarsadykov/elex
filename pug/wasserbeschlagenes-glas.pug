@@ -4,11 +4,13 @@ block page-vars
 block main
   article#wasserbeschlagenes-glas
     h2.inline-title Wasserbeschlagenes Glas.
-    p
-      |
-    p
-      | (Raum zum Einkleben
-    p
-      | eines wasserbeschla-
-    p
-      | genen Glases)
+    .trapezoid-overflow-container
+      .trapezoid-container
+        svg.trapezoid(viewBox='0 0 100 100')
+          polygon.shape(points='5 5, 95 5, 70 95, 30 95')
+        .text
+          | (Raum zum Einkleben
+          br 
+          | eines wasser-
+          br 
+          | beschlagenen Glases)
