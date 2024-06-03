@@ -776,6 +776,22 @@ h2.inline-title {
   }
 }
 
+#maturanten-1,
+#maturanten-2,
+#maturanten-3,
+#maturanten-4 {
+  .longest-line {
+    &::before {
+      content: 'ein junger Mensch mit solchem Ziel ist meistens still .....';
+      display: block;
+      height: 0;
+      visibility: hidden;
+    }
+    width: fit-content;
+    margin: 1rem auto;
+  }
+}
+
 #menschen {
   .grid {
     display: grid;
@@ -830,14 +846,15 @@ h2.inline-title {
 #schlager-1,
 #schlager-2,
 #schlager-3 {
-  .poetry {
-    margin-left: 6em;
-  }
-
-  @media (max-width: 60ch) {
-    .poetry {
-      margin-left: 0;
+  .longest-line {
+    &::before {
+      content: 'Der dummböse Bill und die schlauschlechte Li,';
+      display: block;
+      height: 0;
+      visibility: hidden;
     }
+    width: fit-content;
+    margin: 1rem auto;
   }
 }
 
