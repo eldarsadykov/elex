@@ -82,6 +82,10 @@ ul {
   }
 }
 
+.padding-left {
+  padding-left: 1rem;
+}
+
 ol {
   padding-inline-start: 20px;
   &.no-bullets-padding {
