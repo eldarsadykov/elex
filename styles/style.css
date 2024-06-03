@@ -147,6 +147,17 @@ p + p {
   }
 }
 
+.longest-line {
+  &::before {
+    content: '--------- long line content ---------';
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+  width: fit-content;
+  margin: 1rem auto;
+}
+
 .no-bottom-margin {
   margin-bottom: 0;
 }
@@ -783,12 +794,7 @@ h2.inline-title {
   .longest-line {
     &::before {
       content: 'ein junger Mensch mit solchem Ziel ist meistens still .....';
-      display: block;
-      height: 0;
-      visibility: hidden;
     }
-    width: fit-content;
-    margin: 1rem auto;
   }
 }
 
@@ -848,13 +854,8 @@ h2.inline-title {
 #schlager-3 {
   .longest-line {
     &::before {
-      content: 'Der dummböse Bill und die schlauschlechte Li,';
-      display: block;
-      height: 0;
-      visibility: hidden;
+      content: 'In Indien werden die Witwen verbrannt, juchhe,';
     }
-    width: fit-content;
-    margin: 1rem auto;
   }
 }
 
