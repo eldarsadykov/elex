@@ -1017,3 +1017,17 @@ h2.inline-title {
     padding-inline-start: 6ch;
   }
 }
+
+.monospace {
+  padding-inline-start: 20px;
+  display: inline-grid;
+  grid-template-columns: 2ch repeat(5, 1ch);
+  &.fifth-row {
+    grid-template-columns: 4ch repeat(3, 1ch);
+  }
+}
+
+.hidden-dots {
+  /* visibility: hidden; */
+  overflow-x: hidden;
+}

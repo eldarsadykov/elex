@@ -1,4 +1,9 @@
 extends ../templates/layout
+
+mixin monospace(string)
+  each letter in string
+    .letter= letter 
+
 block page-vars
   - const title = "Zeitung"
 block main
@@ -6,19 +11,31 @@ block main
     h2.inline-title Zeitung 1.
     p
       | Da schau her, freut sich der Ingenieur, eine Charade:
-    p
-      | 1 ................. Kurzform für das stille Örtchen
-    p
-      | 2 ................. Was jeder Motorradfahrer einmal reißt
-    p
-      | 3 ................. Autokennzeichen Integrationsliebender
-    p
-      | 4 ................. Kurzform für Österreichs ehrwürdigstes Theater
-    p
-      | 1-4 ............. Heimatstadt eines beliebten Fässersports
-    p
-      | Haben Sies? — Keine Kunst, sagt der Chemiekaufmann: .........
-    p
+    div
+      .monospace
+        +monospace("1.....") 
+      |  Kurzform für das stille Örtchen
+    div
+      .monospace
+        +monospace("2.....") 
+      |  Was jeder Motorradfahrer einmal reißt
+    div
+      .monospace
+        +monospace("3.....") 
+      |  Autokennzeichen Integrationsliebender
+    div
+      .monospace
+        +monospace("4.....") 
+      |  Kurzform für Österreichs ehrwürdigstes Theater
+    div
+      .monospace.fifth-row
+        .letter 1－4
+        +monospace("...") 
+      |  Heimatstadt eines beliebten Fässersports
+    div
+      | Haben Sies? — Keine Kunst, sagt der Chemiekaufmann: 
+      span.hidden-dots .............................................
+    div
       | ................................................................(Raum für die Eintragung durch den Leser.)
     p
       | Ist ja toll, sagt der Ingenieur.
