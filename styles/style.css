@@ -1048,3 +1048,11 @@ h2.inline-title {
     }
   }
 }
+
+#zeitung-5 {
+  .longest-line {
+    &::before {
+      content: 'Wurstfabrik hat für junge, frische Mädchen Verwendung.';
+    }
+  }
+}
