@@ -45,6 +45,10 @@ body {
   font-variant: small-caps;
 }
 
+.small {
+  font-size: small;
+}
+
 .vertical-margin {
   margin: 1em 0;
 }
@@ -83,7 +87,7 @@ ul {
 }
 
 .padding-left {
-  padding-left: 1rem;
+  padding-left: 20px;
 }
 
 ol {
@@ -1018,16 +1022,29 @@ h2.inline-title {
   }
 }
 
-.monospace {
-  padding-inline-start: 20px;
-  display: inline-grid;
-  grid-template-columns: 2ch repeat(5, 1ch);
-  &.fifth-row {
-    grid-template-columns: 4ch repeat(3, 1ch);
+#zeitung-1 {
+  .monospace {
+    padding-inline-start: 20px;
+    display: inline-grid;
+    grid-template-columns: 2ch repeat(5, 1ch);
+    &.fifth-row {
+      grid-template-columns: 4ch repeat(3, 1ch);
+    }
   }
-}
+  .dots-grid {
+    display: grid;
 
-.hidden-dots {
-  /* visibility: hidden; */
-  overflow-x: hidden;
+    &.--template-1 {
+      grid-template-columns: auto 1fr;
+    }
+
+    &.--template-2 {
+      grid-template-columns: 1fr auto;
+    }
+    column-gap: 0.5ch;
+    .hidden-dots {
+      text-wrap: nowrap;
+      overflow-x: hidden;
+    }
+  }
 }
