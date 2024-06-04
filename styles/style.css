@@ -1011,3 +1011,9 @@ h2.inline-title {
     }
   }
 }
+
+#wein-8 {
+  .padding-start {
+    padding-inline-start: 6ch;
+  }
+}
