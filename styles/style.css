@@ -1110,3 +1110,7 @@ h2.inline-title {
     }
   }
 }
+
+.triple-indent {
+  text-indent: 60px;
+}
