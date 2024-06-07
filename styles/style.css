@@ -1055,7 +1055,8 @@ h2.inline-title {
   }
 }
 
-#zeitung-8 {
+#zeitung-8,
+#zeitung-9 {
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1098,5 +1099,14 @@ h2.inline-title {
   .claudia {
     float: right;
     height: 3lh;
+  }
+}
+
+#zeitung-9 {
+  .grid {
+    grid-template-columns: 3fr 2fr;
+    .right {
+      align-self: end;
+    }
   }
 }
