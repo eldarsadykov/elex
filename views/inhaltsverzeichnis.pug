@@ -1,0 +1,31 @@
+include ../includes/variables
+
+mixin listItems(startIndex, endIndex)
+  ol(start=startIndex + 1)
+    - for (var i = startIndex; i < endIndex; i++)
+      - const itemTitle = keys[i]
+      - const item = list[itemTitle]
+      li
+        a(href=`chapters/${item.address}`)= itemTitle
+
+html(lang="de")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet" href="styles/style.css")
+    title= 'Inhaltsverzeichnis | Lexikon-Roman'
+  body
+    main
+      h1 Inhaltsverzeichnis
+      article#inhaltsverzeichnis
+        +listItems(0, keys.length)
+      nav#navigation
+        ul
+          li
+            a(href="chapters/gebrauchsanweisung.html") Gebrauchsanweisung
+          li
+            a(href="ueber-den-lexikon-roman.html") Über den Lexikon-Roman
+          li
+            a(href="index.html") Titelblatt
+          li
+            a(href="#") Seitenanfang

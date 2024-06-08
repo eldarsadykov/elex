@@ -285,8 +285,7 @@
         "Zigarre": { "index": 283, "address": "zigarre.html" },
         "Zukunft des Rotgebrauchs": { "index": 284, "address": "zukunft-des-rotgebrauchs.html" },
         "Zunächst aber": { "index": 285, "address": "zunaechst-aber.html" },
-        "Zz": { "index": 286, "address": "zz.html" },
-        "Über den Lexikon-Roman": { "index": 287, "address": "ueber-den-lexikon-roman.html"}
+        "Zz": { "index": 286, "address": "zz.html" }
     };
 
     const keys = [
@@ -575,21 +574,8 @@
         "Zigarre",
         "Zukunft des Rotgebrauchs",
         "Zunächst aber",
-        "Zz",
-        "Über den Lexikon-Roman",
+        "Zz"
     ];
-
-    const startEmptyPages = 6;
-    const endEmptyPages = 2;
-    const totalPages = 296;
-
-    const currentPage = 294;
-    const progressTitle = "Über den Lexikon-Roman"
-
-    const ratio = (currentPage - startEmptyPages) / (totalPages - (startEmptyPages + endEmptyPages));
-    const progressPercents = (ratio * 100).toFixed(2)
-
-    const progressIndex = list[progressTitle].index
 
 mixin lineBreaks(items)
     each item, index in items
