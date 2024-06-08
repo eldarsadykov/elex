@@ -13,6 +13,7 @@ block page-vars
 
 block main
   article#inhaltsverzeichnis
-    +listItems(0, progressIndex)
+    //- +listItems(0, progressIndex)
+    +listItems(0, keys.length - 1)
     //- article#bearbeitungsfortschritt= `Bearbeitungsfortschritt: ${progressPercents}%`
-    +listItems(progressIndex, keys.length - 1) 
+    //- +listItems(progressIndex, keys.length - 1) 

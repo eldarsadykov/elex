@@ -1114,3 +1114,10 @@ h2.inline-title {
 .triple-indent {
   text-indent: 60px;
 }
+
+#ueber-den-lexikon-roman {
+  p {
+    text-indent: 0;
+    margin: 20px 0;
+  }
+}
