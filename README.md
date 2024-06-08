@@ -7,7 +7,7 @@ Find out more about ELEX [here](https://www.essl.at/bibliogr/elex.html).
 
 ## This Website
 
-[Visit this website](https://eldarsadykov.github.io/ELEX-pug-edit/).
+[Visit this website](https://eldarsadykov.github.io/elex/).
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ This repository is focused on editing the HTML/CSS version of the novel. We use 
 Then you need to run
 
 ```
-pug --watch pug --out pages --pretty
+pug --watch views --out docs --pretty
 ```
 
 from the repository's directory. This command will watch for changes in the Pug files located in the `./pug` directory and automatically render them to the `./pages` directory with prettified HTML markup.
