@@ -13,8 +13,7 @@
           "target": "Vorworte",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 2,
@@ -25,36 +24,31 @@
           "target": "Gebrauchsanweisung",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 3,
       "slug": "aberdeen",
       "title": "Aberdeen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 4,
       "slug": "achselhoehle",
       "title": "Achselhöhle",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 5,
       "slug": "affirmative-dichtung",
       "title": "Affirmative Dichtung",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 6,
       "slug": "allwissender-erzaehler",
       "title": "Allwissender Erzähler",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 7,
@@ -73,15 +67,13 @@
           "target": "Taufstelle",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 8,
       "slug": "annie",
       "title": "Annie",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 9,
@@ -92,22 +84,19 @@
           "target": "Fehlen von Rot",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 10,
       "slug": "arcimboldi",
       "title": "Arcimboldi",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 11,
       "slug": "arnica",
       "title": "Arnica",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 12,
@@ -154,8 +143,7 @@
           "target": "Wildenten",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 13,
@@ -166,8 +154,7 @@
           "target": "Nach dem Auftauchen der Auen",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 14,
@@ -186,8 +173,7 @@
           "target": "Weingarten",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 15,
@@ -198,15 +184,13 @@
           "target": "Mittagserwartung",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 16,
       "slug": "aussenvoegel",
       "title": "Außenvögel",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 17,
@@ -237,8 +221,7 @@
           "target": "Wasserereignisse",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 18,
@@ -249,8 +232,7 @@
           "target": "Brotlaib",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 19,
@@ -261,8 +243,7 @@
           "target": "Mastmädchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 20,
@@ -277,8 +258,7 @@
           "target": "Labyrinth",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 21,
@@ -297,15 +277,13 @@
           "target": "Paddelclub-Haus",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 22,
       "slug": "befund",
       "title": "Befund",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 23,
@@ -324,8 +302,7 @@
           "target": "Nickel",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 24,
@@ -336,15 +313,13 @@
           "target": "Arcimboldi",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 25,
       "slug": "beisszange",
       "title": "Beißzange",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 26,
@@ -355,15 +330,13 @@
           "target": "NATUR-HOTEL",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 27,
       "slug": "bestimmungsbuch",
       "title": "Bestimmungsbuch",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 28,
@@ -374,8 +347,7 @@
           "target": "Wauß",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 29,
@@ -386,22 +358,19 @@
           "target": "Eichhörnchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 30,
       "slug": "bier",
       "title": "Bier",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 31,
       "slug": "biographische-uebung",
       "title": "Biographische Übung",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 32,
@@ -416,29 +385,25 @@
           "target": "Spinat",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 33,
       "slug": "blaugruener-liegestuhl",
       "title": "Blaugrüner Liegestuhl",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 34,
       "slug": "blechchristus",
       "title": "Blechchristus",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 35,
       "slug": "b-oe",
       "title": "B. Ø.",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 36,
@@ -457,8 +422,7 @@
           "target": "Madigmachen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 37,
@@ -473,22 +437,19 @@
           "target": "Parfum",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 38,
       "slug": "braun",
       "title": "Braun",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 39,
       "slug": "brausepulver",
       "title": "Brausepulver",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 40,
@@ -503,8 +464,7 @@
           "target": "Pferde",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 41,
@@ -519,15 +479,13 @@
           "target": "Kuhdreck",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 42,
       "slug": "bruecken-der-erwachsenen",
       "title": "Brücken der Erwachsenen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 43,
@@ -542,8 +500,7 @@
           "target": "Malkasten",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 44,
@@ -554,8 +511,7 @@
           "target": "Quenta Quebec",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 45,
@@ -566,29 +522,25 @@
           "target": "Espresso",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 46,
       "slug": "chemiewerk",
       "title": "Chemiewerk",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 47,
       "slug": "cp",
       "title": "CP",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 48,
       "slug": "debitorenbuchhalterin",
       "title": "Debitorenbuchhalterin",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 49,
@@ -635,8 +587,7 @@
           "target": "Zigarre",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 50,
@@ -647,8 +598,7 @@
           "target": "Mastmädchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 51,
@@ -663,50 +613,43 @@
           "target": "Mastmädchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 52,
       "slug": "die-heterogene",
       "title": "Die Heterogene",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 53,
       "slug": "die-mit-den-schlafaugen",
       "title": "Die mit den Schlafaugen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 54,
       "slug": "die-mit-der-tulpe",
       "title": "Die mit der Tulpe",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 55,
       "slug": "diensthaeuschen",
       "title": "Diensthäuschen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 56,
       "slug": "die-rote-im-roten-trikot-mit-rotem-popo",
       "title": "Die Rote im roten Trikot mit rotem Popo",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 57,
       "slug": "dynamit-attentaeter",
       "title": "Dynamit-Attentäter",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 58,
@@ -721,8 +664,7 @@
           "target": "Spinat",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 59,
@@ -733,8 +675,7 @@
           "target": "Motive für den Erwerb eines Eichhörnchens",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 60,
@@ -749,8 +690,7 @@
           "target": "Verwahrloste Fischerin",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 61,
@@ -761,8 +701,7 @@
           "target": "Diensthäuschen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 62,
@@ -777,15 +716,13 @@
           "target": "Leuchtendes Blau",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 63,
       "slug": "eklektizismus",
       "title": "Eklektizismus",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 64,
@@ -848,15 +785,13 @@
           "target": "Ultraviolett",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 65,
       "slug": "entbehren",
       "title": "Entbehren",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 66,
@@ -887,8 +822,7 @@
           "target": "Torte",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 67,
@@ -915,29 +849,25 @@
           "target": "Quenta Quebec",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 68,
       "slug": "erfolg",
       "title": "Erfolg",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 69,
       "slug": "erproben",
       "title": "Erproben",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 70,
       "slug": "erwartungsmuster",
       "title": "Erwartungsmuster",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 71,
@@ -952,8 +882,7 @@
           "target": "Nickel",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 72,
@@ -964,15 +893,13 @@
           "target": "Spinat",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 73,
       "slug": "eutonignale",
       "title": "Eutonignale",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 74,
@@ -991,15 +918,13 @@
           "target": "Sulfatschluß",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 75,
       "slug": "exporteurgedanken",
       "title": "Exporteurgedanken",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 76,
@@ -1010,8 +935,7 @@
           "target": "Bier",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 77,
@@ -1034,8 +958,7 @@
           "target": "Zunächst aber",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 78,
@@ -1054,22 +977,19 @@
           "target": "Zukunft des Rotgebrauchs",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 79,
       "slug": "fehlertoleranz",
       "title": "Fehlertoleranz",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 80,
       "slug": "felder",
       "title": "Felder",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 81,
@@ -1080,15 +1000,13 @@
           "target": "Knopfbach",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 82,
       "slug": "feminismus",
       "title": "Feminismus",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 83,
@@ -1099,8 +1017,7 @@
           "target": "Haus mit dem Standard-Mariandl",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 84,
@@ -1111,15 +1028,13 @@
           "target": "Studien zum Fetischismus",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 85,
       "slug": "filmtitelspiel",
       "title": "Filmtitelspiel",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 86,
@@ -1130,8 +1045,7 @@
           "target": "Entsagungsvolles",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 87,
@@ -1142,15 +1056,13 @@
           "target": "Gelbe Schenken",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 88,
       "slug": "frau-und-freude-das-blatt-mit-herzpfiff",
       "title": "Frau und Freude, das Blatt mit Herzpfiff",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 89,
@@ -1161,36 +1073,31 @@
           "target": "Gebrauchsanweisung",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 90,
       "slug": "gaatsch",
       "title": "Gaatsch",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 91,
       "slug": "garage",
       "title": "Garage",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 92,
       "slug": "gasthaeuser",
       "title": "Gasthäuser",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 93,
       "slug": "gegrilltes-haehnchen",
       "title": "Gegrilltes Hähnchen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 94,
@@ -1213,8 +1120,7 @@
           "target": "Maria-Theresien-Gelb",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 95,
@@ -1233,8 +1139,7 @@
           "target": "Braun",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 96,
@@ -1245,8 +1150,7 @@
           "target": "Lokalisation",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 97,
@@ -1277,8 +1181,7 @@
           "target": "Weiblich",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 98,
@@ -1289,8 +1192,7 @@
           "target": "Exporteurgedanken",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 99,
@@ -1325,8 +1227,7 @@
           "target": "Verauung",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 100,
@@ -1345,8 +1246,7 @@
           "target": "Katze",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 101,
@@ -1361,8 +1261,7 @@
           "target": "Susi",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 102,
@@ -1385,8 +1284,7 @@
           "target": "Unbestimmt",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 103,
@@ -1397,8 +1295,7 @@
           "target": "Häuschen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 104,
@@ -1417,15 +1314,13 @@
           "target": "Standard-Mariandl",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 105,
       "slug": "hawaiimaedchen",
       "title": "Hawaiimädchen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 106,
@@ -1480,8 +1375,7 @@
           "target": "M.S.",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 107,
@@ -1492,15 +1386,13 @@
           "target": "Weingarten",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 108,
       "slug": "huehner",
       "title": "Hühner",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 109,
@@ -1515,22 +1407,19 @@
           "target": "Pferde",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 110,
       "slug": "100-kg-attraktive-frau",
       "title": "100 kg attraktive Frau",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 111,
       "slug": "hundeschaerfer",
       "title": "Hundeschärfer",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 112,
@@ -1541,8 +1430,7 @@
           "target": "Quenta Quebec",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 113,
@@ -1569,8 +1457,7 @@
           "target": "Lollo",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 114,
@@ -1581,15 +1468,13 @@
           "target": "Eissalon",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 115,
       "slug": "johannisbeerwein",
       "title": "Johannisbeerwein",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 116,
@@ -1604,22 +1489,19 @@
           "target": "Allwissender Erzähler",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 117,
       "slug": "jung",
       "title": "Jung",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 118,
       "slug": "kamille",
       "title": "Kamille",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 119,
@@ -1634,22 +1516,19 @@
           "target": "Motive für das Quälen von Katzen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 120,
       "slug": "kaufhaeuser",
       "title": "Kaufhäuser",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 121,
       "slug": "kinderaufsicht",
       "title": "Kinderaufsicht",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 122,
@@ -1660,8 +1539,7 @@
           "target": "Eichhörnchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 123,
@@ -1676,8 +1554,7 @@
           "target": "Quenta Quebec",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 124,
@@ -1708,8 +1585,7 @@
           "target": "Senf",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 125,
@@ -1724,8 +1600,7 @@
           "target": "Wallgraben",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 126,
@@ -1736,8 +1611,7 @@
           "target": "Feldstreifen von Senf",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 127,
@@ -1748,22 +1622,19 @@
           "target": "Nachziehverfahren?",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 128,
       "slug": "komposition",
       "title": "Komposition",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 129,
       "slug": "kopftuch",
       "title": "Kopftuch",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 130,
@@ -1774,29 +1645,25 @@
           "target": "Begründung für den Artikel Körper",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 131,
       "slug": "korrupte-braeute",
       "title": "Korrupte Bräute",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 132,
       "slug": "kraemer",
       "title": "Krämer",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 133,
       "slug": "kreissaege",
       "title": "Kreissäge",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 134,
@@ -1815,36 +1682,31 @@
           "target": "Weg zur Schiffsstation",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 135,
       "slug": "kulinarisch",
       "title": "Kulinarisch",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 136,
       "slug": "kunststoffliebe",
       "title": "Kunststoffliebe",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 137,
       "slug": "kuessen",
       "title": "Küssen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 138,
       "slug": "labyrinth",
       "title": "Labyrinth",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 139,
@@ -1863,8 +1725,7 @@
           "target": "Mindel",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 140,
@@ -1875,15 +1736,13 @@
           "target": "Städtchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 141,
       "slug": "landschaft",
       "title": "Landschaft",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 142,
@@ -1894,22 +1753,19 @@
           "target": "Fehlen von Rot",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 143,
       "slug": "leuchtendes-blau",
       "title": "Leuchtendes Blau",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 144,
       "slug": "lexikonromane",
       "title": "Lexikonromane",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 145,
@@ -1920,15 +1776,13 @@
           "target": "Waffe",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 146,
       "slug": "lokalisation",
       "title": "Lokalisation",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 147,
@@ -1943,8 +1797,7 @@
           "target": "Umschrieben",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 148,
@@ -1991,15 +1844,13 @@
           "target": "Städtchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 149,
       "slug": "maedchen",
       "title": "Mädchen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 150,
@@ -2010,22 +1861,19 @@
           "target": "Fehlen von Rot",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 151,
       "slug": "madigmachen",
       "title": "Madigmachen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 152,
       "slug": "magazine",
       "title": "Magazine",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 153,
@@ -2040,29 +1888,25 @@
           "target": "Städtchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 154,
       "slug": "manipulation",
       "title": "Manipulation",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 155,
       "slug": "man-nehme",
       "title": "Man nehme",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 156,
       "slug": "maennlich",
       "title": "Männlich",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 157,
@@ -2077,64 +1921,55 @@
           "target": "Orangehafter-Brand-Paradoxon",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 158,
       "slug": "marktkundliches",
       "title": "Marktkundliches",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 159,
       "slug": "mary-mcpee",
       "title": "Mary McPee",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 160,
       "slug": "mastmaedchen",
       "title": "Mastmädchen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 161,
       "slug": "masut",
       "title": "Masut",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 162,
       "slug": "maturanten",
       "title": "Maturanten",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 163,
       "slug": "m-d-d",
       "title": "M.d.D.",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 164,
       "slug": "melina-mercouri",
       "title": "Melina Mercouri",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 165,
       "slug": "menschen",
       "title": "Menschen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 166,
@@ -2201,29 +2036,25 @@
           "target": "Wasserereignisse",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 167,
       "slug": "milchblau",
       "title": "Milchblau",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 168,
       "slug": "mindel",
       "title": "Mindel",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 169,
       "slug": "mineralwasser",
       "title": "Mineralwasser",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 170,
@@ -2262,8 +2093,7 @@
           "target": "Wasserereignisse",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 171,
@@ -2278,36 +2108,31 @@
           "target": "Zero",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 172,
       "slug": "molotow-cocktail",
       "title": "Molotow-Cocktail",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 173,
       "slug": "motive-fuer-das-quaelen-von-katzen",
       "title": "Motive für das Quälen von Katzen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 174,
       "slug": "motive-fuer-den-erwerb-eines-eichhoernchens",
       "title": "Motive für den Erwerb eines Eichhörnchens",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 175,
       "slug": "motive-fuer-die-freude-an-verwinkelungen",
       "title": "Motive für die Freude an Verwinkelungen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 176,
@@ -2318,22 +2143,19 @@
           "target": "Marktkundliches",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 177,
       "slug": "m-s",
       "title": "M.S.",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 178,
       "slug": "mundart",
       "title": "Mundart",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 179,
@@ -2344,8 +2166,7 @@
           "target": "Deformation",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 180,
@@ -2360,8 +2181,7 @@
           "target": "Nachmittagsgespräche",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 181,
@@ -2392,8 +2212,7 @@
           "target": "Wasserereignisse",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 182,
@@ -2404,8 +2223,7 @@
           "target": "Sympathisch",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 183,
@@ -2448,8 +2266,7 @@
           "target": "Zeitung",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 184,
@@ -2636,36 +2453,31 @@
           "target": "Zigarre",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 185,
       "slug": "nachziehverfahren",
       "title": "Nachziehverfahren?",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 186,
       "slug": "natur-hotel",
       "title": "NATUR-HOTEL",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 187,
       "slug": "nickel",
       "title": "Nickel",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 188,
       "slug": "nouveau-roman",
       "title": "Nouveau roman",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 189,
@@ -2704,29 +2516,25 @@
           "target": "Masut",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 190,
       "slug": "on-the-rocks",
       "title": "On the rocks",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 191,
       "slug": "orangeblonde",
       "title": "Orangeblonde",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 192,
       "slug": "orangehafter-brand-paradoxon",
       "title": "Orangehafter-Brand-Paradoxon",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 193,
@@ -2749,8 +2557,7 @@
           "target": "Sex",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 194,
@@ -2773,15 +2580,13 @@
           "target": "Wasser",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 195,
       "slug": "parfum",
       "title": "Parfum",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 196,
@@ -2796,8 +2601,7 @@
           "target": "Exporteur",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 197,
@@ -2812,8 +2616,7 @@
           "target": "Wildenten",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 198,
@@ -2824,8 +2627,7 @@
           "target": "Hunde",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 199,
@@ -2836,8 +2638,7 @@
           "target": "Gasthäuser",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 200,
@@ -2856,64 +2657,55 @@
           "target": "Motive für die Freude an Verwinkelungen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 201,
       "slug": "plankengeruch",
       "title": "Plankengeruch",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 202,
       "slug": "plankton",
       "title": "Plankton",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 203,
       "slug": "platonische-haelften",
       "title": "Platonische Hälften",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 204,
       "slug": "politik",
       "title": "Politik",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 205,
       "slug": "pop-roman",
       "title": "Pop-Roman?",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 206,
       "slug": "promenade",
       "title": "Promenade",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 207,
       "slug": "quenta-quebec",
       "title": "Quenta Quebec",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 208,
       "slug": "realismus",
       "title": "Realismus",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 209,
@@ -2924,8 +2716,7 @@
           "target": "Standard-Mariandl",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 210,
@@ -3016,8 +2807,7 @@
           "target": "Wasserereignisse",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 211,
@@ -3040,22 +2830,19 @@
           "target": "Zigarre",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 212,
       "slug": "roststangenlager",
       "title": "Roststangenlager",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 213,
       "slug": "saettigung",
       "title": "Sättigung",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 214,
@@ -3066,15 +2853,13 @@
           "target": "Hundeschärfer",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 215,
       "slug": "schildermalen",
       "title": "Schildermalen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 216,
@@ -3085,15 +2870,13 @@
           "target": "Auen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 217,
       "slug": "schlager",
       "title": "Schlager",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 218,
@@ -3112,22 +2895,19 @@
           "target": "Ufermauer",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 219,
       "slug": "schnitzel",
       "title": "Schnitzel",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 220,
       "slug": "schreibuebung",
       "title": "Schreibübung",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 221,
@@ -3146,15 +2926,13 @@
           "target": "Männlich",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 222,
       "slug": "schwarzmeer-perspektive",
       "title": "Schwarzmeer-Perspektive",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 223,
@@ -3165,15 +2943,13 @@
           "target": "Mastmädchen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 224,
       "slug": "sehnsucht",
       "title": "»Sehnsucht«",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 225,
@@ -3184,15 +2960,13 @@
           "target": "Autostraße an den Terrassenhügeln",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 226,
       "slug": "serviererin",
       "title": "Serviererin",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 227,
@@ -3203,8 +2977,7 @@
           "target": "Körper",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 228,
@@ -3267,8 +3040,7 @@
           "target": "WC",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 229,
@@ -3291,15 +3063,13 @@
           "target": "Sulfatschluß",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 230,
       "slug": "spezifisches-gewicht",
       "title": "Spezifisches Gewicht",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 231,
@@ -3318,8 +3088,7 @@
           "target": "Malkasten",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 232,
@@ -3330,15 +3099,13 @@
           "target": "Kuhdreck",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 233,
       "slug": "stadtbibliothek",
       "title": "Stadtbibliothek",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 234,
@@ -3469,8 +3236,7 @@
           "target": "V",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 235,
@@ -3481,8 +3247,7 @@
           "target": "Rechen",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 236,
@@ -3505,8 +3270,7 @@
           "target": "Vulkankegel",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 237,
@@ -3529,8 +3293,7 @@
           "target": "Wasser",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 238,
@@ -3541,15 +3304,13 @@
           "target": "Bunte Stühle",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 239,
       "slug": "steinbruch",
       "title": "Steinbruch",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 240,
@@ -3564,8 +3325,7 @@
           "target": "Magazine",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 241,
@@ -3576,22 +3336,19 @@
           "target": "Marktkundliches",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 242,
       "slug": "sulfatschluss",
       "title": "Sulfatschluß",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 243,
       "slug": "suppe",
       "title": "Suppe",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 244,
@@ -3602,29 +3359,25 @@
           "target": "Edelnaschwerk",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 245,
       "slug": "susi--und-eiske-epilog",
       "title": "Susi- und Eiske-Epilog",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 246,
       "slug": "sympathisch",
       "title": "Sympathisch",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 247,
       "slug": "taetowieren",
       "title": "Tätowieren",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 248,
@@ -3635,15 +3388,13 @@
           "target": "Brücke",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 249,
       "slug": "teenager-briefe",
       "title": "Teenager-Briefe",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 250,
@@ -3654,15 +3405,13 @@
           "target": "Braun",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 251,
       "slug": "torte",
       "title": "Torte",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 252,
@@ -3673,8 +3422,7 @@
           "target": "Fetischist",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 253,
@@ -3689,8 +3437,7 @@
           "target": "Verladelandschaft",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 254,
@@ -3709,43 +3456,37 @@
           "target": "Station Nixdorf",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 255,
       "slug": "ulli-ergaenzungen",
       "title": "Ulli Ergänzungen",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 256,
       "slug": "ultraviolett",
       "title": "Ultraviolett",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 257,
       "slug": "umschrieben",
       "title": "Umschrieben",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 258,
       "slug": "unbestimmt",
       "title": "Unbestimmt",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 259,
       "slug": "v",
       "title": "V",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 260,
@@ -3772,8 +3513,7 @@
           "target": "Wasserereignisse",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 261,
@@ -3836,22 +3576,19 @@
           "target": "Wasser",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 262,
       "slug": "verwahrloste-fischerin",
       "title": "Verwahrloste Fischerin",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 263,
       "slug": "verwandelt-euch",
       "title": "Verwandelt euch",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 264,
@@ -3866,8 +3603,7 @@
           "target": "Deck",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 265,
@@ -3878,15 +3614,13 @@
           "target": "Nachworte",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 266,
       "slug": "vulkankegel",
       "title": "Vulkankegel",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 267,
@@ -3945,15 +3679,13 @@
           "target": "Wein",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 268,
       "slug": "waffe",
       "title": "Waffe",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 269,
@@ -3984,8 +3716,7 @@
           "target": "Leuchtendes Blau",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 270,
@@ -4008,15 +3739,13 @@
           "target": "Mineralwasser",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 271,
       "slug": "wasserbeschlagenes-glas",
       "title": "Wasserbeschlagenes Glas",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 272,
@@ -4035,15 +3764,13 @@
           "target": "Plankengeruch",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 273,
       "slug": "wauss",
       "title": "Wauß",
-      "links": [],
-      "within_main_route": false
+      "links": []
     },
     {
       "index": 274,
@@ -4058,8 +3785,7 @@
           "target": "Maria-Theresien-Gelb",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 275,
@@ -4094,8 +3820,7 @@
           "target": "Stationsgebäude",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 276,
@@ -4106,8 +3831,7 @@
           "target": "Männlich",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 277,
@@ -4130,8 +3854,7 @@
           "target": "Platonische Hälften",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 278,
@@ -4146,8 +3869,7 @@
           "target": "Wildenten",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 279,
@@ -4162,8 +3884,7 @@
           "target": "Plankengeruch",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 280,
@@ -4174,8 +3895,7 @@
           "target": "Gasthäuser",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 281,
@@ -4186,8 +3906,7 @@
           "target": "Filmtitelspiel",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 282,
@@ -4222,8 +3941,7 @@
           "target": "Ufer",
           "main_route_link": true
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 283,
@@ -4246,8 +3964,7 @@
           "target": "Parfum",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 284,
@@ -4262,8 +3979,7 @@
           "target": "Transvestiten",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     },
     {
       "index": 285,
@@ -4294,8 +4010,7 @@
           "target": "Wasserereignisse",
           "main_route_link": false
         }
-      ],
-      "within_main_route": true
+      ]
     },
     {
       "index": 286,
@@ -4306,8 +4021,7 @@
           "target": "Gebrauchsanweisung",
           "main_route_link": false
         }
-      ],
-      "within_main_route": false
+      ]
     }
   ],
   "main_route": [
