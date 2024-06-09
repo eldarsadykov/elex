@@ -1,2 +1,0 @@
-\n\s*p\n\s*\| \n\s*h2.inline-title(.*)
-\n    h2.new.inline-title$1\n    p
