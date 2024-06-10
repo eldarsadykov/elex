@@ -15,7 +15,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 2,
@@ -28,7 +29,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 3,
@@ -36,7 +38,8 @@
       "title": "Aberdeen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 4,
@@ -44,7 +47,8 @@
       "title": "Achselhöhle",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 5,
@@ -52,7 +56,8 @@
       "title": "Affirmative Dichtung",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 6,
@@ -60,7 +65,8 @@
       "title": "Allwissender Erzähler",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 7,
@@ -81,7 +87,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 8,
@@ -89,7 +96,8 @@
       "title": "Annie",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 9,
@@ -102,7 +110,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 10,
@@ -110,7 +119,8 @@
       "title": "Arcimboldi",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 11,
@@ -118,7 +128,8 @@
       "title": "Arnica",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 12,
@@ -167,7 +178,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 19
     },
     {
       "index": 13,
@@ -180,7 +192,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 14,
@@ -201,7 +214,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 7
     },
     {
       "index": 15,
@@ -214,7 +228,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 16,
@@ -222,7 +237,8 @@
       "title": "Außenvögel",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 17,
@@ -255,7 +271,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 18,
@@ -268,7 +285,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 19,
@@ -281,7 +299,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 20,
@@ -298,7 +317,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 21,
@@ -319,7 +339,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 22,
@@ -327,7 +348,8 @@
       "title": "Befund",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 23,
@@ -348,7 +370,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 24,
@@ -361,7 +384,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 25,
@@ -369,7 +393,8 @@
       "title": "Beißzange",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 26,
@@ -382,7 +407,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 27,
@@ -390,7 +416,8 @@
       "title": "Bestimmungsbuch",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 28,
@@ -403,7 +430,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 29,
@@ -416,7 +444,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 30,
@@ -424,7 +453,8 @@
       "title": "Bier",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 31,
@@ -432,7 +462,8 @@
       "title": "Biographische Übung",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 32,
@@ -449,7 +480,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 33,
@@ -457,7 +489,8 @@
       "title": "Blaugrüner Liegestuhl",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 34,
@@ -465,7 +498,8 @@
       "title": "Blechchristus",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 35,
@@ -473,7 +507,8 @@
       "title": "B. Ø.",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 36,
@@ -494,7 +529,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 11
     },
     {
       "index": 37,
@@ -511,7 +547,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 14
     },
     {
       "index": 38,
@@ -519,7 +556,8 @@
       "title": "Braun",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 39,
@@ -527,7 +565,8 @@
       "title": "Brausepulver",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 40,
@@ -544,7 +583,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 41,
@@ -561,7 +601,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 42,
@@ -569,7 +610,8 @@
       "title": "Brücken der Erwachsenen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 43,
@@ -586,7 +628,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 10
     },
     {
       "index": 44,
@@ -599,7 +642,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 6
     },
     {
       "index": 45,
@@ -612,7 +656,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 46,
@@ -620,7 +665,8 @@
       "title": "Chemiewerk",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 47,
@@ -628,7 +674,8 @@
       "title": "CP",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 48,
@@ -636,7 +683,8 @@
       "title": "Debitorenbuchhalterin",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 49,
@@ -685,7 +733,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 2
     },
     {
       "index": 50,
@@ -698,7 +747,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 51,
@@ -715,7 +765,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 52,
@@ -723,7 +774,8 @@
       "title": "Die Heterogene",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 53,
@@ -731,7 +783,8 @@
       "title": "Die mit den Schlafaugen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 54,
@@ -739,7 +792,8 @@
       "title": "Die mit der Tulpe",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 55,
@@ -747,7 +801,8 @@
       "title": "Diensthäuschen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 56,
@@ -755,7 +810,8 @@
       "title": "Die Rote im roten Trikot mit rotem Popo",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 57,
@@ -763,7 +819,8 @@
       "title": "Dynamit-Attentäter",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 58,
@@ -780,7 +837,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 59,
@@ -793,7 +851,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 60,
@@ -810,7 +869,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 61,
@@ -823,7 +883,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 62,
@@ -840,7 +901,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 63,
@@ -848,7 +910,8 @@
       "title": "Eklektizismus",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 64,
@@ -913,7 +976,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 24
     },
     {
       "index": 65,
@@ -921,7 +985,8 @@
       "title": "Entbehren",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 66,
@@ -954,7 +1019,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 67,
@@ -983,7 +1049,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 68,
@@ -991,7 +1058,8 @@
       "title": "Erfolg",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 69,
@@ -999,7 +1067,8 @@
       "title": "Erproben",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 70,
@@ -1007,7 +1076,8 @@
       "title": "Erwartungsmuster",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 71,
@@ -1024,7 +1094,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 72,
@@ -1037,7 +1108,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 11
     },
     {
       "index": 73,
@@ -1045,7 +1117,8 @@
       "title": "Eutonignale",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 74,
@@ -1066,7 +1139,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 75,
@@ -1074,7 +1148,8 @@
       "title": "Exporteurgedanken",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 10
     },
     {
       "index": 76,
@@ -1087,7 +1162,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 77,
@@ -1112,7 +1188,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 78,
@@ -1133,7 +1210,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 79,
@@ -1141,7 +1219,8 @@
       "title": "Fehlertoleranz",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 80,
@@ -1149,7 +1228,8 @@
       "title": "Felder",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 81,
@@ -1162,7 +1242,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 82,
@@ -1170,7 +1251,8 @@
       "title": "Feminismus",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 83,
@@ -1183,7 +1265,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 84,
@@ -1196,7 +1279,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 85,
@@ -1204,7 +1288,8 @@
       "title": "Filmtitelspiel",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 86,
@@ -1217,7 +1302,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 11
     },
     {
       "index": 87,
@@ -1230,7 +1316,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 88,
@@ -1238,7 +1325,8 @@
       "title": "Frau und Freude, das Blatt mit Herzpfiff",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 9
     },
     {
       "index": 89,
@@ -1251,7 +1339,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 90,
@@ -1259,7 +1348,8 @@
       "title": "Gaatsch",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 91,
@@ -1267,7 +1357,8 @@
       "title": "Garage",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 92,
@@ -1275,7 +1366,8 @@
       "title": "Gasthäuser",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 21
     },
     {
       "index": 93,
@@ -1283,7 +1375,8 @@
       "title": "Gegrilltes Hähnchen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 94,
@@ -1308,7 +1401,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 12
     },
     {
       "index": 95,
@@ -1329,7 +1423,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 9
     },
     {
       "index": 96,
@@ -1342,7 +1437,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 97,
@@ -1375,7 +1471,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 6
     },
     {
       "index": 98,
@@ -1388,7 +1485,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 99,
@@ -1425,7 +1523,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 100,
@@ -1446,7 +1545,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 7
     },
     {
       "index": 101,
@@ -1463,7 +1563,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 102,
@@ -1488,7 +1589,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 13
     },
     {
       "index": 103,
@@ -1501,7 +1603,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 104,
@@ -1522,7 +1625,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 105,
@@ -1530,7 +1634,8 @@
       "title": "Hawaiimädchen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 106,
@@ -1587,7 +1692,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 107,
@@ -1600,7 +1706,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 7
     },
     {
       "index": 108,
@@ -1608,7 +1715,8 @@
       "title": "Hühner",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 9
     },
     {
       "index": 109,
@@ -1625,7 +1733,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 110,
@@ -1633,7 +1742,8 @@
       "title": "100 kg attraktive Frau",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 111,
@@ -1641,7 +1751,8 @@
       "title": "Hundeschärfer",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 112,
@@ -1654,7 +1765,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 113,
@@ -1683,7 +1795,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 7
     },
     {
       "index": 114,
@@ -1696,7 +1809,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 115,
@@ -1704,7 +1818,8 @@
       "title": "Johannisbeerwein",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 116,
@@ -1721,7 +1836,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 117,
@@ -1729,7 +1845,8 @@
       "title": "Jung",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 118,
@@ -1737,7 +1854,8 @@
       "title": "Kamille",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 119,
@@ -1754,7 +1872,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 13
     },
     {
       "index": 120,
@@ -1762,7 +1881,8 @@
       "title": "Kaufhäuser",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 121,
@@ -1770,7 +1890,8 @@
       "title": "Kinderaufsicht",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 122,
@@ -1783,7 +1904,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 123,
@@ -1800,7 +1922,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 124,
@@ -1833,7 +1956,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 125,
@@ -1850,7 +1974,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 126,
@@ -1863,7 +1988,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 127,
@@ -1876,7 +2002,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 128,
@@ -1884,7 +2011,8 @@
       "title": "Komposition",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 129,
@@ -1892,7 +2020,8 @@
       "title": "Kopftuch",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 130,
@@ -1905,7 +2034,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 131,
@@ -1913,7 +2043,8 @@
       "title": "Korrupte Bräute",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 6
     },
     {
       "index": 132,
@@ -1921,7 +2052,8 @@
       "title": "Krämer",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 133,
@@ -1929,7 +2061,8 @@
       "title": "Kreissäge",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 134,
@@ -1950,7 +2083,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 135,
@@ -1958,7 +2092,8 @@
       "title": "Kulinarisch",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 136,
@@ -1966,7 +2101,8 @@
       "title": "Kunststoffliebe",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 137,
@@ -1974,7 +2110,8 @@
       "title": "Küssen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 6
     },
     {
       "index": 138,
@@ -1982,7 +2119,8 @@
       "title": "Labyrinth",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 139,
@@ -2003,7 +2141,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 140,
@@ -2016,7 +2155,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 141,
@@ -2024,7 +2164,8 @@
       "title": "Landschaft",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 142,
@@ -2037,7 +2178,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 143,
@@ -2045,7 +2187,8 @@
       "title": "Leuchtendes Blau",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 7
     },
     {
       "index": 144,
@@ -2053,7 +2196,8 @@
       "title": "Lexikonromane",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 145,
@@ -2066,7 +2210,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 146,
@@ -2074,7 +2219,8 @@
       "title": "Lokalisation",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 147,
@@ -2091,7 +2237,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 148,
@@ -2140,7 +2287,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 149,
@@ -2148,7 +2296,8 @@
       "title": "Mädchen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 150,
@@ -2161,7 +2310,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 151,
@@ -2169,7 +2319,8 @@
       "title": "Madigmachen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 152,
@@ -2177,7 +2328,8 @@
       "title": "Magazine",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 153,
@@ -2194,7 +2346,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 154,
@@ -2202,7 +2355,8 @@
       "title": "Manipulation",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 155,
@@ -2210,7 +2364,8 @@
       "title": "Man nehme",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 156,
@@ -2218,7 +2373,8 @@
       "title": "Männlich",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 157,
@@ -2235,7 +2391,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 158,
@@ -2243,7 +2400,8 @@
       "title": "Marktkundliches",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 159,
@@ -2251,7 +2409,8 @@
       "title": "Mary McPee",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 160,
@@ -2259,7 +2418,8 @@
       "title": "Mastmädchen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 161,
@@ -2267,7 +2427,8 @@
       "title": "Masut",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 162,
@@ -2275,7 +2436,8 @@
       "title": "Maturanten",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 163,
@@ -2283,7 +2445,8 @@
       "title": "M.d.D.",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 164,
@@ -2291,7 +2454,8 @@
       "title": "Melina Mercouri",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 165,
@@ -2299,7 +2463,8 @@
       "title": "Menschen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 166,
@@ -2368,7 +2533,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 167,
@@ -2376,7 +2542,8 @@
       "title": "Milchblau",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 168,
@@ -2384,7 +2551,8 @@
       "title": "Mindel",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 169,
@@ -2392,7 +2560,8 @@
       "title": "Mineralwasser",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 170,
@@ -2433,7 +2602,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 171,
@@ -2450,7 +2620,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 172,
@@ -2458,7 +2629,8 @@
       "title": "Molotow-Cocktail",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 173,
@@ -2466,7 +2638,8 @@
       "title": "Motive für das Quälen von Katzen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 174,
@@ -2474,7 +2647,8 @@
       "title": "Motive für den Erwerb eines Eichhörnchens",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 175,
@@ -2482,7 +2656,8 @@
       "title": "Motive für die Freude an Verwinkelungen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 176,
@@ -2495,7 +2670,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 177,
@@ -2503,7 +2679,8 @@
       "title": "M.S.",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 178,
@@ -2511,7 +2688,8 @@
       "title": "Mundart",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 179,
@@ -2524,7 +2702,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 180,
@@ -2541,7 +2720,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 181,
@@ -2574,7 +2754,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 182,
@@ -2587,7 +2768,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 183,
@@ -2632,7 +2814,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 22
     },
     {
       "index": 184,
@@ -2821,7 +3004,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 185,
@@ -2829,7 +3013,8 @@
       "title": "Nachziehverfahren?",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 186,
@@ -2837,7 +3022,8 @@
       "title": "NATUR-HOTEL",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 187,
@@ -2845,7 +3031,8 @@
       "title": "Nickel",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 188,
@@ -2853,7 +3040,8 @@
       "title": "Nouveau roman",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 189,
@@ -2894,7 +3082,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 8
     },
     {
       "index": 190,
@@ -2902,7 +3091,8 @@
       "title": "On the rocks",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 191,
@@ -2910,7 +3100,8 @@
       "title": "Orangeblonde",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 192,
@@ -2918,7 +3109,8 @@
       "title": "Orangehafter-Brand-Paradoxon",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 193,
@@ -2943,7 +3135,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 194,
@@ -2968,7 +3161,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 195,
@@ -2976,7 +3170,8 @@
       "title": "Parfum",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 8
     },
     {
       "index": 196,
@@ -2993,7 +3188,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 7
     },
     {
       "index": 197,
@@ -3010,7 +3206,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 10
     },
     {
       "index": 198,
@@ -3023,7 +3220,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 199,
@@ -3036,7 +3234,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 200,
@@ -3057,7 +3256,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 201,
@@ -3065,7 +3265,8 @@
       "title": "Plankengeruch",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 202,
@@ -3073,7 +3274,8 @@
       "title": "Plankton",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 203,
@@ -3081,7 +3283,8 @@
       "title": "Platonische Hälften",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 204,
@@ -3089,7 +3292,8 @@
       "title": "Politik",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 205,
@@ -3097,7 +3301,8 @@
       "title": "Pop-Roman?",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 206,
@@ -3105,7 +3310,8 @@
       "title": "Promenade",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 207,
@@ -3113,7 +3319,8 @@
       "title": "Quenta Quebec",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 208,
@@ -3121,7 +3328,8 @@
       "title": "Realismus",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 209,
@@ -3134,7 +3342,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 210,
@@ -3227,7 +3436,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 211,
@@ -3252,7 +3462,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 10
     },
     {
       "index": 212,
@@ -3260,7 +3471,8 @@
       "title": "Roststangenlager",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 213,
@@ -3268,7 +3480,8 @@
       "title": "Sättigung",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 214,
@@ -3281,7 +3494,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 215,
@@ -3289,7 +3503,8 @@
       "title": "Schildermalen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 216,
@@ -3302,7 +3517,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 217,
@@ -3310,7 +3526,8 @@
       "title": "Schlager",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 218,
@@ -3331,7 +3548,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 219,
@@ -3339,7 +3557,8 @@
       "title": "Schnitzel",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 220,
@@ -3347,7 +3566,8 @@
       "title": "Schreibübung",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 221,
@@ -3368,7 +3588,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 222,
@@ -3376,7 +3597,8 @@
       "title": "Schwarzmeer-Perspektive",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 223,
@@ -3389,7 +3611,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 224,
@@ -3397,7 +3620,8 @@
       "title": "»Sehnsucht«",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 225,
@@ -3410,7 +3634,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 226,
@@ -3418,7 +3643,8 @@
       "title": "Serviererin",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 7
     },
     {
       "index": 227,
@@ -3431,7 +3657,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 228,
@@ -3496,7 +3723,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 229,
@@ -3521,7 +3749,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 230,
@@ -3529,7 +3758,8 @@
       "title": "Spezifisches Gewicht",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 231,
@@ -3550,7 +3780,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 232,
@@ -3563,7 +3794,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 233,
@@ -3571,7 +3803,8 @@
       "title": "Stadtbibliothek",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 234,
@@ -3704,7 +3937,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 15
     },
     {
       "index": 235,
@@ -3717,7 +3951,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 236,
@@ -3742,7 +3977,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 237,
@@ -3767,7 +4003,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 238,
@@ -3780,7 +4017,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 239,
@@ -3788,7 +4026,8 @@
       "title": "Steinbruch",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 240,
@@ -3805,7 +4044,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 241,
@@ -3818,7 +4058,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 3
     },
     {
       "index": 242,
@@ -3826,7 +4067,8 @@
       "title": "Sulfatschluß",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 243,
@@ -3834,7 +4076,8 @@
       "title": "Suppe",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 5
     },
     {
       "index": 244,
@@ -3847,7 +4090,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 6
     },
     {
       "index": 245,
@@ -3855,7 +4099,8 @@
       "title": "Susi- und Eiske-Epilog",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 246,
@@ -3863,7 +4108,8 @@
       "title": "Sympathisch",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 247,
@@ -3871,7 +4117,8 @@
       "title": "Tätowieren",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 248,
@@ -3884,7 +4131,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 249,
@@ -3892,7 +4140,8 @@
       "title": "Teenager-Briefe",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 250,
@@ -3905,7 +4154,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 251,
@@ -3913,7 +4163,8 @@
       "title": "Torte",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 9
     },
     {
       "index": 252,
@@ -3926,7 +4177,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 253,
@@ -3943,7 +4195,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 254,
@@ -3964,7 +4217,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 255,
@@ -3972,7 +4226,8 @@
       "title": "Ulli Ergänzungen",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 8
     },
     {
       "index": 256,
@@ -3980,7 +4235,8 @@
       "title": "Ultraviolett",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 257,
@@ -3988,7 +4244,8 @@
       "title": "Umschrieben",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 258,
@@ -3996,7 +4253,8 @@
       "title": "Unbestimmt",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 259,
@@ -4004,7 +4262,8 @@
       "title": "V",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 260,
@@ -4033,7 +4292,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 261,
@@ -4098,7 +4358,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 262,
@@ -4106,7 +4367,8 @@
       "title": "Verwahrloste Fischerin",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 263,
@@ -4114,7 +4376,8 @@
       "title": "Verwandelt euch",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 264,
@@ -4131,7 +4394,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 7
     },
     {
       "index": 265,
@@ -4144,7 +4408,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 266,
@@ -4152,7 +4417,8 @@
       "title": "Vulkankegel",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 2
     },
     {
       "index": 267,
@@ -4213,7 +4479,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 268,
@@ -4221,7 +4488,8 @@
       "title": "Waffe",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 269,
@@ -4254,7 +4522,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 270,
@@ -4279,7 +4548,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 271,
@@ -4287,7 +4557,8 @@
       "title": "Wasserbeschlagenes Glas",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 272,
@@ -4308,7 +4579,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 16
     },
     {
       "index": 273,
@@ -4316,7 +4588,8 @@
       "title": "Wauß",
       "links": [],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 274,
@@ -4333,7 +4606,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 9
     },
     {
       "index": 275,
@@ -4370,7 +4644,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 276,
@@ -4383,7 +4658,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 277,
@@ -4408,7 +4684,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 8
     },
     {
       "index": 278,
@@ -4425,7 +4702,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 6
     },
     {
       "index": 279,
@@ -4442,7 +4720,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 8
     },
     {
       "index": 280,
@@ -4455,7 +4734,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 281,
@@ -4468,7 +4748,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 9
     },
     {
       "index": 282,
@@ -4505,7 +4786,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 283,
@@ -4530,7 +4812,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 4
     },
     {
       "index": 284,
@@ -4547,7 +4830,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     },
     {
       "index": 285,
@@ -4580,7 +4864,8 @@
         }
       ],
       "main_route_link_source": true,
-      "main_route_link_target": true
+      "main_route_link_target": true,
+      "article_count": 1
     },
     {
       "index": 286,
@@ -4593,7 +4878,8 @@
         }
       ],
       "main_route_link_source": false,
-      "main_route_link_target": false
+      "main_route_link_target": false,
+      "article_count": 1
     }
   ],
   "main_route": [
