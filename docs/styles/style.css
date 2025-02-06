@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: var(--sans-serif-font-family);
+  font-family: var(--sans-serif-font-family), serif;
   line-height: var(--line-height);
   margin: 0 20px;
   color: var(--body-font-color);
@@ -102,7 +102,7 @@ hr {
 }
 
 h1 {
-  font-family: var(--sans-serif-font-family);
+  font-family: var(--sans-serif-font-family), serif;
   border-bottom: solid 1px;
   border-top: solid 1px;
   font-weight: bold;
@@ -206,7 +206,7 @@ sub {
 
 h2.inline-title {
   font-size: var(--body-font-size);
-  font-family: var(--sans-serif-font-family);
+  font-family: var(--sans-serif-font-family), serif;
   display: inline;
   font-weight: bold;
   /* + .poetry {
@@ -221,7 +221,7 @@ h2.inline-title {
 /* Page-specific styles. */
 
 #navigation {
-  font-family: var(--sans-serif-font-family);
+  font-family: var(--sans-serif-font-family), serif;
   hyphens: none;
   margin: 20px 0;
   padding: 20px 0;
@@ -241,7 +241,7 @@ h2.inline-title {
 
   & ol {
     list-style-position: inside;
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
   }
 }
 
@@ -303,7 +303,7 @@ h2.inline-title {
     align-content: center;
   }
 
-  & #grid-scroller {
+  & .grid-scroller {
     line-height: 1.3;
     overflow-x: auto;
     margin: 0.5lh 0;
@@ -374,7 +374,7 @@ h2.inline-title {
 }
 
 #bezirksgericht-2 {
-  & #grid-scroller {
+  & .grid-scroller {
     margin: 0.5lh 0;
     overflow-x: auto;
     + p {
@@ -392,39 +392,39 @@ h2.inline-title {
   }
 
   .text {
-    &#cell-1 {
+    &.cell-1 {
       grid-area: 1 / 1 / span 4 / span 1;
     }
 
-    &#cell-2 {
+    &.cell-2 {
       grid-area: 6 / 1 / span 3 / span 1;
     }
 
-    &#cell-3 {
+    &.cell-3 {
       grid-area: 10 / 1 / span 6 / span 1;
     }
 
-    &#cell-4 {
+    &.cell-4 {
       grid-area: 1 / 4 / span 4 / span 1;
     }
 
-    &#cell-5 {
+    &.cell-5 {
       grid-area: 6 / 4 / span 3 / span 1;
     }
 
-    &#cell-6 {
+    &.cell-6 {
       grid-area: 10 / 4 / span 6 / span 1;
     }
 
-    &#cell-7 {
+    &.cell-7 {
       grid-area: 1 / 6 / span 4 / span 1;
     }
 
-    &#cell-8 {
+    &.cell-8 {
       grid-area: 6 / 6 / span 3 / span 1;
     }
 
-    &#cell-9 {
+    &.cell-9 {
       grid-area: 10 / 6 / span 6 / span 1;
     }
   }
@@ -439,35 +439,35 @@ h2.inline-title {
       }
     }
 
-    &#cell-1 {
+    &.cell-1 {
       grid-area: 1 / 2 / span 2 / span 1;
     }
 
-    &#cell-2 {
+    &.cell-2 {
       grid-area: 10 / 2 / span 2 / span 1;
     }
 
-    &#cell-3 {
+    &.cell-3 {
       grid-area: 1 / 3 / span 4 / span 1;
     }
 
-    &#cell-4 {
+    &.cell-4 {
       grid-area: 6 / 3 / span 3 / span 1;
     }
 
-    &#cell-5 {
+    &.cell-5 {
       grid-area: 10 / 3 / span 6 / span 1;
     }
 
-    &#cell-6 {
+    &.cell-6 {
       grid-area: 1 / 5 / span 4 / span 1;
     }
 
-    &#cell-7 {
+    &.cell-7 {
       grid-area: 6 / 5 / span 3 / span 1;
     }
 
-    &#cell-8 {
+    &.cell-8 {
       grid-area: 10 / 5 / span 6 / span 1;
     }
   }
@@ -480,15 +480,15 @@ h2.inline-title {
       min-width: 2em;
     }
 
-    &#cell-2 {
+    &.cell-2 {
       grid-area: 6 / 8 / span 3 / span 1;
     }
 
-    &#cell-3 {
+    &.cell-3 {
       grid-area: 10 / 8 / span 6 / span 1;
     }
 
-    &#cell-4 {
+    &.cell-4 {
       width: fit-content;
       border-top: 1px solid;
       grid-area: 16 / 8 / span 6 / span 1;
@@ -499,15 +499,15 @@ h2.inline-title {
     margin: auto;
     min-width: 2em;
     text-align: right;
-    &#cell-1 {
+    &.cell-1 {
       grid-area: 1 / 7 / span 4 / span 1;
     }
 
-    &#cell-2 {
+    &.cell-2 {
       grid-area: 6 / 7 / span 3 / span 1;
     }
 
-    &#cell-3 {
+    &.cell-3 {
       grid-area: 10 / 7 / span 6 / span 1;
     }
   }
