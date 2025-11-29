@@ -1,0 +1,28 @@
+{
+  "name": "elex",
+  "private": true,
+  "version": "1.0.0",
+  "description": "This project is dedicated to a new multimedia edition of a novel by Austrian writer Andreas Okopenko called \"Lexikon einer sentimentalen Reise zum Exporteurtreffen in Druden – Roman\" (Lexikon-Roman). Find out more about ELEX [here](https://www.essl.at/bibliogr/elex.html).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm run build && pnpm -r --parallel dev",
+    "preview": "pnpm --filter @elex/website run preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eldarsadykov/elex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/eldarsadykov/elex/issues"
+  },
+  "homepage": "https://github.com/eldarsadykov/elex#readme",
+  "packageManager": "pnpm@10.24.0"
+}

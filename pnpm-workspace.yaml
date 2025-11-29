@@ -1,0 +1,4 @@
+packages:
+  - packages/content
+  - packages/components
+  - packages/website

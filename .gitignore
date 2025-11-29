@@ -1,2 +1,6 @@
 .DS_Store
 .idea/
+/node_modules/
+/dist/
+packages/**/node_modules/
+packages/**/dist/

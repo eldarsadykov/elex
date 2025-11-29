@@ -1,0 +1,36 @@
+{
+  "name": "@elex/components",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "source": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "source": "./src/index.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "custom-elements.json"
+  ],
+  "scripts": {
+    "build": "pnpm run build:vite && pnpm run build:types",
+    "build:vite": "vite build",
+    "build:types": "tsc --emitDeclarationOnly && cem analyze --litelement",
+    "dev": "vite build --watch & tsc --watch --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "@elex/content": "workspace:*",
+    "lit": "^3.3.1",
+    "vite": "^7.2.4"
+  },
+  "devDependencies": {
+    "@custom-elements-manifest/analyzer": "^0.11.0"
+  },
+  "customElements": "custom-elements.json"
+}

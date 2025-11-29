@@ -2,7 +2,8 @@
 
 ## About
 
-This project is dedicated to a new multimedia edition of a novel by Austrian writer Andreas Okopenko called "Lexikon einer sentimentalen Reise zum Exporteurtreffen in Druden – Roman" (Lexikon-Roman).
+This project is dedicated to a new multimedia edition of a novel by Austrian writer Andreas Okopenko called "Lexikon
+einer sentimentalen Reise zum Exporteurtreffen in Druden – Roman" (Lexikon-Roman).
 Find out more about ELEX [here](https://www.essl.at/bibliogr/elex.html).
 
 ## This Website
@@ -11,22 +12,42 @@ Find out more about ELEX [here](https://www.essl.at/bibliogr/elex.html).
 
 ## Getting Started
 
-This repository is focused on editing the HTML/CSS version of the novel. We use Pug templates to generate HTML. Therefore, you need to [install it](https://pugjs.org/api/getting-started.html) to work on this part of the project. 
-Then you need to run
+All commands designed to run from the project root.
+
+### Build
+
+Start with building to make @elex/content and @elex/components modules available.
 
 ```
-pug --watch views --out docs --pretty
+pnpm install
+pnpm run build
 ```
 
-from the repository's directory. This command will watch for changes in the Pug files located in the `./pug` directory and automatically render them to the `./pages` directory with prettified HTML markup.
+### Develop
+
+Run a dev server that responds to changes in all packages.
+
+```
+pnpm run dev
+```
+
+### Preview
+
+Preview the build.
+
+```
+pnpm run preview
+```
 
 ## Contribution
 
-We welcome contributions from everyone. Currently, we are especially in need of a skilled UI/UX designer. If you are interested in contributing, please [get in touch](mailto:info@eldarsadykov.com?subject=ELEX) with us.
+We welcome contributions from everyone. Currently, we are especially in need of a skilled UI/UX designer. If you are
+interested in contributing, please [get in touch](mailto:info@eldarsadykov.com?subject=ELEX) with us.
 
 ## People
 
 The project is developed by a dedicated team:
+
 - **Eldar Sadykov** - Programmer / media artist
 - **Franz Nahrada** - Social researcher, one of the original creators of ELEX
 - **Karlheinz Essl** - Composer / media artist, one of the original creators of ELEX

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+//    "noImplicitAny": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    // IMPORTANT
+    "strict": true,
+    "isolatedModules": false,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "declarationMap": false
+  },
+  "include": [
+    "src/index.ts"
+  ]
+}
