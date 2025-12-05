@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.chapter-article {
+  @apply text-neutral-800 text-base/7 mb-[50vh];
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  h1, h2 {
+    @apply font-bold text-center mt-16 mb-8;
+  }
+
+  p {
+    @apply my-4;
+  }
+
+  p + p {
+    @apply indent-7;
+  }
+}

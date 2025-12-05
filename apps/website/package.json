@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.8.2",
+    "@tailwindcss/vite": "^4.1.17",
+    "better-sqlite3": "^12.5.0",
+    "nuxt": "^4.2.1",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "zod": "^4.1.13",
+    "zod-to-json-schema": "^3.25.0"
+  }
+}
