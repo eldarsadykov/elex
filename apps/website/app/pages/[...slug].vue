@@ -16,17 +16,31 @@ useHead({
   title: `${ title } | Lexikon-Roman`,
 })
 
-const { data: links } = await useAsyncData(`links-${ route.path }`, async () => {
-      const chapterLinks = page.value?.links ?? []
-      return Promise.all(
-          chapterLinks.map(link => queryCollection('content')
-              .path('/' + link.to)
-              .select('meta')
-              .first()
-          )
-      )
-    }
-)
+const themes = ['original', 'alternative'] as const
+
+type Theme = typeof themes[number]
+const DATA_THEME = 'data-theme'
+
+const setTheme = (theme: Theme): void => {
+  document.documentElement.setAttribute(DATA_THEME, theme)
+}
+
+const themeIndex = useLocalStorage('themeIndex', 0)
+
+onMounted(() => {
+  setTheme(themes[themeIndex.value] ?? themes[0])
+})
+
+const cycleTheme = () => {
+  themeIndex.value = (themeIndex.value + 1) % themes.length
+  const nextTheme = themes[themeIndex.value];
+  if (nextTheme) setTheme(nextTheme)
+  console.log(theme.value)
+}
+
+const theme = computed(() => {
+  return themes[themeIndex.value]
+})
 
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
@@ -35,7 +49,7 @@ if (!page.value) {
 </script>
 
 <template>
-  <main class="mx-auto max-w-prose hyphens-manual" v-if="page">
-    <ContentRenderer :value="page" tag="article" class="chapter-article" :id="slug"/>
+  <main class="tw:mx-auto tw:px-5 tw:max-w-prose tw:hyphens-manual tw:mb-[50svh]">
+    <ContentRenderer v-if="page" :value="page" tag="article" role="article" class="chapter-article" :id="slug"/>
   </main>
 </template>

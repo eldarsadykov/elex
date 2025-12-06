@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  modules: ['@nuxt/content'],
+  modules: ['@nuxt/content', "@vueuse/nuxt"],
   devtools: { enabled: false },
   future: {
     compatibilityVersion: 4,

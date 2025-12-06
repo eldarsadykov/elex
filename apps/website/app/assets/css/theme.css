@@ -1,0 +1,57 @@
+/* Theme Variables (Apple Reader) */
+
+:root {
+  --reader-bg-white: white;
+  --reader-text-white: rgb(27, 27, 27);
+  --reader-link-white: rgb(65, 110, 210);
+
+  --reader-bg-sepia: rgb(248, 241, 227);
+  --reader-text-sepia: rgb(79, 50, 28);
+  --reader-link-sepia: rgb(209, 150, 0, 255);
+
+  --reader-bg-grey: rgb(74, 74, 77);
+  --reader-text-grey: rgba(255, 255, 255, 0.78);
+  --reader-link-grey: rgb(90, 200, 250);
+
+  --reader-bg-night: black;
+  --reader-text-night: rgb(210, 210, 210);
+  --reader-link-night: rgb(90, 200, 250);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --reader-bg: var(--reader-bg-white);
+    --reader-text: var(--reader-text-white);
+    --reader-link: var(--reader-link-white);
+  }
+
+  html[data-theme=alternative] {
+    --reader-bg: var(--reader-bg-sepia);
+    --reader-text: var(--reader-text-sepia);
+    --reader-link: var(--reader-link-sepia);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --reader-bg: var(--reader-bg-night);
+    --reader-text: var(--reader-text-night);
+    --reader-link: var(--reader-link-night);
+  }
+
+  html[data-theme=alternative] {
+    --reader-bg: var(--reader-bg-grey);
+    --reader-text: var(--reader-text-grey);
+    --reader-link: var(--reader-link-grey);
+  }
+}
+
+html {
+  @apply tw:transition-colors;
+  color: var(--reader-text);
+  background-color: var(--reader-bg);
+
+  a[href] {
+    color: var(--reader-link);
+  }
+}
