@@ -1,0 +1,3646 @@
+{
+  "nodes": [
+    {
+      "id": "a",
+      "group": 1
+    },
+    {
+      "id": "aberdeen",
+      "group": 1
+    },
+    {
+      "id": "achselhoehle",
+      "group": 1
+    },
+    {
+      "id": "affirmative-dichtung",
+      "group": 1
+    },
+    {
+      "id": "allwissender-erzaehler",
+      "group": 1
+    },
+    {
+      "id": "anfang-der-reise",
+      "group": 1
+    },
+    {
+      "id": "annie",
+      "group": 1
+    },
+    {
+      "id": "anwendung-der-rot-ueberlegungen-auf-ein-kleid",
+      "group": 1
+    },
+    {
+      "id": "arcimboldi",
+      "group": 1
+    },
+    {
+      "id": "arnica",
+      "group": 1
+    },
+    {
+      "id": "auen",
+      "group": 1
+    },
+    {
+      "id": "auen-im-allgemeinen",
+      "group": 1
+    },
+    {
+      "id": "auflockerungen",
+      "group": 1
+    },
+    {
+      "id": "auflockerung-im-allgemeinen",
+      "group": 1
+    },
+    {
+      "id": "aussenvoegel",
+      "group": 1
+    },
+    {
+      "id": "autostrasse-an-den-terrassenhuegeln",
+      "group": 1
+    },
+    {
+      "id": "backstube",
+      "group": 1
+    },
+    {
+      "id": "barbara",
+      "group": 1
+    },
+    {
+      "id": "barock",
+      "group": 1
+    },
+    {
+      "id": "befreiung-der-aussicht",
+      "group": 1
+    },
+    {
+      "id": "befund",
+      "group": 1
+    },
+    {
+      "id": "begeisterung",
+      "group": 1
+    },
+    {
+      "id": "begruendung-fuer-den-artikel-koerper",
+      "group": 1
+    },
+    {
+      "id": "beisszange",
+      "group": 1
+    },
+    {
+      "id": "bergklebesiedlung",
+      "group": 1
+    },
+    {
+      "id": "bestimmungsbuch",
+      "group": 1
+    },
+    {
+      "id": "betonlager",
+      "group": 1
+    },
+    {
+      "id": "bezirksgericht",
+      "group": 1
+    },
+    {
+      "id": "bier",
+      "group": 1
+    },
+    {
+      "id": "biographische-uebung",
+      "group": 1
+    },
+    {
+      "id": "blaue-trichter",
+      "group": 1
+    },
+    {
+      "id": "blaugruener-liegestuhl",
+      "group": 1
+    },
+    {
+      "id": "blechchristus",
+      "group": 1
+    },
+    {
+      "id": "b-oe",
+      "group": 1
+    },
+    {
+      "id": "bordabenteuer",
+      "group": 1
+    },
+    {
+      "id": "bordereignisse",
+      "group": 1
+    },
+    {
+      "id": "braun",
+      "group": 1
+    },
+    {
+      "id": "brausepulver",
+      "group": 1
+    },
+    {
+      "id": "brotlaib",
+      "group": 1
+    },
+    {
+      "id": "bruecke",
+      "group": 1
+    },
+    {
+      "id": "bruecken-der-erwachsenen",
+      "group": 1
+    },
+    {
+      "id": "bunte-stuehle",
+      "group": 1
+    },
+    {
+      "id": "burg",
+      "group": 1
+    },
+    {
+      "id": "caffeehaus",
+      "group": 1
+    },
+    {
+      "id": "chemiewerk",
+      "group": 1
+    },
+    {
+      "id": "cp",
+      "group": 1
+    },
+    {
+      "id": "debitorenbuchhalterin",
+      "group": 1
+    },
+    {
+      "id": "deck",
+      "group": 1
+    },
+    {
+      "id": "deformation",
+      "group": 1
+    },
+    {
+      "id": "dicke-leute",
+      "group": 1
+    },
+    {
+      "id": "die-heterogene",
+      "group": 1
+    },
+    {
+      "id": "die-mit-den-schlafaugen",
+      "group": 1
+    },
+    {
+      "id": "die-mit-der-tulpe",
+      "group": 1
+    },
+    {
+      "id": "diensthaeuschen",
+      "group": 1
+    },
+    {
+      "id": "die-rote-im-roten-trikot-mit-rotem-popo",
+      "group": 1
+    },
+    {
+      "id": "dynamit-attentaeter",
+      "group": 1
+    },
+    {
+      "id": "edelnaschwerk",
+      "group": 1
+    },
+    {
+      "id": "eichhoernchen",
+      "group": 1
+    },
+    {
+      "id": "einmarsch-ins-schiff",
+      "group": 1
+    },
+    {
+      "id": "eiske",
+      "group": 1
+    },
+    {
+      "id": "eissalon",
+      "group": 1
+    },
+    {
+      "id": "eklektizismus",
+      "group": 1
+    },
+    {
+      "id": "element-x",
+      "group": 1
+    },
+    {
+      "id": "entbehren",
+      "group": 1
+    },
+    {
+      "id": "entsagungsvolles",
+      "group": 1
+    },
+    {
+      "id": "entwicklungen",
+      "group": 1
+    },
+    {
+      "id": "erfolg",
+      "group": 1
+    },
+    {
+      "id": "erproben",
+      "group": 1
+    },
+    {
+      "id": "erwartungsmuster",
+      "group": 1
+    },
+    {
+      "id": "espresso",
+      "group": 1
+    },
+    {
+      "id": "essen-und-trinken",
+      "group": 1
+    },
+    {
+      "id": "eutonignale",
+      "group": 1
+    },
+    {
+      "id": "exporteur",
+      "group": 1
+    },
+    {
+      "id": "exporteurgedanken",
+      "group": 1
+    },
+    {
+      "id": "fabrikschlote",
+      "group": 1
+    },
+    {
+      "id": "fehlen-von-bruecken-oder-faehren",
+      "group": 1
+    },
+    {
+      "id": "fehlen-von-rot",
+      "group": 1
+    },
+    {
+      "id": "fehlertoleranz",
+      "group": 1
+    },
+    {
+      "id": "felder",
+      "group": 1
+    },
+    {
+      "id": "feldstreifen-von-senf",
+      "group": 1
+    },
+    {
+      "id": "feminismus",
+      "group": 1
+    },
+    {
+      "id": "f-erlebnis",
+      "group": 1
+    },
+    {
+      "id": "fetischist",
+      "group": 1
+    },
+    {
+      "id": "filmtitelspiel",
+      "group": 1
+    },
+    {
+      "id": "fischer",
+      "group": 1
+    },
+    {
+      "id": "flotte",
+      "group": 1
+    },
+    {
+      "id": "frau-und-freude-das-blatt-mit-herzpfiff",
+      "group": 1
+    },
+    {
+      "id": "freiheit-die-ich-meine",
+      "group": 1
+    },
+    {
+      "id": "gaatsch",
+      "group": 1
+    },
+    {
+      "id": "garage",
+      "group": 1
+    },
+    {
+      "id": "gasthaeuser",
+      "group": 1
+    },
+    {
+      "id": "gegrilltes-haehnchen",
+      "group": 1
+    },
+    {
+      "id": "gelbe-schenken",
+      "group": 1
+    },
+    {
+      "id": "gemeindebauten",
+      "group": 1
+    },
+    {
+      "id": "geographie",
+      "group": 1
+    },
+    {
+      "id": "gesaess",
+      "group": 1
+    },
+    {
+      "id": "geschaeftsbeziehung",
+      "group": 1
+    },
+    {
+      "id": "grottenolm",
+      "group": 1
+    },
+    {
+      "id": "hahnenzierden",
+      "group": 1
+    },
+    {
+      "id": "haus-am-knopfer-huegel",
+      "group": 1
+    },
+    {
+      "id": "haeuschen",
+      "group": 1
+    },
+    {
+      "id": "haus-mit-dem-hochfruehlinghaften-zimmer",
+      "group": 1
+    },
+    {
+      "id": "haus-mit-dem-standard-mariandl",
+      "group": 1
+    },
+    {
+      "id": "hawaiimaedchen",
+      "group": 1
+    },
+    {
+      "id": "herrenjournal",
+      "group": 1
+    },
+    {
+      "id": "huegel",
+      "group": 1
+    },
+    {
+      "id": "huehner",
+      "group": 1
+    },
+    {
+      "id": "hunde",
+      "group": 1
+    },
+    {
+      "id": "100-kg-attraktive-frau",
+      "group": 1
+    },
+    {
+      "id": "hundeschaerfer",
+      "group": 1
+    },
+    {
+      "id": "hundstage",
+      "group": 1
+    },
+    {
+      "id": "ingenieur",
+      "group": 1
+    },
+    {
+      "id": "ing-pozzi",
+      "group": 1
+    },
+    {
+      "id": "johannisbeerwein",
+      "group": 1
+    },
+    {
+      "id": "joyce",
+      "group": 1
+    },
+    {
+      "id": "jung",
+      "group": 1
+    },
+    {
+      "id": "kamille",
+      "group": 1
+    },
+    {
+      "id": "katze",
+      "group": 1
+    },
+    {
+      "id": "kaufhaeuser",
+      "group": 1
+    },
+    {
+      "id": "kinderaufsicht",
+      "group": 1
+    },
+    {
+      "id": "kinder-des-weidendorfes",
+      "group": 1
+    },
+    {
+      "id": "kleine-dinge",
+      "group": 1
+    },
+    {
+      "id": "knopf",
+      "group": 1
+    },
+    {
+      "id": "knopfbach",
+      "group": 1
+    },
+    {
+      "id": "knopfer-tor",
+      "group": 1
+    },
+    {
+      "id": "kollaboration",
+      "group": 1
+    },
+    {
+      "id": "komposition",
+      "group": 1
+    },
+    {
+      "id": "kopftuch",
+      "group": 1
+    },
+    {
+      "id": "koerper",
+      "group": 1
+    },
+    {
+      "id": "korrupte-braeute",
+      "group": 1
+    },
+    {
+      "id": "kraemer",
+      "group": 1
+    },
+    {
+      "id": "kreissaege",
+      "group": 1
+    },
+    {
+      "id": "kuhdreck",
+      "group": 1
+    },
+    {
+      "id": "kulinarisch",
+      "group": 1
+    },
+    {
+      "id": "kunststoffliebe",
+      "group": 1
+    },
+    {
+      "id": "kuessen",
+      "group": 1
+    },
+    {
+      "id": "labyrinth",
+      "group": 1
+    },
+    {
+      "id": "lagerschuppen",
+      "group": 1
+    },
+    {
+      "id": "landkonditorei",
+      "group": 1
+    },
+    {
+      "id": "landschaft",
+      "group": 1
+    },
+    {
+      "id": "leere",
+      "group": 1
+    },
+    {
+      "id": "leuchtendes-blau",
+      "group": 1
+    },
+    {
+      "id": "lexikonromane",
+      "group": 1
+    },
+    {
+      "id": "liddy",
+      "group": 1
+    },
+    {
+      "id": "lokalisation",
+      "group": 1
+    },
+    {
+      "id": "lollo",
+      "group": 1
+    },
+    {
+      "id": "loewenfass",
+      "group": 1
+    },
+    {
+      "id": "maedchen",
+      "group": 1
+    },
+    {
+      "id": "maedchenblau-paradoxon",
+      "group": 1
+    },
+    {
+      "id": "madigmachen",
+      "group": 1
+    },
+    {
+      "id": "magazine",
+      "group": 1
+    },
+    {
+      "id": "malkasten",
+      "group": 1
+    },
+    {
+      "id": "manipulation",
+      "group": 1
+    },
+    {
+      "id": "man-nehme",
+      "group": 1
+    },
+    {
+      "id": "maennlich",
+      "group": 1
+    },
+    {
+      "id": "maria-theresien-gelb",
+      "group": 1
+    },
+    {
+      "id": "marktkundliches",
+      "group": 1
+    },
+    {
+      "id": "mary-mcpee",
+      "group": 1
+    },
+    {
+      "id": "mastmaedchen",
+      "group": 1
+    },
+    {
+      "id": "masut",
+      "group": 1
+    },
+    {
+      "id": "maturanten",
+      "group": 1
+    },
+    {
+      "id": "m-d-d",
+      "group": 1
+    },
+    {
+      "id": "melina-mercouri",
+      "group": 1
+    },
+    {
+      "id": "menschen",
+      "group": 1
+    },
+    {
+      "id": "menschennaeheres-stadium",
+      "group": 1
+    },
+    {
+      "id": "milchblau",
+      "group": 1
+    },
+    {
+      "id": "mindel",
+      "group": 1
+    },
+    {
+      "id": "mineralwasser",
+      "group": 1
+    },
+    {
+      "id": "mittagserwartung",
+      "group": 1
+    },
+    {
+      "id": "mittelteil",
+      "group": 1
+    },
+    {
+      "id": "molotow-cocktail",
+      "group": 1
+    },
+    {
+      "id": "motive-fuer-das-quaelen-von-katzen",
+      "group": 1
+    },
+    {
+      "id": "motive-fuer-den-erwerb-eines-eichhoernchens",
+      "group": 1
+    },
+    {
+      "id": "motive-fuer-die-freude-an-verwinkelungen",
+      "group": 1
+    },
+    {
+      "id": "motivsammlung",
+      "group": 1
+    },
+    {
+      "id": "m-s",
+      "group": 1
+    },
+    {
+      "id": "mundart",
+      "group": 1
+    },
+    {
+      "id": "muskeln",
+      "group": 1
+    },
+    {
+      "id": "nachbetrachtung",
+      "group": 1
+    },
+    {
+      "id": "nach-dem-auftauchen-der-auen",
+      "group": 1
+    },
+    {
+      "id": "nachgefrischt",
+      "group": 1
+    },
+    {
+      "id": "nachmittagsgespraeche",
+      "group": 1
+    },
+    {
+      "id": "nachworte",
+      "group": 1
+    },
+    {
+      "id": "nachziehverfahren",
+      "group": 1
+    },
+    {
+      "id": "natur-hotel",
+      "group": 1
+    },
+    {
+      "id": "nickel",
+      "group": 1
+    },
+    {
+      "id": "nouveau-roman",
+      "group": 1
+    },
+    {
+      "id": "oedstaetten",
+      "group": 1
+    },
+    {
+      "id": "on-the-rocks",
+      "group": 1
+    },
+    {
+      "id": "orangeblonde",
+      "group": 1
+    },
+    {
+      "id": "orangehafter-brand-paradoxon",
+      "group": 1
+    },
+    {
+      "id": "ortsbestimmung",
+      "group": 1
+    },
+    {
+      "id": "paddelclub-haus",
+      "group": 1
+    },
+    {
+      "id": "parfum",
+      "group": 1
+    },
+    {
+      "id": "perspektiven",
+      "group": 1
+    },
+    {
+      "id": "pfahlhaeuser",
+      "group": 1
+    },
+    {
+      "id": "pferde",
+      "group": 1
+    },
+    {
+      "id": "picknick",
+      "group": 1
+    },
+    {
+      "id": "plaene",
+      "group": 1
+    },
+    {
+      "id": "plankengeruch",
+      "group": 1
+    },
+    {
+      "id": "plankton",
+      "group": 1
+    },
+    {
+      "id": "platonische-haelften",
+      "group": 1
+    },
+    {
+      "id": "politik",
+      "group": 1
+    },
+    {
+      "id": "pop-roman",
+      "group": 1
+    },
+    {
+      "id": "promenade",
+      "group": 1
+    },
+    {
+      "id": "quenta-quebec",
+      "group": 1
+    },
+    {
+      "id": "realismus",
+      "group": 1
+    },
+    {
+      "id": "rechen",
+      "group": 1
+    },
+    {
+      "id": "restaurant",
+      "group": 1
+    },
+    {
+      "id": "restaurant-menschen",
+      "group": 1
+    },
+    {
+      "id": "roststangenlager",
+      "group": 1
+    },
+    {
+      "id": "saettigung",
+      "group": 1
+    },
+    {
+      "id": "scharfer-hund",
+      "group": 1
+    },
+    {
+      "id": "schildermalen",
+      "group": 1
+    },
+    {
+      "id": "schlaeflinge",
+      "group": 1
+    },
+    {
+      "id": "schlager",
+      "group": 1
+    },
+    {
+      "id": "schleuse",
+      "group": 1
+    },
+    {
+      "id": "schnitzel",
+      "group": 1
+    },
+    {
+      "id": "schreibuebung",
+      "group": 1
+    },
+    {
+      "id": "schwangere",
+      "group": 1
+    },
+    {
+      "id": "schwarzmeer-perspektive",
+      "group": 1
+    },
+    {
+      "id": "schweinchenrosig",
+      "group": 1
+    },
+    {
+      "id": "sehnsucht",
+      "group": 1
+    },
+    {
+      "id": "senf",
+      "group": 1
+    },
+    {
+      "id": "serviererin",
+      "group": 1
+    },
+    {
+      "id": "sex",
+      "group": 1
+    },
+    {
+      "id": "siesta",
+      "group": 1
+    },
+    {
+      "id": "silo",
+      "group": 1
+    },
+    {
+      "id": "spezifisches-gewicht",
+      "group": 1
+    },
+    {
+      "id": "spielregel",
+      "group": 1
+    },
+    {
+      "id": "spinat",
+      "group": 1
+    },
+    {
+      "id": "stadtbibliothek",
+      "group": 1
+    },
+    {
+      "id": "staedtchen",
+      "group": 1
+    },
+    {
+      "id": "standard-mariandl",
+      "group": 1
+    },
+    {
+      "id": "station-nixdorf",
+      "group": 1
+    },
+    {
+      "id": "stationsgebaeude",
+      "group": 1
+    },
+    {
+      "id": "stationsgebaeude-wasserseitig",
+      "group": 1
+    },
+    {
+      "id": "steinbruch",
+      "group": 1
+    },
+    {
+      "id": "strassenbahn",
+      "group": 1
+    },
+    {
+      "id": "studien-zum-fetischismus",
+      "group": 1
+    },
+    {
+      "id": "sulfatschluss",
+      "group": 1
+    },
+    {
+      "id": "suppe",
+      "group": 1
+    },
+    {
+      "id": "susi",
+      "group": 1
+    },
+    {
+      "id": "susi--und-eiske-epilog",
+      "group": 1
+    },
+    {
+      "id": "sympathisch",
+      "group": 1
+    },
+    {
+      "id": "taetowieren",
+      "group": 1
+    },
+    {
+      "id": "taufstelle",
+      "group": 1
+    },
+    {
+      "id": "teenager-briefe",
+      "group": 1
+    },
+    {
+      "id": "torschlusspanik",
+      "group": 1
+    },
+    {
+      "id": "torte",
+      "group": 1
+    },
+    {
+      "id": "transvestiten",
+      "group": 1
+    },
+    {
+      "id": "ufer",
+      "group": 1
+    },
+    {
+      "id": "ufermauer",
+      "group": 1
+    },
+    {
+      "id": "ulli-ergaenzungen",
+      "group": 1
+    },
+    {
+      "id": "ultraviolett",
+      "group": 1
+    },
+    {
+      "id": "umschrieben",
+      "group": 1
+    },
+    {
+      "id": "unbestimmt",
+      "group": 1
+    },
+    {
+      "id": "v",
+      "group": 1
+    },
+    {
+      "id": "verauung",
+      "group": 1
+    },
+    {
+      "id": "verladelandschaft",
+      "group": 1
+    },
+    {
+      "id": "verwahrloste-fischerin",
+      "group": 1
+    },
+    {
+      "id": "verwandelt-euch",
+      "group": 1
+    },
+    {
+      "id": "vorderdeckereignisse",
+      "group": 1
+    },
+    {
+      "id": "vorworte",
+      "group": 1
+    },
+    {
+      "id": "vulkankegel",
+      "group": 1
+    },
+    {
+      "id": "wachau",
+      "group": 1
+    },
+    {
+      "id": "waffe",
+      "group": 1
+    },
+    {
+      "id": "wallgraben",
+      "group": 1
+    },
+    {
+      "id": "wasser",
+      "group": 1
+    },
+    {
+      "id": "wasserbeschlagenes-glas",
+      "group": 1
+    },
+    {
+      "id": "wasserereignisse",
+      "group": 1
+    },
+    {
+      "id": "wauss",
+      "group": 1
+    },
+    {
+      "id": "wc",
+      "group": 1
+    },
+    {
+      "id": "weg-zur-schiffsstation",
+      "group": 1
+    },
+    {
+      "id": "weiblich",
+      "group": 1
+    },
+    {
+      "id": "wein",
+      "group": 1
+    },
+    {
+      "id": "weingarten",
+      "group": 1
+    },
+    {
+      "id": "wildenten",
+      "group": 1
+    },
+    {
+      "id": "wolfi-bauer",
+      "group": 1
+    },
+    {
+      "id": "zeitung",
+      "group": 1
+    },
+    {
+      "id": "zero",
+      "group": 1
+    },
+    {
+      "id": "zigarre",
+      "group": 1
+    },
+    {
+      "id": "zukunft-des-rotgebrauchs",
+      "group": 1
+    },
+    {
+      "id": "zunaechst-aber",
+      "group": 1
+    },
+    {
+      "id": "zz",
+      "group": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "anfang-der-reise",
+      "target": "strassenbahn",
+      "value": 1
+    },
+    {
+      "source": "anfang-der-reise",
+      "target": "taufstelle",
+      "value": 1
+    },
+    {
+      "source": "anwendung-der-rot-ueberlegungen-auf-ein-kleid",
+      "target": "fehlen-von-rot",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "eichhoernchen",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "entwicklungen",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "fischer",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "gaatsch",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "huehner",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "katze",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "maennlich",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "picknick",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "verwahrloste-fischerin",
+      "value": 1
+    },
+    {
+      "source": "auen",
+      "target": "wildenten",
+      "value": 1
+    },
+    {
+      "source": "auflockerungen",
+      "target": "felder",
+      "value": 1
+    },
+    {
+      "source": "auflockerungen",
+      "target": "huegel",
+      "value": 1
+    },
+    {
+      "source": "auflockerungen",
+      "target": "weingarten",
+      "value": 1
+    },
+    {
+      "source": "autostrasse-an-den-terrassenhuegeln",
+      "target": "erproben",
+      "value": 1
+    },
+    {
+      "source": "autostrasse-an-den-terrassenhuegeln",
+      "target": "gasthaeuser",
+      "value": 1
+    },
+    {
+      "source": "autostrasse-an-den-terrassenhuegeln",
+      "target": "haus-mit-dem-standard-mariandl",
+      "value": 1
+    },
+    {
+      "source": "autostrasse-an-den-terrassenhuegeln",
+      "target": "nachmittagsgespraeche",
+      "value": 1
+    },
+    {
+      "source": "autostrasse-an-den-terrassenhuegeln",
+      "target": "wasserereignisse",
+      "value": 1
+    },
+    {
+      "source": "backstube",
+      "target": "brotlaib",
+      "value": 1
+    },
+    {
+      "source": "barbara",
+      "target": "mastmaedchen",
+      "value": 1
+    },
+    {
+      "source": "barock",
+      "target": "arcimboldi",
+      "value": 1
+    },
+    {
+      "source": "barock",
+      "target": "labyrinth",
+      "value": 1
+    },
+    {
+      "source": "befreiung-der-aussicht",
+      "target": "dynamit-attentaeter",
+      "value": 1
+    },
+    {
+      "source": "befreiung-der-aussicht",
+      "target": "leere",
+      "value": 1
+    },
+    {
+      "source": "begeisterung",
+      "target": "affirmative-dichtung",
+      "value": 1
+    },
+    {
+      "source": "begeisterung",
+      "target": "kuhdreck",
+      "value": 1
+    },
+    {
+      "source": "begeisterung",
+      "target": "nickel",
+      "value": 1
+    },
+    {
+      "source": "begruendung-fuer-den-artikel-koerper",
+      "target": "arcimboldi",
+      "value": 1
+    },
+    {
+      "source": "bergklebesiedlung",
+      "target": "natur-hotel",
+      "value": 1
+    },
+    {
+      "source": "betonlager",
+      "target": "wauss",
+      "value": 1
+    },
+    {
+      "source": "bezirksgericht",
+      "target": "eichhoernchen",
+      "value": 1
+    },
+    {
+      "source": "blaue-trichter",
+      "target": "kreissaege",
+      "value": 1
+    },
+    {
+      "source": "blaue-trichter",
+      "target": "spinat",
+      "value": 1
+    },
+    {
+      "source": "bordabenteuer",
+      "target": "braun",
+      "value": 1
+    },
+    {
+      "source": "bordabenteuer",
+      "target": "gesaess",
+      "value": 1
+    },
+    {
+      "source": "bordabenteuer",
+      "target": "madigmachen",
+      "value": 1
+    },
+    {
+      "source": "bordereignisse",
+      "target": "kinderaufsicht",
+      "value": 1
+    },
+    {
+      "source": "bordereignisse",
+      "target": "parfum",
+      "value": 1
+    },
+    {
+      "source": "brotlaib",
+      "target": "backstube",
+      "value": 1
+    },
+    {
+      "source": "brotlaib",
+      "target": "pferde",
+      "value": 1
+    },
+    {
+      "source": "bruecke",
+      "target": "bruecken-der-erwachsenen",
+      "value": 1
+    },
+    {
+      "source": "bunte-stuehle",
+      "target": "leuchtendes-blau",
+      "value": 1
+    },
+    {
+      "source": "bunte-stuehle",
+      "target": "malkasten",
+      "value": 1
+    },
+    {
+      "source": "burg",
+      "target": "quenta-quebec",
+      "value": 1
+    },
+    {
+      "source": "caffeehaus",
+      "target": "espresso",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "befund",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "braun",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "einmarsch-ins-schiff",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "exporteur",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "jung",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "mittelteil",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "schweinchenrosig",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "stationsgebaeude-wasserseitig",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "wasser",
+      "value": 1
+    },
+    {
+      "source": "deck",
+      "target": "zigarre",
+      "value": 1
+    },
+    {
+      "source": "deformation",
+      "target": "mastmaedchen",
+      "value": 1
+    },
+    {
+      "source": "dicke-leute",
+      "target": "fetischist",
+      "value": 1
+    },
+    {
+      "source": "dicke-leute",
+      "target": "mastmaedchen",
+      "value": 1
+    },
+    {
+      "source": "edelnaschwerk",
+      "target": "brausepulver",
+      "value": 1
+    },
+    {
+      "source": "edelnaschwerk",
+      "target": "spinat",
+      "value": 1
+    },
+    {
+      "source": "eichhoernchen",
+      "target": "motive-fuer-den-erwerb-eines-eichhoernchens",
+      "value": 1
+    },
+    {
+      "source": "einmarsch-ins-schiff",
+      "target": "verwahrloste-fischerin",
+      "value": 1
+    },
+    {
+      "source": "eiske",
+      "target": "diensthaeuschen",
+      "value": 1
+    },
+    {
+      "source": "eissalon",
+      "target": "edelnaschwerk",
+      "value": 1
+    },
+    {
+      "source": "eissalon",
+      "target": "leuchtendes-blau",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "aussenvoegel",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "bezirksgericht",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "eissalon",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "espresso",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "gaatsch",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "haeuschen",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "kraemer",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "landkonditorei",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "orangeblonde",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "roststangenlager",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "scharfer-hund",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "schreibuebung",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "stadtbibliothek",
+      "value": 1
+    },
+    {
+      "source": "element-x",
+      "target": "ultraviolett",
+      "value": 1
+    },
+    {
+      "source": "entsagungsvolles",
+      "target": "bier",
+      "value": 1
+    },
+    {
+      "source": "entsagungsvolles",
+      "target": "entbehren",
+      "value": 1
+    },
+    {
+      "source": "entsagungsvolles",
+      "target": "fehlen-von-rot",
+      "value": 1
+    },
+    {
+      "source": "entsagungsvolles",
+      "target": "schnitzel",
+      "value": 1
+    },
+    {
+      "source": "entsagungsvolles",
+      "target": "suppe",
+      "value": 1
+    },
+    {
+      "source": "entsagungsvolles",
+      "target": "torte",
+      "value": 1
+    },
+    {
+      "source": "entwicklungen",
+      "target": "caffeehaus",
+      "value": 1
+    },
+    {
+      "source": "entwicklungen",
+      "target": "fehlen-von-rot",
+      "value": 1
+    },
+    {
+      "source": "entwicklungen",
+      "target": "feminismus",
+      "value": 1
+    },
+    {
+      "source": "entwicklungen",
+      "target": "katze",
+      "value": 1
+    },
+    {
+      "source": "entwicklungen",
+      "target": "quenta-quebec",
+      "value": 1
+    },
+    {
+      "source": "espresso",
+      "target": "exporteur",
+      "value": 1
+    },
+    {
+      "source": "espresso",
+      "target": "nickel",
+      "value": 1
+    },
+    {
+      "source": "essen-und-trinken",
+      "target": "spinat",
+      "value": 1
+    },
+    {
+      "source": "exporteur",
+      "target": "debitorenbuchhalterin",
+      "value": 1
+    },
+    {
+      "source": "exporteur",
+      "target": "on-the-rocks",
+      "value": 1
+    },
+    {
+      "source": "exporteur",
+      "target": "sulfatschluss",
+      "value": 1
+    },
+    {
+      "source": "fabrikschlote",
+      "target": "bier",
+      "value": 1
+    },
+    {
+      "source": "fehlen-von-bruecken-oder-faehren",
+      "target": "deck",
+      "value": 1
+    },
+    {
+      "source": "fehlen-von-bruecken-oder-faehren",
+      "target": "kaufhaeuser",
+      "value": 1
+    },
+    {
+      "source": "fehlen-von-bruecken-oder-faehren",
+      "target": "maedchen",
+      "value": 1
+    },
+    {
+      "source": "fehlen-von-rot",
+      "target": "anwendung-der-rot-ueberlegungen-auf-ein-kleid",
+      "value": 1
+    },
+    {
+      "source": "fehlen-von-rot",
+      "target": "maedchenblau-paradoxon",
+      "value": 1
+    },
+    {
+      "source": "fehlen-von-rot",
+      "target": "zukunft-des-rotgebrauchs",
+      "value": 1
+    },
+    {
+      "source": "feldstreifen-von-senf",
+      "target": "knopfbach",
+      "value": 1
+    },
+    {
+      "source": "f-erlebnis",
+      "target": "haus-mit-dem-standard-mariandl",
+      "value": 1
+    },
+    {
+      "source": "fetischist",
+      "target": "studien-zum-fetischismus",
+      "value": 1
+    },
+    {
+      "source": "fischer",
+      "target": "entsagungsvolles",
+      "value": 1
+    },
+    {
+      "source": "flotte",
+      "target": "gelbe-schenken",
+      "value": 1
+    },
+    {
+      "source": "gelbe-schenken",
+      "target": "huehner",
+      "value": 1
+    },
+    {
+      "source": "gelbe-schenken",
+      "target": "hundstage",
+      "value": 1
+    },
+    {
+      "source": "gelbe-schenken",
+      "target": "lollo",
+      "value": 1
+    },
+    {
+      "source": "gelbe-schenken",
+      "target": "maria-theresien-gelb",
+      "value": 1
+    },
+    {
+      "source": "gemeindebauten",
+      "target": "bergklebesiedlung",
+      "value": 1
+    },
+    {
+      "source": "gemeindebauten",
+      "target": "blechchristus",
+      "value": 1
+    },
+    {
+      "source": "gemeindebauten",
+      "target": "braun",
+      "value": 1
+    },
+    {
+      "source": "geographie",
+      "target": "lokalisation",
+      "value": 1
+    },
+    {
+      "source": "gesaess",
+      "target": "kuhdreck",
+      "value": 1
+    },
+    {
+      "source": "gesaess",
+      "target": "maennlich",
+      "value": 1
+    },
+    {
+      "source": "gesaess",
+      "target": "mastmaedchen",
+      "value": 1
+    },
+    {
+      "source": "gesaess",
+      "target": "sympathisch",
+      "value": 1
+    },
+    {
+      "source": "gesaess",
+      "target": "taetowieren",
+      "value": 1
+    },
+    {
+      "source": "gesaess",
+      "target": "weiblich",
+      "value": 1
+    },
+    {
+      "source": "geschaeftsbeziehung",
+      "target": "exporteurgedanken",
+      "value": 1
+    },
+    {
+      "source": "grottenolm",
+      "target": "burg",
+      "value": 1
+    },
+    {
+      "source": "grottenolm",
+      "target": "eiske",
+      "value": 1
+    },
+    {
+      "source": "grottenolm",
+      "target": "johannisbeerwein",
+      "value": 1
+    },
+    {
+      "source": "grottenolm",
+      "target": "mittelteil",
+      "value": 1
+    },
+    {
+      "source": "grottenolm",
+      "target": "plankton",
+      "value": 1
+    },
+    {
+      "source": "grottenolm",
+      "target": "staedtchen",
+      "value": 1
+    },
+    {
+      "source": "hahnenzierden",
+      "target": "fehlen-von-rot",
+      "value": 1
+    },
+    {
+      "source": "hahnenzierden",
+      "target": "huehner",
+      "value": 1
+    },
+    {
+      "source": "hahnenzierden",
+      "target": "katze",
+      "value": 1
+    },
+    {
+      "source": "haus-am-knopfer-huegel",
+      "target": "motive-fuer-die-freude-an-verwinkelungen",
+      "value": 1
+    },
+    {
+      "source": "haus-am-knopfer-huegel",
+      "target": "susi",
+      "value": 1
+    },
+    {
+      "source": "haeuschen",
+      "target": "kleine-dinge",
+      "value": 1
+    },
+    {
+      "source": "haeuschen",
+      "target": "milchblau",
+      "value": 1
+    },
+    {
+      "source": "haeuschen",
+      "target": "motive-fuer-die-freude-an-verwinkelungen",
+      "value": 1
+    },
+    {
+      "source": "haeuschen",
+      "target": "unbestimmt",
+      "value": 1
+    },
+    {
+      "source": "haus-mit-dem-hochfruehlinghaften-zimmer",
+      "target": "haeuschen",
+      "value": 1
+    },
+    {
+      "source": "haus-mit-dem-standard-mariandl",
+      "target": "f-erlebnis",
+      "value": 1
+    },
+    {
+      "source": "haus-mit-dem-standard-mariandl",
+      "target": "rechen",
+      "value": 1
+    },
+    {
+      "source": "haus-mit-dem-standard-mariandl",
+      "target": "standard-mariandl",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "annie",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "arnica",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "b-oe",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "die-heterogene",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "die-mit-den-schlafaugen",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "die-mit-der-tulpe",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "die-rote-im-roten-trikot-mit-rotem-popo",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "hawaiimaedchen",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "liddy",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "mary-mcpee",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "m-d-d",
+      "value": 1
+    },
+    {
+      "source": "herrenjournal",
+      "target": "m-s",
+      "value": 1
+    },
+    {
+      "source": "huegel",
+      "target": "weingarten",
+      "value": 1
+    },
+    {
+      "source": "hunde",
+      "target": "katze",
+      "value": 1
+    },
+    {
+      "source": "hunde",
+      "target": "pferde",
+      "value": 1
+    },
+    {
+      "source": "hundstage",
+      "target": "quenta-quebec",
+      "value": 1
+    },
+    {
+      "source": "ingenieur",
+      "target": "cp",
+      "value": 1
+    },
+    {
+      "source": "ingenieur",
+      "target": "dynamit-attentaeter",
+      "value": 1
+    },
+    {
+      "source": "ingenieur",
+      "target": "gemeindebauten",
+      "value": 1
+    },
+    {
+      "source": "ingenieur",
+      "target": "ing-pozzi",
+      "value": 1
+    },
+    {
+      "source": "ingenieur",
+      "target": "lollo",
+      "value": 1
+    },
+    {
+      "source": "ing-pozzi",
+      "target": "eissalon",
+      "value": 1
+    },
+    {
+      "source": "joyce",
+      "target": "allwissender-erzaehler",
+      "value": 1
+    },
+    {
+      "source": "katze",
+      "target": "aberdeen",
+      "value": 1
+    },
+    {
+      "source": "katze",
+      "target": "motive-fuer-das-quaelen-von-katzen",
+      "value": 1
+    },
+    {
+      "source": "kinder-des-weidendorfes",
+      "target": "eichhoernchen",
+      "value": 1
+    },
+    {
+      "source": "kleine-dinge",
+      "target": "kopftuch",
+      "value": 1
+    },
+    {
+      "source": "kleine-dinge",
+      "target": "quenta-quebec",
+      "value": 1
+    },
+    {
+      "source": "knopf",
+      "target": "braun",
+      "value": 1
+    },
+    {
+      "source": "knopf",
+      "target": "bunte-stuehle",
+      "value": 1
+    },
+    {
+      "source": "knopf",
+      "target": "knopfer-tor",
+      "value": 1
+    },
+    {
+      "source": "knopf",
+      "target": "oedstaetten",
+      "value": 1
+    },
+    {
+      "source": "knopf",
+      "target": "promenade",
+      "value": 1
+    },
+    {
+      "source": "knopfbach",
+      "target": "stadtbibliothek",
+      "value": 1
+    },
+    {
+      "source": "knopfbach",
+      "target": "wallgraben",
+      "value": 1
+    },
+    {
+      "source": "knopfer-tor",
+      "target": "feldstreifen-von-senf",
+      "value": 1
+    },
+    {
+      "source": "kollaboration",
+      "target": "nachziehverfahren",
+      "value": 1
+    },
+    {
+      "source": "koerper",
+      "target": "begruendung-fuer-den-artikel-koerper",
+      "value": 1
+    },
+    {
+      "source": "kuhdreck",
+      "target": "caffeehaus",
+      "value": 1
+    },
+    {
+      "source": "kuhdreck",
+      "target": "edelnaschwerk",
+      "value": 1
+    },
+    {
+      "source": "lagerschuppen",
+      "target": "beisszange",
+      "value": 1
+    },
+    {
+      "source": "lagerschuppen",
+      "target": "kamille",
+      "value": 1
+    },
+    {
+      "source": "lagerschuppen",
+      "target": "mindel",
+      "value": 1
+    },
+    {
+      "source": "landkonditorei",
+      "target": "staedtchen",
+      "value": 1
+    },
+    {
+      "source": "leere",
+      "target": "fehlen-von-rot",
+      "value": 1
+    },
+    {
+      "source": "liddy",
+      "target": "waffe",
+      "value": 1
+    },
+    {
+      "source": "lollo",
+      "target": "cp",
+      "value": 1
+    },
+    {
+      "source": "lollo",
+      "target": "umschrieben",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "bunte-stuehle",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "burg",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "gasthaeuser",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "gelbe-schenken",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "huehner",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "kraemer",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "nachworte",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "perspektiven",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "promenade",
+      "value": 1
+    },
+    {
+      "source": "loewenfass",
+      "target": "staedtchen",
+      "value": 1
+    },
+    {
+      "source": "maedchenblau-paradoxon",
+      "target": "fehlen-von-rot",
+      "value": 1
+    },
+    {
+      "source": "malkasten",
+      "target": "quenta-quebec",
+      "value": 1
+    },
+    {
+      "source": "malkasten",
+      "target": "staedtchen",
+      "value": 1
+    },
+    {
+      "source": "maria-theresien-gelb",
+      "target": "entwicklungen",
+      "value": 1
+    },
+    {
+      "source": "maria-theresien-gelb",
+      "target": "orangehafter-brand-paradoxon",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "betonlager",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "bordabenteuer",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "chemiewerk",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "eiske",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "huegel",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "hundstage",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "ingenieur",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "koerper",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "pfahlhaeuser",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "staedtchen",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "vorderdeckereignisse",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "wasserbeschlagenes-glas",
+      "value": 1
+    },
+    {
+      "source": "menschennaeheres-stadium",
+      "target": "wasserereignisse",
+      "value": 1
+    },
+    {
+      "source": "mittagserwartung",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "mittagserwartung",
+      "target": "auflockerungen",
+      "value": 1
+    },
+    {
+      "source": "mittagserwartung",
+      "target": "essen-und-trinken",
+      "value": 1
+    },
+    {
+      "source": "mittagserwartung",
+      "target": "geschaeftsbeziehung",
+      "value": 1
+    },
+    {
+      "source": "mittagserwartung",
+      "target": "huegel",
+      "value": 1
+    },
+    {
+      "source": "mittagserwartung",
+      "target": "staedtchen",
+      "value": 1
+    },
+    {
+      "source": "mittagserwartung",
+      "target": "wasserereignisse",
+      "value": 1
+    },
+    {
+      "source": "mittelteil",
+      "target": "deck",
+      "value": 1
+    },
+    {
+      "source": "motivsammlung",
+      "target": "marktkundliches",
+      "value": 1
+    },
+    {
+      "source": "muskeln",
+      "target": "deformation",
+      "value": 1
+    },
+    {
+      "source": "nachbetrachtung",
+      "target": "f-erlebnis",
+      "value": 1
+    },
+    {
+      "source": "nachbetrachtung",
+      "target": "nachmittagsgespraeche",
+      "value": 1
+    },
+    {
+      "source": "nach-dem-auftauchen-der-auen",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "nach-dem-auftauchen-der-auen",
+      "target": "huegel",
+      "value": 1
+    },
+    {
+      "source": "nach-dem-auftauchen-der-auen",
+      "target": "paddelclub-haus",
+      "value": 1
+    },
+    {
+      "source": "nach-dem-auftauchen-der-auen",
+      "target": "pfahlhaeuser",
+      "value": 1
+    },
+    {
+      "source": "nach-dem-auftauchen-der-auen",
+      "target": "wasserereignisse",
+      "value": 1
+    },
+    {
+      "source": "nachgefrischt",
+      "target": "sympathisch",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "biographische-uebung",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "exporteur",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "haus-am-knopfer-huegel",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "maturanten",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "nachbetrachtung",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "platonische-haelften",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "schlager",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "schwangere",
+      "value": 1
+    },
+    {
+      "source": "nachmittagsgespraeche",
+      "target": "zeitung",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "affirmative-dichtung",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "allwissender-erzaehler",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "arcimboldi",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "barock",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "begeisterung",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "begruendung-fuer-den-artikel-koerper",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "deformation",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "dicke-leute",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "eklektizismus",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "erwartungsmuster",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "fehlertoleranz",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "feminismus",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "f-erlebnis",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "fetischist",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "freiheit-die-ich-meine",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "geographie",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "joyce",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "kollaboration",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "komposition",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "koerper",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "kulinarisch",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "kunststoffliebe",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "labyrinth",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "landschaft",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "lexikonromane",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "lokalisation",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "manipulation",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "man-nehme",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "marktkundliches",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "motivsammlung",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "mundart",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "nachziehverfahren",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "nouveau-roman",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "ortsbestimmung",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "politik",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "pop-roman",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "realismus",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "saettigung",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "sehnsucht",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "sex",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "spezifisches-gewicht",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "spielregel",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "susi--und-eiske-epilog",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "ulli-ergaenzungen",
+      "value": 1
+    },
+    {
+      "source": "nachworte",
+      "target": "zigarre",
+      "value": 1
+    },
+    {
+      "source": "oedstaetten",
+      "target": "bestimmungsbuch",
+      "value": 1
+    },
+    {
+      "source": "oedstaetten",
+      "target": "eutonignale",
+      "value": 1
+    },
+    {
+      "source": "oedstaetten",
+      "target": "huehner",
+      "value": 1
+    },
+    {
+      "source": "oedstaetten",
+      "target": "hunde",
+      "value": 1
+    },
+    {
+      "source": "oedstaetten",
+      "target": "kamille",
+      "value": 1
+    },
+    {
+      "source": "oedstaetten",
+      "target": "katze",
+      "value": 1
+    },
+    {
+      "source": "oedstaetten",
+      "target": "leuchtendes-blau",
+      "value": 1
+    },
+    {
+      "source": "oedstaetten",
+      "target": "masut",
+      "value": 1
+    },
+    {
+      "source": "ortsbestimmung",
+      "target": "begeisterung",
+      "value": 1
+    },
+    {
+      "source": "ortsbestimmung",
+      "target": "freiheit-die-ich-meine",
+      "value": 1
+    },
+    {
+      "source": "ortsbestimmung",
+      "target": "realismus",
+      "value": 1
+    },
+    {
+      "source": "ortsbestimmung",
+      "target": "sex",
+      "value": 1
+    },
+    {
+      "source": "paddelclub-haus",
+      "target": "leere",
+      "value": 1
+    },
+    {
+      "source": "paddelclub-haus",
+      "target": "malkasten",
+      "value": 1
+    },
+    {
+      "source": "paddelclub-haus",
+      "target": "wasser",
+      "value": 1
+    },
+    {
+      "source": "perspektiven",
+      "target": "deformation",
+      "value": 1
+    },
+    {
+      "source": "perspektiven",
+      "target": "exporteur",
+      "value": 1
+    },
+    {
+      "source": "pfahlhaeuser",
+      "target": "bier",
+      "value": 1
+    },
+    {
+      "source": "pfahlhaeuser",
+      "target": "wildenten",
+      "value": 1
+    },
+    {
+      "source": "pferde",
+      "target": "hunde",
+      "value": 1
+    },
+    {
+      "source": "picknick",
+      "target": "gasthaeuser",
+      "value": 1
+    },
+    {
+      "source": "plaene",
+      "target": "kamille",
+      "value": 1
+    },
+    {
+      "source": "plaene",
+      "target": "mindel",
+      "value": 1
+    },
+    {
+      "source": "plaene",
+      "target": "motive-fuer-die-freude-an-verwinkelungen",
+      "value": 1
+    },
+    {
+      "source": "rechen",
+      "target": "standard-mariandl",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "achselhoehle",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "auflockerung-im-allgemeinen",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "bier",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "espresso",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "exporteur",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "gesaess",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "hahnenzierden",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "herrenjournal",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "huegel",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "100-kg-attraktive-frau",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "kuessen",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "restaurant-menschen",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "schnitzel",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "serviererin",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "suppe",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "torte",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "verwandelt-euch",
+      "value": 1
+    },
+    {
+      "source": "restaurant",
+      "target": "wasserereignisse",
+      "value": 1
+    },
+    {
+      "source": "restaurant-menschen",
+      "target": "madigmachen",
+      "value": 1
+    },
+    {
+      "source": "restaurant-menschen",
+      "target": "schwangere",
+      "value": 1
+    },
+    {
+      "source": "restaurant-menschen",
+      "target": "torte",
+      "value": 1
+    },
+    {
+      "source": "restaurant-menschen",
+      "target": "zigarre",
+      "value": 1
+    },
+    {
+      "source": "scharfer-hund",
+      "target": "hundeschaerfer",
+      "value": 1
+    },
+    {
+      "source": "schlaeflinge",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "schleuse",
+      "target": "deck",
+      "value": 1
+    },
+    {
+      "source": "schleuse",
+      "target": "milchblau",
+      "value": 1
+    },
+    {
+      "source": "schwangere",
+      "target": "deformation",
+      "value": 1
+    },
+    {
+      "source": "schwangere",
+      "target": "erfolg",
+      "value": 1
+    },
+    {
+      "source": "schwangere",
+      "target": "maennlich",
+      "value": 1
+    },
+    {
+      "source": "schweinchenrosig",
+      "target": "mastmaedchen",
+      "value": 1
+    },
+    {
+      "source": "sex",
+      "target": "koerper",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "achselhoehle",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "auflockerung-im-allgemeinen",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "barbara",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "gesaess",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "geschaeftsbeziehung",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "huegel",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "nachgefrischt",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "perspektiven",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "schlaeflinge",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "staedtchen",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "wasserereignisse",
+      "value": 1
+    },
+    {
+      "source": "siesta",
+      "target": "wc",
+      "value": 1
+    },
+    {
+      "source": "silo",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "silo",
+      "target": "pfahlhaeuser",
+      "value": 1
+    },
+    {
+      "source": "silo",
+      "target": "sulfatschluss",
+      "value": 1
+    },
+    {
+      "source": "spielregel",
+      "target": "affirmative-dichtung",
+      "value": 1
+    },
+    {
+      "source": "spielregel",
+      "target": "kuhdreck",
+      "value": 1
+    },
+    {
+      "source": "spielregel",
+      "target": "malkasten",
+      "value": 1
+    },
+    {
+      "source": "spinat",
+      "target": "kuhdreck",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "backstube",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "blaugruener-liegestuhl",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "eissalon",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "element-x",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "erfolg",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "f-erlebnis",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "fischer",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "gemeindebauten",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "katze",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "kaufhaeuser",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "kinder-des-weidendorfes",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "kleine-dinge",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "korrupte-braeute",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "kraemer",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "magazine",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "maria-theresien-gelb",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "motive-fuer-die-freude-an-verwinkelungen",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "muskeln",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "oedstaetten",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "parfum",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "pferde",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "plaene",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "plankengeruch",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "plankton",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "schwangere",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "serviererin",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "stadtbibliothek",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "suppe",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "teenager-briefe",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "torschlusspanik",
+      "value": 1
+    },
+    {
+      "source": "staedtchen",
+      "target": "v",
+      "value": 1
+    },
+    {
+      "source": "standard-mariandl",
+      "target": "rechen",
+      "value": 1
+    },
+    {
+      "source": "station-nixdorf",
+      "target": "bergklebesiedlung",
+      "value": 1
+    },
+    {
+      "source": "station-nixdorf",
+      "target": "steinbruch",
+      "value": 1
+    },
+    {
+      "source": "station-nixdorf",
+      "target": "vulkankegel",
+      "value": 1
+    },
+    {
+      "source": "stationsgebaeude",
+      "target": "mindel",
+      "value": 1
+    },
+    {
+      "source": "stationsgebaeude",
+      "target": "on-the-rocks",
+      "value": 1
+    },
+    {
+      "source": "stationsgebaeude",
+      "target": "schwarzmeer-perspektive",
+      "value": 1
+    },
+    {
+      "source": "stationsgebaeude-wasserseitig",
+      "target": "bunte-stuehle",
+      "value": 1
+    },
+    {
+      "source": "strassenbahn",
+      "target": "exporteur",
+      "value": 1
+    },
+    {
+      "source": "strassenbahn",
+      "target": "magazine",
+      "value": 1
+    },
+    {
+      "source": "studien-zum-fetischismus",
+      "target": "marktkundliches",
+      "value": 1
+    },
+    {
+      "source": "susi",
+      "target": "edelnaschwerk",
+      "value": 1
+    },
+    {
+      "source": "taufstelle",
+      "target": "bruecke",
+      "value": 1
+    },
+    {
+      "source": "torschlusspanik",
+      "target": "braun",
+      "value": 1
+    },
+    {
+      "source": "transvestiten",
+      "target": "fetischist",
+      "value": 1
+    },
+    {
+      "source": "ufer",
+      "target": "bunte-stuehle",
+      "value": 1
+    },
+    {
+      "source": "ufermauer",
+      "target": "bunte-stuehle",
+      "value": 1
+    },
+    {
+      "source": "ufermauer",
+      "target": "schildermalen",
+      "value": 1
+    },
+    {
+      "source": "verauung",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "verauung",
+      "target": "huegel",
+      "value": 1
+    },
+    {
+      "source": "verauung",
+      "target": "plankton",
+      "value": 1
+    },
+    {
+      "source": "verauung",
+      "target": "wasserereignisse",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "blaue-trichter",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "bruecke",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "diensthaeuschen",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "dynamit-attentaeter",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "fabrikschlote",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "fischer",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "gemeindebauten",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "kreissaege",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "lagerschuppen",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "menschen",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "roststangenlager",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "spielregel",
+      "value": 1
+    },
+    {
+      "source": "verladelandschaft",
+      "target": "wasser",
+      "value": 1
+    },
+    {
+      "source": "vorderdeckereignisse",
+      "target": "bordereignisse",
+      "value": 1
+    },
+    {
+      "source": "vorderdeckereignisse",
+      "target": "deck",
+      "value": 1
+    },
+    {
+      "source": "vorworte",
+      "target": "nachworte",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "auflockerung-im-allgemeinen",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "barbara",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "braun",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "eiske",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "gegrilltes-haehnchen",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "grottenolm",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "haus-am-knopfer-huegel",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "nachmittagsgespraeche",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "susi",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "wasserereignisse",
+      "value": 1
+    },
+    {
+      "source": "wachau",
+      "target": "wein",
+      "value": 1
+    },
+    {
+      "source": "wallgraben",
+      "target": "haeuschen",
+      "value": 1
+    },
+    {
+      "source": "wallgraben",
+      "target": "haus-mit-dem-hochfruehlinghaften-zimmer",
+      "value": 1
+    },
+    {
+      "source": "wallgraben",
+      "target": "katze",
+      "value": 1
+    },
+    {
+      "source": "wallgraben",
+      "target": "kinder-des-weidendorfes",
+      "value": 1
+    },
+    {
+      "source": "wallgraben",
+      "target": "kopftuch",
+      "value": 1
+    },
+    {
+      "source": "wallgraben",
+      "target": "leuchtendes-blau",
+      "value": 1
+    },
+    {
+      "source": "wasser",
+      "target": "hundstage",
+      "value": 1
+    },
+    {
+      "source": "wasser",
+      "target": "ing-pozzi",
+      "value": 1
+    },
+    {
+      "source": "wasser",
+      "target": "mineralwasser",
+      "value": 1
+    },
+    {
+      "source": "wasserereignisse",
+      "target": "jung",
+      "value": 1
+    },
+    {
+      "source": "wasserereignisse",
+      "target": "nickel",
+      "value": 1
+    },
+    {
+      "source": "wasserereignisse",
+      "target": "plankengeruch",
+      "value": 1
+    },
+    {
+      "source": "wc",
+      "target": "kuhdreck",
+      "value": 1
+    },
+    {
+      "source": "wc",
+      "target": "maria-theresien-gelb",
+      "value": 1
+    },
+    {
+      "source": "weg-zur-schiffsstation",
+      "target": "brotlaib",
+      "value": 1
+    },
+    {
+      "source": "weg-zur-schiffsstation",
+      "target": "hundstage",
+      "value": 1
+    },
+    {
+      "source": "weg-zur-schiffsstation",
+      "target": "kamille",
+      "value": 1
+    },
+    {
+      "source": "weg-zur-schiffsstation",
+      "target": "korrupte-braeute",
+      "value": 1
+    },
+    {
+      "source": "weg-zur-schiffsstation",
+      "target": "melina-mercouri",
+      "value": 1
+    },
+    {
+      "source": "weg-zur-schiffsstation",
+      "target": "pferde",
+      "value": 1
+    },
+    {
+      "source": "weiblich",
+      "target": "maennlich",
+      "value": 1
+    },
+    {
+      "source": "wein",
+      "target": "bier",
+      "value": 1
+    },
+    {
+      "source": "wein",
+      "target": "kollaboration",
+      "value": 1
+    },
+    {
+      "source": "wein",
+      "target": "molotow-cocktail",
+      "value": 1
+    },
+    {
+      "source": "wein",
+      "target": "platonische-haelften",
+      "value": 1
+    },
+    {
+      "source": "weingarten",
+      "target": "wein",
+      "value": 1
+    },
+    {
+      "source": "weingarten",
+      "target": "wildenten",
+      "value": 1
+    },
+    {
+      "source": "wildenten",
+      "target": "flotte",
+      "value": 1
+    },
+    {
+      "source": "wildenten",
+      "target": "plankengeruch",
+      "value": 1
+    },
+    {
+      "source": "wolfi-bauer",
+      "target": "gasthaeuser",
+      "value": 1
+    },
+    {
+      "source": "zeitung",
+      "target": "filmtitelspiel",
+      "value": 1
+    },
+    {
+      "source": "zero",
+      "target": "garage",
+      "value": 1
+    },
+    {
+      "source": "zero",
+      "target": "katze",
+      "value": 1
+    },
+    {
+      "source": "zero",
+      "target": "kopftuch",
+      "value": 1
+    },
+    {
+      "source": "zero",
+      "target": "leuchtendes-blau",
+      "value": 1
+    },
+    {
+      "source": "zero",
+      "target": "maennlich",
+      "value": 1
+    },
+    {
+      "source": "zero",
+      "target": "taetowieren",
+      "value": 1
+    },
+    {
+      "source": "zigarre",
+      "target": "bier",
+      "value": 1
+    },
+    {
+      "source": "zigarre",
+      "target": "hundstage",
+      "value": 1
+    },
+    {
+      "source": "zigarre",
+      "target": "koerper",
+      "value": 1
+    },
+    {
+      "source": "zigarre",
+      "target": "parfum",
+      "value": 1
+    },
+    {
+      "source": "zukunft-des-rotgebrauchs",
+      "target": "fehlen-von-rot",
+      "value": 1
+    },
+    {
+      "source": "zukunft-des-rotgebrauchs",
+      "target": "transvestiten",
+      "value": 1
+    },
+    {
+      "source": "zunaechst-aber",
+      "target": "auen",
+      "value": 1
+    },
+    {
+      "source": "zunaechst-aber",
+      "target": "bordereignisse",
+      "value": 1
+    },
+    {
+      "source": "zunaechst-aber",
+      "target": "huegel",
+      "value": 1
+    },
+    {
+      "source": "zunaechst-aber",
+      "target": "pfahlhaeuser",
+      "value": 1
+    },
+    {
+      "source": "zunaechst-aber",
+      "target": "wasserereignisse",
+      "value": 1
+    }
+  ]
+}

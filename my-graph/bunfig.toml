@@ -1,0 +1,9 @@
+[build]
+entrypoints = ["index.html"]
+outdir = "dist"
+target = "browser"
+
+[server]
+# Serve the built app at /dist
+# (Optional if using `bun build`)
+root = "dist"
