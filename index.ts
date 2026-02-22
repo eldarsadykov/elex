@@ -74,7 +74,7 @@ turndownService.addRule("smallCapsSpan", {
   replacement: (content: string) => {
     // Trim to avoid weird spaces like ":small-caps[  Text  ]"
     const inner = content.trim();
-    return `:small-caps[${ inner }]`;
+    return `[${ inner }]{.small-caps}`;
   },
 });
 
@@ -99,38 +99,39 @@ turndownService.addRule("poetryParagraph", {
     // Trim to avoid weird spaces like ":small-caps[  Text  ]"
     const inner = content.trim();
     return `::poetry
+
+${ inner }
     
-    ${ inner }
-    
-    ::`;
+::`;
   },
 });
 
 
-/**
+/*
  * Optional: you *could* add a rule for a.arrow, but Turndown already
  * converts <a> to markdown links of the form [text](href), which is
  * exactly what we want.
  *
  * So we just rely on the default behavior for links.
- *
  * If you ever want to special-case it, you could do:
- *
- * turndownService.addRule("arrowLinks", {
- *   filter: (node: any) => {
- *     if (!node || node.nodeName !== "A") return false;
- *     const classAttr =
- *       (node.getAttribute && node.getAttribute("class")) || "";
- *     const classes = classAttr.split(/\s+/).filter(Boolean);
- *     return classes.includes("arrow");
- *   },
- *   replacement: (content: string, node: any) => {
- *     const href = node.getAttribute("href") || "";
- *     const text = content.trim() || href;
- *     return `[${text}](${href})`;
- *   },
- * });
  */
+
+
+turndownService.addRule("arrowLinks", {
+  filter: (node: any) => {
+    if (!node || node.nodeName !== "A") return false;
+    const classAttr =
+      (node.getAttribute && node.getAttribute("class")) || "";
+    const classes = classAttr.split(/\s+/).filter(Boolean);
+    return classes.includes("arrow");
+  },
+  replacement: (content: string, node: any) => {
+    const href = node.getAttribute("href")?.replace(".html", "") || "";
+    const text = content.trim() || href;
+    return `[${ text }](${ href }){.arrow-link}`;
+  },
+});
+
 
 /**
  * Convert HTML → Markdown

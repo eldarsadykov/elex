@@ -7,13 +7,13 @@ Aberdeen | Lexikon-Roman
 Jermilka, Jessica, Jentchen spielen öfters das Spiel
 
 ::poetry
-    
+
 Denkst du manchmal, Josephin',  
 an die Katz von Aberdeen?
     
 ::
 
-Hierbei wird ihnen traurig zumute, weil Aberdeen so weit weg ist und eine grausame Katzenverwertungsindustrie hat; die abgehäuteten Kätzchen müssen ihre Anmut im Wolf lassen und werden zu :small-caps[Abercat] — :small-caps[Das beste für ihre Mieze].
+Hierbei wird ihnen traurig zumute, weil Aberdeen so weit weg ist und eine grausame Katzenverwertungsindustrie hat; die abgehäuteten Kätzchen müssen ihre Anmut im Wolf lassen und werden zu [Abercat]{.small-caps} — [Das beste für ihre Mieze]{.small-caps}.
 
 *   [Nächste Seite](achselhoehle.html)
 *   [Vorherige Seite](a.html)

@@ -50,6 +50,6 @@ if (!page.value) {
 
 <template>
   <UContainer>
-    <ContentRenderer v-if="page" :value="page" tag="article" role="article" :id="slug"/>
+    <ContentRenderer v-if="page" :value="page" tag="article" role="article" class="mt-16 mb-[50lvh]" :id="slug"/>
   </UContainer>
 </template>

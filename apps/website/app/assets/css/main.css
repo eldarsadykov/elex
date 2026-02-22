@@ -12,6 +12,13 @@
   --ui-container: var(--container-prose);
 }
 
-@utility small-caps {
-  font-variant-caps: small-caps;
+
+@layer utility {
+  .small-caps {
+    font-variant-caps: small-caps;
+  }
+
+  .arrow-link::before {
+    content: '\2192\00A0';
+  }
 }
