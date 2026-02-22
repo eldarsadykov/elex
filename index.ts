@@ -24,7 +24,7 @@ if (!inputPath) {
 }
 
 if (!fs.existsSync(inputPath)) {
-  console.error(`Input file not found: ${inputPath}`);
+  console.error(`Input file not found: ${ inputPath }`);
   process.exit(1);
 }
 
@@ -74,9 +74,38 @@ turndownService.addRule("smallCapsSpan", {
   replacement: (content: string) => {
     // Trim to avoid weird spaces like ":small-caps[  Text  ]"
     const inner = content.trim();
-    return `:small-caps[${inner}]`;
+    return `:small-caps[${ inner }]`;
   },
 });
+
+/**
+ * Custom rule for p.poetry:
+ *
+ *    <p class="poetry">Some text</p>
+ * →  ::poetry
+ *    [Some text]
+ *    ::
+ */
+turndownService.addRule("poetryParagraph", {
+  filter: (node: any) => {
+    if (!node || node.nodeName !== "P") return false;
+
+    const classAttr =
+      (node.getAttribute && node.getAttribute("class")) || "";
+    const classes = classAttr.split(/\s+/).filter(Boolean);
+    return classes.includes("poetry");
+  },
+  replacement: (content: string) => {
+    // Trim to avoid weird spaces like ":small-caps[  Text  ]"
+    const inner = content.trim();
+    return `::poetry
+    
+    ${ inner }
+    
+    ::`;
+  },
+});
+
 
 /**
  * Optional: you *could* add a rule for a.arrow, but Turndown already
@@ -122,7 +151,7 @@ if (outputPath) {
   try {
     fs.writeFileSync(outputPath, markdown, "utf8");
   } catch (err) {
-    console.error(`Failed to write output file: ${outputPath}`);
+    console.error(`Failed to write output file: ${ outputPath }`);
     console.error(err);
     process.exit(1);
   }

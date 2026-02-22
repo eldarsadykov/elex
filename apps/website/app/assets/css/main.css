@@ -16,7 +16,7 @@
     @apply tw:my-4;
   }
 
-  p + p {
-    @apply tw:indent-7;
-  }
+  /*p + p {*/
+  /*  @apply tw:indent-7;*/
+  /*}*/
 }
