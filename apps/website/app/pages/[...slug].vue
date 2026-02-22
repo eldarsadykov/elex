@@ -49,7 +49,7 @@ if (!page.value) {
 </script>
 
 <template>
-  <main class="tw:mx-auto tw:px-5 tw:max-w-prose tw:hyphens-manual tw:mb-[50svh]">
-    <ContentRenderer v-if="page" :value="page" tag="article" role="article" class="chapter-article" :id="slug"/>
-  </main>
+  <UContainer>
+    <ContentRenderer v-if="page" :value="page" tag="article" role="article" :id="slug"/>
+  </UContainer>
 </template>

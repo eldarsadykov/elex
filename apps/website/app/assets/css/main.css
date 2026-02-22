@@ -1,22 +1,17 @@
-@import "tailwindcss" prefix(tw);
-@import "./theme.css";
+@import "tailwindcss";
+@import "@nuxt/ui";
 
-.chapter-article {
-  @apply tw:text-base/7;
+@source "../../../content/**/*";
 
-  h1 {
-    @apply tw:text-2xl;
-  }
+@theme {
+  --container-4xl: 52rem;
+  --container-prose: 65ch;
+}
 
-  h1, h2 {
-    @apply tw:font-bold tw:text-center tw:mt-16 tw:mb-8;
-  }
+:root {
+  --ui-container: var(--container-prose);
+}
 
-  p {
-    @apply tw:my-4;
-  }
-
-  /*p + p {*/
-  /*  @apply tw:indent-7;*/
-  /*}*/
+@utility small-caps {
+  font-variant-caps: small-caps;
 }
