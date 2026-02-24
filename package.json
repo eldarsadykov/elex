@@ -13,9 +13,5 @@
   },
   "peerDependencies": {
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "@nuxt/ui": "^4.4.0",
-    "d3-force": "^3.0.0"
   }
 }

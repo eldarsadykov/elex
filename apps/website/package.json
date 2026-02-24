@@ -9,17 +9,18 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "@nuxt/content": "^3.8.2",
-    "@tailwindcss/vite": "^4.1.17",
-    "@vueuse/core": "^14.1.0",
+    "@nuxt/content": "^3.11.2",
+    "@nuxt/ui": "^4.5.0",
+    "@tailwindcss/vite": "^4.2.1",
+    "@vueuse/core": "^14.2.1",
     "@vueuse/nuxt": "14.1.0",
-    "better-sqlite3": "^12.5.0",
-    "nuxt": "^4.2.1",
-    "tailwindcss": "^4.1.17",
-    "vue": "^3.5.0"
+    "better-sqlite3": "^12.6.2",
+    "nuxt": "^4.3.1",
+    "tailwindcss": "^4.2.1",
+    "vue": "^3.5.29"
   },
   "devDependencies": {
-    "zod": "^4.1.13",
-    "zod-to-json-schema": "^3.25.0"
+    "zod": "^4.3.6",
+    "zod-to-json-schema": "^3.25.1"
   }
 }
