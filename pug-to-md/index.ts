@@ -29,7 +29,7 @@ function convertFromJson() {
   for (let chapter of chapters) {
     const { index, slug } = chapter;
     const inputPath = `pug-to-md/views/chapters/${ slug }.pug`
-    const outputPath = `apps/website/content/${ index.toString().padStart(3, "0") }.${ slug }.md`
+    const outputPath = `apps/website/content/chapters/${ index.toString().padStart(3, "0") }.${ slug }.md`
     convertPugToMarkdown(inputPath, outputPath)
   }
 }
