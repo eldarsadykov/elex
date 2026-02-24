@@ -27,6 +27,15 @@
     "yjs": "^13.6.29"
   },
   "devDependencies": {
+    "@iconify-json/lucide": "^1.2.93",
+    "@types/bun": "latest",
+    "@types/pug": "^2.0.10",
+    "@types/turndown": "^5.0.6",
+    "d3": "^7.9.0",
+    "pug": "^3.0.3",
+    "turndown": "^7.2.2",
+    "typescript": "^5.9.3",
+    "yaml": "^2.8.2",
     "zod": "^4.3.6",
     "zod-to-json-schema": "^3.25.1"
   },
