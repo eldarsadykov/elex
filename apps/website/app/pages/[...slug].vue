@@ -10,6 +10,10 @@ const { data: page } = await useAsyncData('page-' + route.path, () => {
       .first()
 })
 
+if (!page.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
+}
+
 const { data: surround } = await useAsyncData(`${ route.path }-surround`, () => {
   return queryCollectionItemSurroundings('chapters', route.path, {
     fields: ['title', 'description']
@@ -22,40 +26,10 @@ useHead({
   title: `${ title } | Lexikon-Roman`,
 })
 
-const themes = ['original', 'alternative'] as const
-
-type Theme = typeof themes[number]
-const DATA_THEME = 'data-theme'
-
-const setTheme = (theme: Theme): void => {
-  document.documentElement.setAttribute(DATA_THEME, theme)
-}
-
-const themeIndex = useLocalStorage('themeIndex', 0)
-
-onMounted(() => {
-  setTheme(themes[themeIndex.value] ?? themes[0])
-})
-
-const cycleTheme = () => {
-  themeIndex.value = (themeIndex.value + 1) % themes.length
-  const nextTheme = themes[themeIndex.value];
-  if (nextTheme) setTheme(nextTheme)
-  console.log(theme.value)
-}
-
-const theme = computed(() => {
-  return themes[themeIndex.value]
-})
-
-if (!page.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
-}
-
 </script>
 
 <template>
-  <UContainer class="mt-16 mb-[50lvh]">
+  <UContainer class="my-12">
     <ContentRenderer v-if="page" :value="page" tag="article" role="article" :id="slug"/>
     <USeparator class="my-12"/>
     <UContentSurround :surround="(surround as any)"/>
