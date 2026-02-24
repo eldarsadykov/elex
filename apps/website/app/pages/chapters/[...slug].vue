@@ -2,8 +2,6 @@
 const route = useRoute()
 const slug = computed(() => route.params.slug?.[0] as string)
 
-console.log(slug.value)
-
 const { data: page } = await useAsyncData('page-' + route.path, () => {
   return queryCollection('chapters')
       .path(route.path)
