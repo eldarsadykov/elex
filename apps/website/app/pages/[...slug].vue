@@ -12,7 +12,7 @@ const { data: page } = await useAsyncData('page-' + route.path, () => {
 
 const { data: surround } = await useAsyncData(`${ route.path }-surround`, () => {
   return queryCollectionItemSurroundings('chapters', route.path, {
-    fields: ['title']
+    fields: ['title', 'description']
   })
 })
 
@@ -57,6 +57,7 @@ if (!page.value) {
 <template>
   <UContainer class="mt-16 mb-[50lvh]">
     <ContentRenderer v-if="page" :value="page" tag="article" role="article" :id="slug"/>
+    <USeparator class="my-12"/>
     <UContentSurround :surround="(surround as any)"/>
   </UContainer>
 </template>
