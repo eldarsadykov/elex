@@ -6,35 +6,37 @@ import process from "node:process";
 import pug from "pug";
 import TurndownService from "turndown";
 import chapters from "../meta/chapters.json";
+import yaml from "yaml";
+import type { ChapterMeta } from "../apps/website/schemas";
 
-/**
- * Simple CLI usage helper
- */
-function printUsage() {
-  console.log("Usage: bun <pug-to-md-script> [input.pug] [output.md]");
-}
-
-/**
- * Get CLI arguments
- */
-const [, , inputPath, outputPath] = process.argv;
-
-if (!inputPath) {
-  convertFromJson()
-} else {
-  convertPugToMarkdown(inputPath, outputPath)
-}
+convertFromJson();
 
 function convertFromJson() {
   for (let chapter of chapters) {
     const { index, slug } = chapter;
+
     const inputPath = `pug-to-md/views/chapters/${ slug }.pug`
     const outputPath = `apps/website/content/chapters/${ index.toString().padStart(3, "0") }.${ slug }.md`
-    convertPugToMarkdown(inputPath, outputPath)
+
+    convertPugToMarkdown(getChapterMeta(chapter), inputPath, outputPath)
   }
 }
 
-function convertPugToMarkdown(inputPath: string, outputPath?: string) {
+function getChapterMeta(chapter: typeof chapters[0]) {
+  const { links } = chapter;
+
+  const slugLinks = links.map((link) => {
+    return { ...link, to: getSlugFromIndex(link.to) };
+  });
+
+  return { ...chapter, links: slugLinks };
+}
+
+function getSlugFromIndex(index: number) {
+  return chapters[index]?.slug ?? 'not-found';
+}
+
+function convertPugToMarkdown(chapter: ChapterMeta, inputPath: string, outputPath?: string) {
   if (!fs.existsSync(inputPath)) {
     console.error(`Input file not found: ${ inputPath }`);
     process.exit(1);
@@ -178,8 +180,12 @@ ${ inner }
    * Convert HTML → Markdown
    */
   let markdown: string;
+
   try {
-    markdown = turndownService.turndown(html);
+    markdown = "---\n";
+    markdown += yaml.stringify(chapter);
+    markdown += "---\n\n";
+    markdown += turndownService.turndown(html);
   } catch (err) {
     console.error("Error while converting HTML to Markdown:");
     console.error(err);
