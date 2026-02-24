@@ -1,6 +1,4 @@
-Gebrauchsanweisung | Lexikon-Roman
-
-# Gebrauchsanweisung
+# {{ title }}
 
 Dieses Buch hat eine Gebrauchsanweisung, denn es wäre hübsch, wenn Sie sich aus ihm einen Roman basteln wollten. Die sentimentale Reise zum Exporteurtreffen in Druden muß erst vollzogen werden. Das Material liegt bereit, wie die Donau und die Anhäufungen von Pflanzen, Steinen und Menschen an ihren Ufern für viele Reisen und Nebenausflüge nach Wahl bereitliegen. Das Material ist alphabetisch geordnet, damit Sie es mühelos auffinden. Wie in einem Lexikon. Aus dem Lexikon sind Ihnen auch die Hinweispfeile bekannt (→), die Ihnen raten sollen, wie Sie am besten weitergehen, wie Sie sich zusätzlich informieren oder wie Sie vom Hundertsten ins Tausendste gelangen können. Wie im Lexikon haben Sie die Freiheit, jeden Hinweispfeil zu beherzigen oder zu übergehen. (Selbst übergangene Pfeile geben dem Reizwort ja eine gewisse räumliche Tiefe.) *Die* Hinweise, die Ihnen von Etappe zu Etappe die Fortsetzung der Reise ermöglichen sollen und die Sie daher vielleicht mit Vorrang beachten werden, sind *schräg gedruckt.*
 
@@ -15,9 +13,3 @@ Daß die Sentimentale Reise ein Möglichkeitenroman ist, wurde nun ausgesprochen
 Die Dürftigkeit des Modells sehen Sie mir, bitte, nach. Geographisch wie psychologisch wie kombinatorisch könnte es ungleich reicher sein. Nehmen Sie das Prinzip für die Durchführung, denken Sie an den ersten Computer, erweitern Sie den Roman durch eigene Weiterknüpfung an Reizwörter, am besten: schreiben Sie ein Buch, das meines in seiner Kleinheit festnagelt.
 
 Diese Gebrauchsanweisung ist kein Vorwort, denn sie ist nötig. Mit Vorworten verschone ich Sie. Wer die Schonung ausschlägt weil er Vorworte liebt oder weitere Informationen will, schlage unter [Vorworte](vorworte){.arrow-link} nach. Das Gros folge mir, bitte, gleich zum [Anfang der Reise](anfang-der-reise){.arrow-link}.
-
-*   [Nächste Seite](a.html)
-*   [Inhaltsverzeichnis](../inhaltsverzeichnis.html)
-*   [Über den Lexikon-Roman](../ueber-den-lexikon-roman.html)
-*   [Titelblatt](../index.html)
-*   [Seitenanfang](#)

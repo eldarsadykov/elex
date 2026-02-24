@@ -56,6 +56,20 @@ const turndownService = new TurndownService({
   emDelimiter: "*",
 });
 
+turndownService.addRule('noTitle', {
+  filter: 'title',
+  replacement: () => ''
+})
+
+// make every <h2> behave like <h1>
+turndownService.addRule('h2AsH1', {
+  filter: 'h2',
+  replacement: function (content, node, options) {
+    // same pattern turndown uses for h1 when headingStyle = "atx"
+    return '\n\n# {{ title }}\n\n'
+  }
+})
+
 /**
  * Custom rule for span.small-caps:
  *
@@ -129,6 +143,21 @@ turndownService.addRule("arrowLinks", {
     const href = node.getAttribute("href")?.replace(".html", "") || "";
     const text = content.trim() || href;
     return `[${ text }](${ href }){.arrow-link}`;
+  },
+});
+
+turndownService.addRule("smallCapsLinks", {
+  filter: (node: any) => {
+    if (!node || node.nodeName !== "A") return false;
+    const classAttr =
+      (node.getAttribute && node.getAttribute("class")) || "";
+    const classes = classAttr.split(/\s+/).filter(Boolean);
+    return classes.includes("small-caps");
+  },
+  replacement: (content: string, node: any) => {
+    const href = node.getAttribute("href")?.replace(".html", "") || "";
+    const text = content.trim() || href;
+    return `[${ text }](${ href }){.small-caps}`;
   },
 });
 

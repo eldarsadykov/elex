@@ -1,6 +1,6 @@
 {
   "name": "elex",
-  "module": "index.ts",
+  "module": "pug-to-md/index.ts",
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest",
