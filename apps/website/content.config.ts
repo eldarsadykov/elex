@@ -5,7 +5,11 @@ export default defineContentConfig({
   collections: {
     content: defineCollection({
       type: 'page',
-      source: '**',
+      source: '*.md'
+    }),
+    chapters: defineCollection({
+      type: 'page',
+      source: 'chapters/*.md',
       schema: ChapterMetaSchema
     }),
   },

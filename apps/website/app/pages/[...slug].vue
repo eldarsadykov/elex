@@ -5,9 +5,15 @@ const slug = computed(() => route.params.slug?.[0] as string)
 console.log(slug.value)
 
 const { data: page } = await useAsyncData('page-' + route.path, () => {
-  return queryCollection('content')
+  return queryCollection('chapters')
       .path(route.path)
       .first()
+})
+
+const { data: surround } = await useAsyncData(`${ route.path }-surround`, () => {
+  return queryCollectionItemSurroundings('chapters', route.path, {
+    fields: ['title']
+  })
 })
 
 const title = page.value?.title ?? "Not Found"
@@ -49,7 +55,8 @@ if (!page.value) {
 </script>
 
 <template>
-  <UContainer>
-    <ContentRenderer v-if="page" :value="page" tag="article" role="article" class="mt-16 mb-[50lvh]" :id="slug"/>
+  <UContainer class="mt-16 mb-[50lvh]">
+    <ContentRenderer v-if="page" :value="page" tag="article" role="article" :id="slug"/>
+    <UContentSurround :surround="(surround as any)"/>
   </UContainer>
 </template>
