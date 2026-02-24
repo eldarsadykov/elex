@@ -3,7 +3,7 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 
 const items = computed<NavigationMenuItem[]>(() => [
   {
-    label: 'Inhalt',
+    label: 'Lesen',
     to: '/chapters',
   },
   {

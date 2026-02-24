@@ -13,12 +13,13 @@ const { data: navigation } = await useAsyncData('navigation', () => queryCollect
       <LazyUContentSearch
           v-model:search-term="searchTerm"
           shortcut="meta_k"
+          :color-mode="false"
           :files="files"
           :navigation="navigation"
           :fuse="{ resultLimit: 42 }"
       />
     </ClientOnly>
-    <Header/>
+    <SiteHeader/>
     <UMain>
       <NuxtPage/>
     </UMain>
