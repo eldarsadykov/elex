@@ -5,13 +5,13 @@ import path from "node:path";
 import process from "node:process";
 import pug from "pug";
 import TurndownService from "turndown";
+import chapters from "../meta/chapters.json";
 
 /**
  * Simple CLI usage helper
  */
-function printUsageAndExit(): never {
-  console.error("Usage: ts-node pug-to-md.ts <input.pug> [output.md]");
-  process.exit(1);
+function printUsage() {
+  console.log("Usage: bun <pug-to-md-script> [input.pug] [output.md]");
 }
 
 /**
@@ -20,10 +20,19 @@ function printUsageAndExit(): never {
 const [, , inputPath, outputPath] = process.argv;
 
 if (!inputPath) {
-  printUsageAndExit();
+  convertFromJson()
+} else {
+  convertPugToMarkdown(inputPath, outputPath)
 }
 
-convertPugToMarkdown(inputPath, outputPath)
+function convertFromJson() {
+  for (let chapter of chapters) {
+    const { index, slug } = chapter;
+    const inputPath = `pug-to-md/views/chapters/${ slug }.pug`
+    const outputPath = `apps/website/content/${ index.toString().padStart(3, "0") }.${ slug }.md`
+    convertPugToMarkdown(inputPath, outputPath)
+  }
+}
 
 function convertPugToMarkdown(inputPath: string, outputPath?: string) {
   if (!fs.existsSync(inputPath)) {
