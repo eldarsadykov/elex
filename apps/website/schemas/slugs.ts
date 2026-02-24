@@ -1,3 +1,5 @@
+// noinspection SpellCheckingInspection
+
 export const slugs = [
   "gebrauchsanweisung",
   "a",
