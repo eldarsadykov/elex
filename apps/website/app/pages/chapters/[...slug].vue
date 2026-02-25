@@ -27,9 +27,12 @@ useHead({
 </script>
 
 <template>
-  <UContainer class="my-12">
-    <ContentRenderer v-if="page" :value="page" tag="article" role="article" :id="slug"/>
-    <USeparator class="my-12"/>
-    <UContentSurround :surround="(surround as any)"/>
+  <UContainer>
+    <UPageHeader :title="title"/>
+    <UPageBody>
+      <ContentRenderer v-if="page" :value="page" tag="article" role="article" :id="slug"/>
+      <USeparator/>
+      <UContentSurround :surround="(surround as any)"/>
+    </UPageBody>
   </UContainer>
 </template>

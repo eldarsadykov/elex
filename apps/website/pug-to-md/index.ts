@@ -89,7 +89,7 @@ function convertPugToMarkdown(chapter: ChapterMeta, inputPath: string, outputPat
     filter: 'h2',
     replacement: function (content, node, options) {
       // same pattern turndown uses for h1 when headingStyle = "atx"
-      return '\n\n# {{ title }}\n\n'
+      return ''
     }
   })
 
