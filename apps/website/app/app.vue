@@ -1,30 +1,19 @@
 <script setup lang="ts">
-import { de, en } from '@nuxt/ui/locale'
+import { de } from '@nuxt/ui/locale'
+import useChaptersNavigation from "~/composables/useChaptersNavigation";
 
 const searchTerm = ref('');
-
-const locale = computed(() => de);
 
 const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('chapters'), {
   server: false
 })
 
-const { data: navigation } = await useAsyncData('navigation', async () => {
-  const navigation = await queryCollectionNavigation('chapters');
-
-  navigation.forEach((item) => {
-    if (item.stem === 'chapters') {
-      item.title = locale.value.code === 'de' ? 'Kapitel' : 'Chapters'
-    }
-  })
-
-  return navigation;
-})
+const { data: navigation } = await useChaptersNavigation();
 
 </script>
 <template>
   <NuxtRouteAnnouncer/>
-  <UApp :locale=locale>
+  <UApp :locale=de>
     <ClientOnly>
       <LazyUContentSearch
           v-model:search-term="searchTerm"
