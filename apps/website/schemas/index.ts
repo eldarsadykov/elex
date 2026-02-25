@@ -9,7 +9,7 @@ export const ChapterLinkSchema = z.object({
 export const ChapterMetaSchema = z.object({
   title: z.string(),
   slug: z.string(),
-  index: z.number().min(0).max(slugs.length - 1),
+  index: z.number().min(0).max(slugs.length),
   articlesCount: z.number(),
   titleEndsWithPeriod: z.boolean(),
   links: z.array(ChapterLinkSchema),

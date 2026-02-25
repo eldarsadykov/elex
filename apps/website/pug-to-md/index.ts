@@ -7,7 +7,7 @@ import pug from "pug";
 import TurndownService from "turndown";
 import chapters from "../meta/chapters.json";
 import yaml from "yaml";
-import type { ChapterMeta } from "../schemas";
+import type { ChapterLink, ChapterMeta } from "../schemas";
 
 convertFromJson();
 
@@ -15,8 +15,17 @@ function convertFromJson() {
   for (let chapter of chapters) {
     const { index, slug } = chapter;
 
-    const inputPath = `pug-to-md/views/chapters/${ slug }.pug`
-    const outputPath = `content/chapters/${ index.toString().padStart(3, "0") }.${ slug }.md`
+    let inputPath = `pug-to-md/views/chapters/${ slug }.pug`
+
+    // if (index >= 286) {
+    //   inputPath = `pug-to-md/views/${ slug }.pug`
+    // }
+
+    let outputPath = `content/chapters/${ index.toString().padStart(3, "0") }.${ slug }.md`
+
+    // if (index >= 286) {
+    //   outputPath = `content/${ slug }.md`
+    // }
 
     convertPugToMarkdown(getChapterMeta(chapter), inputPath, outputPath)
   }

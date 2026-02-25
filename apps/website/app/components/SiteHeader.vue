@@ -3,18 +3,14 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 
 const items = computed<NavigationMenuItem[]>(() => [
   {
-    label: 'Lesen',
-    to: '/chapters',
-  },
-  {
     label: 'Über',
-    to: '/about',
+    to: '/chapters/ueber-den-lexikon-roman',
   }
 ])
 </script>
 
 <template>
-  <UHeader title="Lexikon-Roman">
+  <UHeader title="Lexikon-Roman" to="/chapters/gebrauchsanweisung">
     <template #right>
       <UNavigationMenu
           :items="items"
