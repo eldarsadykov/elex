@@ -194,6 +194,7 @@ ${ inner }
     markdown = "---\n";
     markdown += yaml.stringify(chapter);
     markdown += "---\n\n";
+    if (!chapter.titleEndsWithPeriod) markdown += chapter.title + ' ';
     markdown += turndownService.turndown(html);
   } catch (err) {
     console.error("Error while converting HTML to Markdown:");
