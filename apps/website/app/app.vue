@@ -29,7 +29,7 @@ const { data: navigation } = await useAsyncData('navigation', async () => {
       <LazyUContentSearch
           v-model:search-term="searchTerm"
           shortcut="meta_k"
-          :color-mode="false"
+          :color-mode="true"
           :files="files"
           :navigation="navigation"
           :fuse="{ resultLimit: 42 }"
