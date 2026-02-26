@@ -7,8 +7,6 @@ export default async function useChaptersNavigation() {
         item.title = 'Kapitel';
       }
     })
-    
-    console.log("Fetching navigation...");
 
     return navigation;
   })
