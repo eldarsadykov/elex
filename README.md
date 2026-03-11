@@ -24,13 +24,6 @@ from the repository's directory. This command will watch for changes in the Pug 
 
 We welcome contributions from everyone. Currently, we are especially in need of a skilled UI/UX designer. If you are interested in contributing, please [get in touch](mailto:info@eldarsadykov.com?subject=ELEX) with us.
 
-## People
-
-The project is developed by a dedicated team:
-- **Eldar Sadykov** - Programmer / media artist
-- **Franz Nahrada** - Social researcher, one of the original creators of ELEX
-- **Karlheinz Essl** - Composer / media artist, one of the original creators of ELEX
-
 ## Contact
 
 For any questions or suggestions, please contact us at [info@eldarsadykov.com](mailto:info@eldarsadykov.com).
